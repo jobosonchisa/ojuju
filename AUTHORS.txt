@@ -5,3 +5,5 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
+Chisaokwu Joboson <jobosonchisa@gmail.com>
+Udi Foundry <info@udifoundry.com>

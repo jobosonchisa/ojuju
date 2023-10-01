@@ -1,7 +1,5 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
+  - OJUJU-TYPEFACE.glyphs
 axisOrder:
   - wght
-  - ital
-familyName: Rubik
+familyName: OJUJU

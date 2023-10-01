@@ -53,7 +53,7 @@ Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped
 Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
 
 
-![Sample Image](documentation/Ojuju Sketches.PNG)
+![Sample Image](documentation/Ojuju20%Sketches.PNG)
 
 ## About
 

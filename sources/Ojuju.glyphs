@@ -109,12 +109,28 @@ name = Weight;
 tag = wght;
 }
 );
+customParameters = (
+{
+name = "Axis Mappings";
+value = {
+wght = {
+200 = 37;
+300 = 54;
+400 = 96;
+500 = 144;
+600 = 196;
+700 = 240;
+800 = 282;
+};
+};
+}
+);
 date = "2023-09-24 04:03:02 +0000";
 familyName = Ojuju;
 fontMaster = (
 {
 axesValues = (
-22
+37
 );
 guides = (
 {
@@ -155,12 +171,12 @@ pos = -200;
 {
 }
 );
-name = Extralight;
+name = ExtraLight;
 visible = 1;
 },
 {
 axesValues = (
-284
+282
 );
 guides = (
 {
@@ -194,7 +210,7 @@ pos = -200;
 {
 }
 );
-name = Bold;
+name = ExtraBold;
 visible = 1;
 }
 );
@@ -20450,31 +20466,32 @@ unicode = 42937;
 instances = (
 {
 axesValues = (
-22
+37
 );
 instanceInterpolations = {
 "60D037D9-62E9-4843-B070-F1594CB0B0D1" = 1;
 };
-name = Extralight;
+name = ExtraLight;
+weightClass = 200;
 },
 {
 axesValues = (
 54
 );
 instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.87786;
-m01 = 0.12214;
+"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.93061;
+m01 = 0.06939;
 };
 name = Light;
 weightClass = 300;
 },
 {
 axesValues = (
-100
+96
 );
 instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.70229;
-m01 = 0.29771;
+"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.75918;
+m01 = 0.24082;
 };
 name = Regular;
 },
@@ -20483,31 +20500,45 @@ axesValues = (
 144
 );
 instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.53435;
-m01 = 0.46565;
+"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.56327;
+m01 = 0.43673;
 };
 name = Medium;
 weightClass = 500;
 },
 {
 axesValues = (
-212
+196
 );
 instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.27481;
-m01 = 0.72519;
+"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.35102;
+m01 = 0.64898;
 };
 name = SemiBold;
 weightClass = 600;
 },
 {
 axesValues = (
-284
+240
+);
+instanceInterpolations = {
+"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.17143;
+m01 = 0.82857;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+282
 );
 instanceInterpolations = {
 m01 = 1;
 };
-name = Bold;
+name = ExtraBold;
+weightClass = 800;
 }
 );
 metrics = (

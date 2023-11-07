@@ -1564,6 +1564,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* i (U+0069): X=333.0,Y=698.0 (should be at cap-height 700?)
 
+	* n (U+006E): X=281.5,Y=499.0 (should be at x-height 497?)
+
 	* s (U+0073): X=57.0,Y=2.0 (should be at baseline 0?)
 
 	* t (U+0074): X=28.0,Y=499.0 (should be at x-height 497?)
@@ -1619,6 +1621,8 @@ The following glyphs do not have the recommended number of contours:
 	* M (U+004D) contains a short segment B<<674.0,370.0>-<667.0,380.0>-<653.5,383.0>>
 
 	* M (U+004D) contains a short segment B<<178.5,383.0>-<165.0,380.0>-<158.0,370.0>>
+
+	* n (U+006E) contains a short segment B<<145.0,416.5>-<148.0,411.0>-<155.0,411.0>>
 
 	* trademark (U+2122) contains a short segment B<<1042.0,349.0>-<1048.0,331.0>-<1056.0,326.5>>
 
@@ -3368,8 +3372,6 @@ The following glyphs do not have the recommended number of contours:
 	* m (U+006D): B<<105.5,387.5>-<105.0,347.0>-<105.0,313.0>>/B<<105.0,313.0>-<108.0,348.0>-<117.5,381.5>> = 4.899092453787774
 
 	* m (U+006D): B<<417.5,453.0>-<460.0,412.0>-<466.0,323.0>>/B<<466.0,323.0>-<473.0,368.0>-<495.5,409.0>> = 12.698615545781497
-
-	* n (U+006E): B<<105.5,387.5>-<105.0,347.0>-<105.0,313.0>>/B<<105.0,313.0>-<110.0,360.0>-<134.5,401.5>> = 6.0724564072076905
 
 	* ordfeminine (U+00AA): B<<462.5,412.0>-<487.0,375.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 10.175510843043194
 
@@ -5150,8 +5152,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* m (U+006D): B<<420.5,455.0>-<463.0,415.0>-<470.0,328.0>>/B<<470.0,328.0>-<477.0,372.0>-<500.0,412.5>> = 13.639578469618403
 
-	* n (U+006E): B<<107.5,393.0>-<107.0,354.0>-<107.0,319.0>>/B<<107.0,319.0>-<112.0,365.0>-<136.5,405.5>> = 6.203447901691829
-
 	* ordfeminine (U+00AA): B<<461.5,415.0>-<486.0,379.0>-<493.0,340.0>>/B<<493.0,340.0>-<493.0,371.0>-<493.0,389.0>> = 10.175510843043194
 
 	* p (U+0070): B<<112.0,75.5>-<90.0,113.0>-<81.0,155.0>>/B<<81.0,155.0>-<81.0,66.0>-<81.0,-22.5>> = 12.094757077012089
@@ -6721,7 +6721,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* P (U+0050): X=383.0,Y=699.0 (should be at cap-height 700?)
 
-	* Q (U+0051): X=407.0,Y=2.0 (should be at baseline 0?)
+	* Q (U+0051): X=414.0,Y=-2.0 (should be at baseline 0?)
 
 	* R (U+0052): X=89.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6834,8 +6834,6 @@ The following glyphs do not have the recommended number of contours:
 	* h (U+0068): B<<113.0,385.0>-<113.0,349.0>-<113.0,334.0>>/B<<113.0,334.0>-<119.0,378.0>-<143.5,416.0>> = 7.765166018425308
 
 	* m (U+006D): B<<112.5,406.5>-<112.0,371.0>-<112.0,334.0>>/B<<112.0,334.0>-<118.0,378.0>-<136.5,417.0>> = 7.765166018425308
-
-	* n (U+006E): B<<112.5,406.5>-<112.0,371.0>-<112.0,334.0>>/B<<112.0,334.0>-<118.0,378.0>-<142.5,416.0>> = 7.765166018425308
 
 	* ordfeminine (U+00AA): B<<460.0,422.5>-<484.0,388.0>-<492.0,351.0>>/B<<492.0,351.0>-<492.0,378.0>-<491.5,396.5>> = 12.200468727380786
 
@@ -8494,8 +8492,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* m (U+006D): B<<124.5,439.0>-<123.0,412.0>-<123.0,369.0>>/B<<123.0,369.0>-<133.0,410.0>-<155.0,441.5>> = 13.706961004079783
 
-	* n (U+006E): B<<124.5,439.0>-<123.0,412.0>-<123.0,369.0>>/B<<123.0,369.0>-<138.0,430.0>-<184.5,468.5>> = 13.81502534126161
-
 	* r (U+0072): B<<124.5,439.0>-<123.0,412.0>-<123.0,369.0>>/B<<123.0,369.0>-<138.0,430.0>-<184.5,468.5>> = 13.81502534126161 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
@@ -10049,7 +10045,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* P (U+0050): X=390.0,Y=699.0 (should be at cap-height 700?)
 
-	* Q (U+0051): X=512.0,Y=-2.0 (should be at baseline 0?)
+	* Q (U+0051): X=512.5,Y=-2.0 (should be at baseline 0?)
 
 	* R (U+0052): X=83.0,Y=701.0 (should be at cap-height 700?)
 
@@ -10143,8 +10139,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D) contains a short segment B<<158.0,513.5>-<145.0,510.0>-<139.0,494.0>>
 
-	* Q (U+0051) contains a short segment B<<457.0,17.0>-<460.0,16.0>-<465.0,14.0>>
-
 	* uni1EBE (U+1EBE) contains a short segment B<<142.0,545.0>-<137.0,540.0>-<134.0,525.0>>
 
 	* uni1EBE (U+1EBE) contains a short segment B<<134.5,410.0>-<138.0,395.0>-<143.0,390.0>>
@@ -10190,8 +10184,6 @@ The following glyphs do not have the recommended number of contours:
 	* h (U+0068): B<<119.0,402.5>-<119.0,367.0>-<119.0,351.0>>/B<<119.0,351.0>-<131.0,415.0>-<179.5,459.0>> = 10.61965527615514
 
 	* m (U+006D): B<<118.0,422.0>-<117.0,391.0>-<117.0,351.0>>/B<<117.0,351.0>-<125.0,393.0>-<145.5,428.5>> = 10.784297867562596
-
-	* n (U+006E): B<<118.0,422.0>-<117.0,391.0>-<117.0,351.0>>/B<<117.0,351.0>-<130.0,415.0>-<178.0,459.0>> = 11.481991354748077
 
 	* ordfeminine (U+00AA): B<<458.5,430.5>-<482.0,398.0>-<490.0,364.0>>/B<<490.0,364.0>-<490.0,396.0>-<489.0,424.0>> = 13.240519915187184
 
@@ -11788,6 +11780,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* g (U+0067): X=383.0,Y=-198.0 (should be at descender -200?)
 
+	* n (U+006E): X=458.0,Y=501.0 (should be at x-height 500?)
+
 	* s (U+0073): X=364.0,Y=1.5 (should be at baseline 0?)
 
 	* t (U+0074): X=425.5,Y=0.5 (should be at baseline 0?)
@@ -11835,6 +11829,8 @@ The following glyphs do not have the recommended number of contours:
 	* M (U+004D) contains a short segment B<<676.0,316.0>-<669.0,324.0>-<655.0,326.5>>
 
 	* M (U+004D) contains a short segment B<<187.5,326.5>-<174.0,324.0>-<166.0,316.0>>
+
+	* n (U+006E) contains a short segment B<<150.5,417.5>-<154.0,412.0>-<162.0,412.0>>
 
 	* s (U+0073) contains a short segment B<<364.0,162.0>-<364.0,168.0>-<356.0,171.5>>
 

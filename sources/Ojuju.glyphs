@@ -128,7 +128,35 @@ ffctiv,
 HHnHH,
 fgi,
 Q,
-c
+c,
+"abcdefghijklmnopqrstuvwxyz
+uuannonaooaoo
+uubnnonbooboo
+uucnnoncoocoo
+uudnnondoodoo
+uuennoneooeoo
+uufnnonfoofoo
+uugnnongoogoo
+uuhnnonhoohoo
+uuinnoniooioo
+uujnnonjoojoo
+uuknnonkookoo
+uulnnonlooloo
+uumnnonmoomoo
+uunnnonnoonoo
+uuonnonoooooo
+uupnnonpoopoo
+uuqnnonqooqoo
+uurnnonrooroo
+uusnnonsoosoo
+uutnnontootoo
+uuunnonuoouoo
+uuvnnonvoovoo
+uuwnnonwoowoo
+uuxnnonxooxoo
+uuynnonyooyoo
+uuznnonzoozoo
+"
 );
 axes = (
 {
@@ -150,6 +178,10 @@ wght = {
 282 = 800;
 };
 };
+},
+{
+name = "Variable Font Origin";
+value = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 }
 );
 date = "2023-09-24 04:03:02 +0000";
@@ -21783,9 +21815,6 @@ instances = (
 axesValues = (
 37
 );
-instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 1;
-};
 name = ExtraLight;
 userData = {
 fpID = "DE531E06-0B82-4344-9997-57C58EC30D3D";
@@ -21796,10 +21825,6 @@ weightClass = 200;
 axesValues = (
 54
 );
-instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.93061;
-m01 = 0.06939;
-};
 name = Light;
 userData = {
 fpID = "811DD46B-FFFE-4E6E-B5CC-1C7B50267F49";
@@ -21810,10 +21835,6 @@ weightClass = 300;
 axesValues = (
 96
 );
-instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.75918;
-m01 = 0.24082;
-};
 name = Regular;
 userData = {
 fpID = "BD1A6484-D701-41BA-8BE1-F7AD70CB8E2D";
@@ -21823,10 +21844,6 @@ fpID = "BD1A6484-D701-41BA-8BE1-F7AD70CB8E2D";
 axesValues = (
 144
 );
-instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.56327;
-m01 = 0.43673;
-};
 name = Medium;
 userData = {
 fpID = "14A49DEC-4708-40B0-91A7-4D20CC08F03B";
@@ -21837,10 +21854,6 @@ weightClass = 500;
 axesValues = (
 196
 );
-instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.35102;
-m01 = 0.64898;
-};
 name = SemiBold;
 userData = {
 fpID = "A984A58D-12B8-4DAB-A9A9-F52D94740D16";
@@ -21851,10 +21864,6 @@ weightClass = 600;
 axesValues = (
 240
 );
-instanceInterpolations = {
-"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 0.17143;
-m01 = 0.82857;
-};
 isBold = 1;
 linkStyle = Regular;
 name = Bold;
@@ -21867,9 +21876,6 @@ weightClass = 700;
 axesValues = (
 282
 );
-instanceInterpolations = {
-m01 = 1;
-};
 name = ExtraBold;
 userData = {
 fpID = "2343D23F-205B-4C58-97D3-68D5A4726B86";
@@ -21908,6 +21914,10 @@ value = "Chisaokwu Joboson";
 );
 }
 );
+settings = {
+fontType = variable;
+previewRemoveOverlap = 0;
+};
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {

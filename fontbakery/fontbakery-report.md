@@ -1518,9 +1518,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* I (U+0049): X=67.0,Y=699.0 (should be at cap-height 700?)
 
-	* I (U+0049): X=441.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=440.0,Y=699.0 (should be at cap-height 700?)
 
-	* J (U+004A): X=77.5,Y=0.5 (should be at baseline 0?)
+	* J (U+004A): X=77.0,Y=0.5 (should be at baseline 0?)
 
 	* K (U+004B): X=644.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1540,25 +1540,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): X=620.0,Y=699.0 (should be at cap-height 700?)
 
-	* f (U+0066): X=33.0,Y=499.0 (should be at x-height 497?)
+	* f (U+0066): X=338.0,Y=799.0 (should be at ascender 800?)
 
-	* f (U+0066): X=323.0,Y=799.0 (should be at ascender 800?)
-
-	* f (U+0066): X=178.0,Y=499.0 (should be at x-height 497?)
-
-	* f (U+0066): X=516.0,Y=499.0 (should be at x-height 497?)
-
-	* g (U+0067): X=389.5,Y=1.5 (should be at baseline 0?)
+	* g (U+0067): X=320.0,Y=-202.0 (should be at descender -200?)
 
 	* g (U+0067): X=385.0,Y=495.5 (should be at x-height 497?)
 
+	* g (U+0067): X=320.0,Y=-202.0 (should be at descender -200?)
+
 	* h (U+0068): X=259.5,Y=498.0 (should be at x-height 497?)
 
-	* i (U+0069): X=116.0,Y=698.0 (should be at cap-height 700?)
+	* i (U+0069): X=107.0,Y=698.0 (should be at cap-height 700?)
 
-	* i (U+0069): X=333.0,Y=698.0 (should be at cap-height 700?)
+	* i (U+0069): X=325.0,Y=698.0 (should be at cap-height 700?)
 
-	* m (U+006D): X=639.0,Y=497.5 (should be at x-height 497?)
+	* m (U+006D): X=630.0,Y=498.5 (should be at x-height 497?)
 
 	* s (U+0073): X=57.0,Y=2.0 (should be at baseline 0?)
 
@@ -1602,33 +1598,35 @@ The following glyphs do not have the recommended number of contours:
 
 	* B (U+0042) contains a short segment B<<477.0,368.0>-<477.0,368.0>-<490.5,364.0>>
 
-	* K (U+004B) contains a short segment B<<167.5,271.0>-<158.0,267.0>-<154.0,259.0>>
+	* K (U+004B) contains a short segment B<<166.5,271.0>-<157.0,267.0>-<153.0,259.0>>
 
-	* M (U+004D) contains a short segment B<<382.0,349.0>-<388.0,331.0>-<396.0,326.5>>
+	* M (U+004D) contains a short segment B<<381.0,349.0>-<387.0,331.0>-<395.0,326.5>>
 
-	* M (U+004D) contains a short segment B<<396.0,326.5>-<404.0,322.0>-<416.0,322.0>>
+	* M (U+004D) contains a short segment B<<395.0,326.5>-<403.0,322.0>-<415.0,322.0>>
 
-	* M (U+004D) contains a short segment B<<416.0,322.0>-<428.0,322.0>-<436.0,326.5>>
+	* M (U+004D) contains a short segment B<<415.0,322.0>-<427.0,322.0>-<435.0,326.5>>
 
-	* M (U+004D) contains a short segment B<<436.0,326.5>-<444.0,331.0>-<450.0,349.0>>
+	* M (U+004D) contains a short segment B<<435.0,326.5>-<443.0,331.0>-<449.0,349.0>>
 
-	* M (U+004D) contains a short segment B<<674.0,370.0>-<667.0,380.0>-<653.5,383.0>>
+	* M (U+004D) contains a short segment B<<673.0,370.0>-<666.0,380.0>-<652.5,383.0>>
 
-	* M (U+004D) contains a short segment B<<178.5,383.0>-<165.0,380.0>-<158.0,370.0>>
+	* M (U+004D) contains a short segment B<<177.5,383.0>-<164.0,380.0>-<157.0,370.0>>
+
+	* m (U+006D) contains a short segment B<<510.0,394.0>-<514.0,400.0>-<522.0,411.0>>
 
 	* n (U+006E) contains a short segment B<<138.0,415.0>-<141.0,410.0>-<147.0,410.0>>
 
-	* trademark (U+2122) contains a short segment B<<1042.0,349.0>-<1048.0,331.0>-<1056.0,326.5>>
+	* trademark (U+2122) contains a short segment B<<1041.0,349.0>-<1047.0,331.0>-<1055.0,326.5>>
 
-	* trademark (U+2122) contains a short segment B<<1056.0,326.5>-<1064.0,322.0>-<1076.0,322.0>>
+	* trademark (U+2122) contains a short segment B<<1055.0,326.5>-<1063.0,322.0>-<1075.0,322.0>>
 
-	* trademark (U+2122) contains a short segment B<<1076.0,322.0>-<1088.0,322.0>-<1096.0,326.5>>
+	* trademark (U+2122) contains a short segment B<<1075.0,322.0>-<1087.0,322.0>-<1095.0,326.5>>
 
-	* trademark (U+2122) contains a short segment B<<1096.0,326.5>-<1104.0,331.0>-<1110.0,349.0>>
+	* trademark (U+2122) contains a short segment B<<1095.0,326.5>-<1103.0,331.0>-<1109.0,349.0>>
 
-	* trademark (U+2122) contains a short segment B<<1334.0,370.0>-<1327.0,380.0>-<1313.5,383.0>>
+	* trademark (U+2122) contains a short segment B<<1333.0,370.0>-<1326.0,380.0>-<1312.5,383.0>>
 
-	* trademark (U+2122) contains a short segment B<<838.5,383.0>-<825.0,380.0>-<818.0,370.0>> [code: found-short-segments]
+	* trademark (U+2122) contains a short segment B<<837.5,383.0>-<824.0,380.0>-<817.0,370.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1654,7 +1652,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* U (U+0055): L<<68.0,309.0>--<67.0,700.0>>
 
-	* f (U+0066): L<<110.0,0.0>--<111.0,320.0>>
+	* f (U+0066): L<<433.0,481.0>--<432.0,277.0>>
+
+	* f (U+0066): L<<58.0,277.0>--<57.0,481.0>>
+
+	* i (U+0069): L<<59.0,282.0>--<58.0,497.0>>
 
 	* u (U+0075): L<<531.0,496.0>--<529.0,224.0>>
 
@@ -3163,11 +3165,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* G (U+0047): X=419.5,Y=1.5 (should be at baseline 0?)
 
-	* I (U+0049): X=94.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=90.0,Y=699.0 (should be at cap-height 700?)
 
-	* I (U+0049): X=373.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=369.0,Y=699.0 (should be at cap-height 700?)
 
-	* J (U+004A): X=236.0,Y=2.0 (should be at baseline 0?)
+	* J (U+004A): X=233.0,Y=2.0 (should be at baseline 0?)
 
 	* L (U+004C): X=94.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3193,9 +3195,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* d (U+0064): X=313.5,Y=-2.0 (should be at baseline 0?)
 
-	* e (U+0065): X=394.5,Y=-0.5 (should be at baseline 0?)
-
-	* f (U+0066): X=314.0,Y=798.0 (should be at ascender 800?)
+	* f (U+0066): X=334.0,Y=798.0 (should be at ascender 800?)
 
 	* g (U+0067): X=480.0,Y=1.0 (should be at baseline 0?)
 
@@ -3226,12 +3226,6 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EB1 (U+1EB1): X=515.0,Y=-1.0 (should be at baseline 0?)
 
 	* uni1EB5 (U+1EB5): X=515.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EBF (U+1EBF): X=394.5,Y=-0.5 (should be at baseline 0?)
-
-	* uni1EC1 (U+1EC1): X=394.5,Y=-0.5 (should be at baseline 0?)
-
-	* uni1EC5 (U+1EC5): X=394.5,Y=-0.5 (should be at baseline 0?)
 
 	* trademark (U+2122): X=40.0,Y=699.0 (should be at cap-height 700?)
 
@@ -3269,27 +3263,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048) contains a short segment B<<120.5,314.5>-<115.0,308.0>-<115.0,296.0>>
 
-	* K (U+004B) contains a short segment L<<578.0,-7.0>--<571.0,-7.0>>
+	* K (U+004B) contains a short segment L<<574.0,-7.0>--<567.0,-7.0>>
 
 	* L (U+004C) contains a short segment B<<401.5,21.5>-<401.0,19.0>-<401.5,16.5>>
 
-	* M (U+004D) contains a short segment B<<362.5,191.0>-<369.0,177.0>-<375.5,174.0>>
+	* M (U+004D) contains a short segment B<<358.5,191.0>-<365.0,177.0>-<371.5,174.0>>
 
-	* M (U+004D) contains a short segment B<<375.5,174.0>-<382.0,171.0>-<391.0,171.0>>
+	* M (U+004D) contains a short segment B<<371.5,174.0>-<378.0,171.0>-<387.0,171.0>>
 
-	* M (U+004D) contains a short segment B<<391.0,171.0>-<400.0,171.0>-<406.5,174.0>>
+	* M (U+004D) contains a short segment B<<387.0,171.0>-<396.0,171.0>-<402.5,174.0>>
 
-	* M (U+004D) contains a short segment B<<406.5,174.0>-<413.0,177.0>-<419.5,191.0>>
+	* M (U+004D) contains a short segment B<<402.5,174.0>-<409.0,177.0>-<415.5,191.0>>
 
-	* M (U+004D) contains a short segment B<<664.0,632.0>-<660.0,652.0>-<647.0,657.0>>
+	* M (U+004D) contains a short segment B<<660.0,632.0>-<656.0,652.0>-<643.0,657.0>>
 
-	* M (U+004D) contains a short segment B<<549.0,655.5>-<536.0,649.0>-<532.0,632.0>>
+	* M (U+004D) contains a short segment B<<545.0,655.5>-<532.0,649.0>-<528.0,632.0>>
 
-	* M (U+004D) contains a short segment B<<250.0,632.0>-<246.0,649.0>-<233.5,655.5>>
+	* M (U+004D) contains a short segment B<<246.0,632.0>-<242.0,649.0>-<229.5,655.5>>
 
-	* M (U+004D) contains a short segment B<<148.0,660.5>-<133.0,659.0>-<127.0,653.0>>
+	* M (U+004D) contains a short segment B<<144.0,660.5>-<129.0,659.0>-<123.0,653.0>>
 
-	* M (U+004D) contains a short segment B<<127.0,653.0>-<121.0,647.0>-<118.0,632.0>>
+	* M (U+004D) contains a short segment B<<123.0,653.0>-<117.0,647.0>-<114.0,632.0>>
+
+	* e (U+0065) contains a short segment B<<98.0,175.0>-<91.0,176.0>-<91.0,167.0>>
 
 	* v (U+0076) contains a short segment B<<174.0,46.0>-<176.0,40.0>-<180.5,37.0>>
 
@@ -3311,6 +3307,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EBE (U+1EBE) contains a short segment B<<121.0,48.5>-<125.0,42.0>-<139.5,39.5>>
 
+	* uni1EBF (U+1EBF) contains a short segment B<<98.0,175.0>-<91.0,176.0>-<91.0,167.0>>
+
 	* uni1EC0 (U+1EC0) contains a short segment B<<141.5,659.5>-<127.0,657.0>-<123.0,650.5>>
 
 	* uni1EC0 (U+1EC0) contains a short segment B<<123.0,650.5>-<119.0,644.0>-<117.0,633.0>>
@@ -3326,6 +3324,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC0 (U+1EC0) contains a short segment B<<115.0,66.0>-<117.0,55.0>-<121.0,48.5>>
 
 	* uni1EC0 (U+1EC0) contains a short segment B<<121.0,48.5>-<125.0,42.0>-<139.5,39.5>>
+
+	* uni1EC1 (U+1EC1) contains a short segment B<<98.0,175.0>-<91.0,176.0>-<91.0,167.0>>
 
 	* uni1EC4 (U+1EC4) contains a short segment B<<141.5,659.5>-<127.0,657.0>-<123.0,650.5>>
 
@@ -3343,23 +3343,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EC4 (U+1EC4) contains a short segment B<<121.0,48.5>-<125.0,42.0>-<139.5,39.5>>
 
-	* trademark (U+2122) contains a short segment B<<981.5,191.0>-<988.0,177.0>-<994.5,174.0>>
+	* uni1EC5 (U+1EC5) contains a short segment B<<98.0,175.0>-<91.0,176.0>-<91.0,167.0>>
 
-	* trademark (U+2122) contains a short segment B<<994.5,174.0>-<1001.0,171.0>-<1010.0,171.0>>
+	* trademark (U+2122) contains a short segment B<<977.5,191.0>-<984.0,177.0>-<990.5,174.0>>
 
-	* trademark (U+2122) contains a short segment B<<1010.0,171.0>-<1019.0,171.0>-<1025.5,174.0>>
+	* trademark (U+2122) contains a short segment B<<990.5,174.0>-<997.0,171.0>-<1006.0,171.0>>
 
-	* trademark (U+2122) contains a short segment B<<1025.5,174.0>-<1032.0,177.0>-<1038.5,191.0>>
+	* trademark (U+2122) contains a short segment B<<1006.0,171.0>-<1015.0,171.0>-<1021.5,174.0>>
 
-	* trademark (U+2122) contains a short segment B<<1283.0,632.0>-<1279.0,652.0>-<1266.0,657.0>>
+	* trademark (U+2122) contains a short segment B<<1021.5,174.0>-<1028.0,177.0>-<1034.5,191.0>>
 
-	* trademark (U+2122) contains a short segment B<<1168.0,655.5>-<1155.0,649.0>-<1151.0,632.0>>
+	* trademark (U+2122) contains a short segment B<<1279.0,632.0>-<1275.0,652.0>-<1262.0,657.0>>
 
-	* trademark (U+2122) contains a short segment B<<869.0,632.0>-<865.0,649.0>-<852.5,655.5>>
+	* trademark (U+2122) contains a short segment B<<1164.0,655.5>-<1151.0,649.0>-<1147.0,632.0>>
 
-	* trademark (U+2122) contains a short segment B<<767.0,660.5>-<752.0,659.0>-<746.0,653.0>>
+	* trademark (U+2122) contains a short segment B<<865.0,632.0>-<861.0,649.0>-<848.5,655.5>>
 
-	* trademark (U+2122) contains a short segment B<<746.0,653.0>-<740.0,647.0>-<737.0,632.0>> [code: found-short-segments]
+	* trademark (U+2122) contains a short segment B<<763.0,660.5>-<748.0,659.0>-<742.0,653.0>>
+
+	* trademark (U+2122) contains a short segment B<<742.0,653.0>-<736.0,647.0>-<733.0,632.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -3426,10 +3428,6 @@ The following glyphs do not have the recommended number of contours:
 	* U (U+0055): L<<534.0,700.0>--<532.0,302.0>>
 
 	* U (U+0055): L<<94.0,302.0>--<92.0,700.0>>
-
-	* f (U+0066): L<<126.0,0.0>--<128.0,466.0>>
-
-	* f (U+0066): L<<151.0,466.0>--<153.0,0.0>>
 
 	* t (U+0074): L<<105.0,496.0>--<104.0,656.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[24] Ojuju-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -4936,11 +4934,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* G (U+0047): X=423.5,Y=1.5 (should be at baseline 0?)
 
-	* I (U+0049): X=92.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=88.0,Y=699.0 (should be at cap-height 700?)
 
-	* I (U+0049): X=379.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=375.0,Y=699.0 (should be at cap-height 700?)
 
-	* J (U+004A): X=240.5,Y=2.0 (should be at baseline 0?)
+	* J (U+004A): X=238.5,Y=2.0 (should be at baseline 0?)
 
 	* L (U+004C): X=92.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4966,9 +4964,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* d (U+0064): X=320.0,Y=-2.0 (should be at baseline 0?)
 
-	* e (U+0065): X=391.0,Y=479.0 (should be at x-height 481?)
-
-	* f (U+0066): X=315.0,Y=798.0 (should be at ascender 800?)
+	* f (U+0066): X=334.0,Y=798.0 (should be at ascender 800?)
 
 	* g (U+0067): X=380.5,Y=480.0 (should be at x-height 481?)
 
@@ -5030,27 +5026,37 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048) contains a short segment B<<513.5,393.0>-<519.0,400.0>-<519.0,412.0>>
 
-	* K (U+004B) contains a short segment B<<267.0,337.0>-<264.0,329.0>-<268.0,315.0>>
+	* K (U+004B) contains a short segment B<<263.5,337.0>-<261.0,329.0>-<264.0,315.0>>
 
-	* K (U+004B) contains a short segment B<<584.0,-7.0>-<575.0,-7.0>-<569.0,-7.0>>
+	* K (U+004B) contains a short segment B<<580.0,-7.0>-<572.0,-7.0>-<565.0,-7.0>>
 
 	* L (U+004C) contains a short segment B<<406.0,32.5>-<406.0,27.0>-<406.0,21.5>>
 
-	* M (U+004D) contains a short segment B<<364.5,203.0>-<371.0,189.0>-<377.5,186.5>>
+	* M (U+004D) contains a short segment B<<361.0,203.0>-<367.0,189.0>-<374.0,186.5>>
 
-	* M (U+004D) contains a short segment B<<377.5,186.5>-<384.0,184.0>-<393.0,184.0>>
+	* M (U+004D) contains a short segment B<<374.0,186.5>-<381.0,184.0>-<389.0,184.0>>
 
-	* M (U+004D) contains a short segment B<<393.0,184.0>-<402.0,184.0>-<408.5,186.5>>
+	* M (U+004D) contains a short segment B<<389.0,184.0>-<398.0,184.0>-<404.5,186.5>>
 
-	* M (U+004D) contains a short segment B<<408.5,186.5>-<415.0,189.0>-<421.5,203.0>>
+	* M (U+004D) contains a short segment B<<404.5,186.5>-<411.0,189.0>-<417.5,203.0>>
 
-	* M (U+004D) contains a short segment B<<665.0,610.0>-<660.0,629.0>-<647.5,634.0>>
+	* M (U+004D) contains a short segment B<<661.0,610.0>-<656.0,629.0>-<643.5,634.0>>
 
-	* M (U+004D) contains a short segment B<<550.0,632.5>-<537.0,626.0>-<533.0,610.0>>
+	* M (U+004D) contains a short segment B<<546.0,632.5>-<533.0,626.0>-<529.0,610.0>>
 
-	* M (U+004D) contains a short segment B<<254.0,610.0>-<249.0,626.0>-<236.0,632.5>>
+	* M (U+004D) contains a short segment B<<250.0,610.0>-<246.0,626.0>-<232.5,632.5>>
 
-	* M (U+004D) contains a short segment B<<138.5,635.0>-<126.0,631.0>-<121.0,610.0>>
+	* M (U+004D) contains a short segment B<<135.0,635.0>-<122.0,631.0>-<118.0,610.0>>
+
+	* e (U+0065) contains a short segment B<<102.0,174.0>-<94.0,175.0>-<94.0,166.0>>
+
+	* i (U+0069) contains a short segment B<<68.5,29.5>-<76.0,29.0>-<79.0,29.0>>
+
+	* i (U+0069) contains a short segment B<<79.0,29.0>-<82.0,29.0>-<89.5,29.0>>
+
+	* i (U+0069) contains a short segment B<<90.0,426.0>-<84.0,426.0>-<82.5,426.0>>
+
+	* i (U+0069) contains a short segment B<<82.5,426.0>-<81.0,426.0>-<75.5,426.0>>
 
 	* v (U+0076) contains a short segment B<<172.0,65.0>-<174.0,57.0>-<179.0,54.0>>
 
@@ -5072,6 +5078,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EBE (U+1EBE) contains a short segment B<<126.5,59.0>-<131.0,53.0>-<145.5,50.5>>
 
+	* uni1EBF (U+1EBF) contains a short segment B<<102.0,174.0>-<94.0,175.0>-<94.0,166.0>>
+
 	* uni1EC0 (U+1EC0) contains a short segment B<<147.0,644.0>-<133.0,641.0>-<128.5,635.5>>
 
 	* uni1EC0 (U+1EC0) contains a short segment B<<128.5,635.5>-<124.0,630.0>-<121.0,619.0>>
@@ -5087,6 +5095,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC0 (U+1EC0) contains a short segment B<<119.0,75.0>-<122.0,65.0>-<126.5,59.0>>
 
 	* uni1EC0 (U+1EC0) contains a short segment B<<126.5,59.0>-<131.0,53.0>-<145.5,50.5>>
+
+	* uni1EC1 (U+1EC1) contains a short segment B<<102.0,174.0>-<94.0,175.0>-<94.0,166.0>>
 
 	* uni1EC4 (U+1EC4) contains a short segment B<<147.0,644.0>-<133.0,641.0>-<128.5,635.5>>
 
@@ -5104,21 +5114,23 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EC4 (U+1EC4) contains a short segment B<<126.5,59.0>-<131.0,53.0>-<145.5,50.5>>
 
-	* trademark (U+2122) contains a short segment B<<986.5,203.0>-<993.0,189.0>-<999.5,186.5>>
+	* uni1EC5 (U+1EC5) contains a short segment B<<102.0,174.0>-<94.0,175.0>-<94.0,166.0>>
 
-	* trademark (U+2122) contains a short segment B<<999.5,186.5>-<1006.0,184.0>-<1015.0,184.0>>
+	* trademark (U+2122) contains a short segment B<<983.0,203.0>-<989.0,189.0>-<996.0,186.5>>
 
-	* trademark (U+2122) contains a short segment B<<1015.0,184.0>-<1024.0,184.0>-<1030.5,186.5>>
+	* trademark (U+2122) contains a short segment B<<996.0,186.5>-<1003.0,184.0>-<1011.0,184.0>>
 
-	* trademark (U+2122) contains a short segment B<<1030.5,186.5>-<1037.0,189.0>-<1043.5,203.0>>
+	* trademark (U+2122) contains a short segment B<<1011.0,184.0>-<1020.0,184.0>-<1026.5,186.5>>
 
-	* trademark (U+2122) contains a short segment B<<1287.0,610.0>-<1282.0,629.0>-<1269.5,634.0>>
+	* trademark (U+2122) contains a short segment B<<1026.5,186.5>-<1033.0,189.0>-<1039.5,203.0>>
 
-	* trademark (U+2122) contains a short segment B<<1172.0,632.5>-<1159.0,626.0>-<1155.0,610.0>>
+	* trademark (U+2122) contains a short segment B<<1283.0,610.0>-<1278.0,629.0>-<1265.5,634.0>>
 
-	* trademark (U+2122) contains a short segment B<<876.0,610.0>-<871.0,626.0>-<858.0,632.5>>
+	* trademark (U+2122) contains a short segment B<<1168.0,632.5>-<1155.0,626.0>-<1151.0,610.0>>
 
-	* trademark (U+2122) contains a short segment B<<760.5,635.0>-<748.0,631.0>-<743.0,610.0>> [code: found-short-segments]
+	* trademark (U+2122) contains a short segment B<<872.0,610.0>-<868.0,626.0>-<854.5,632.5>>
+
+	* trademark (U+2122) contains a short segment B<<757.0,635.0>-<744.0,631.0>-<740.0,610.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -5132,9 +5144,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* h (U+0068): B<<108.0,366.5>-<108.0,332.0>-<108.0,320.0>>/B<<108.0,320.0>-<112.0,345.0>-<121.0,370.5>> = 9.090276920822312
 
-	* m (U+006D): B<<107.5,391.5>-<107.0,351.0>-<108.0,320.0>>/B<<108.0,320.0>-<113.0,360.0>-<126.0,399.0>> = 8.972626614896358
+	* m (U+006D): B<<107.5,390.0>-<107.0,351.0>-<108.0,320.0>>/B<<108.0,320.0>-<112.0,360.0>-<125.0,398.5>> = 7.558203403494199
 
-	* m (U+006D): B<<456.5,395.0>-<467.0,366.0>-<471.0,329.0>>/B<<471.0,329.0>-<475.0,359.0>-<487.5,389.0>> = 13.764818463621042
+	* m (U+006D): B<<428.0,446.0>-<463.0,402.0>-<470.0,329.0>>/B<<470.0,329.0>-<474.0,359.0>-<486.5,389.0>> = 13.07201209742032
 
 	* ordfeminine (U+00AA): B<<473.0,397.0>-<488.0,369.0>-<494.0,341.0>>/B<<494.0,341.0>-<494.0,371.0>-<494.5,388.5>> = 12.094757077012089
 
@@ -5185,10 +5197,6 @@ The following glyphs do not have the recommended number of contours:
 	* U (U+0055): L<<540.0,700.0>--<538.0,302.0>>
 
 	* U (U+0055): L<<92.0,303.0>--<90.0,700.0>>
-
-	* f (U+0066): L<<125.0,0.0>--<127.0,454.0>>
-
-	* f (U+0066): L<<153.0,454.0>--<155.0,0.0>>
 
 	* t (U+0074): L<<105.0,496.0>--<104.0,656.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[24] Ojuju-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -6695,9 +6703,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* G (U+0047): X=433.5,Y=2.0 (should be at baseline 0?)
 
-	* I (U+0049): X=86.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=83.0,Y=699.0 (should be at cap-height 700?)
 
-	* I (U+0049): X=393.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=390.0,Y=699.0 (should be at cap-height 700?)
 
 	* L (U+004C): X=86.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6731,7 +6739,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* d (U+0064): X=335.0,Y=-1.0 (should be at baseline 0?)
 
-	* f (U+0066): X=317.0,Y=798.0 (should be at ascender 800?)
+	* f (U+0066): X=335.0,Y=798.0 (should be at ascender 800?)
+
+	* g (U+0067): X=472.0,Y=-2.0 (should be at baseline 0?)
 
 	* g (U+0067): X=381.5,Y=483.5 (should be at x-height 485?)
 
@@ -6785,53 +6795,67 @@ The following glyphs do not have the recommended number of contours:
 
 	* F (U+0046) contains a short segment B<<133.0,374.0>-<136.0,367.0>-<142.0,363.0>>
 
-	* I (U+0049) contains a short segment B<<209.0,596.0>-<204.0,601.0>-<197.0,604.0>>
+	* I (U+0049) contains a short segment B<<279.0,604.0>-<272.0,601.0>-<267.0,596.0>>
 
-	* K (U+004B) contains a short segment B<<279.5,340.5>-<276.0,333.0>-<279.0,319.0>>
+	* K (U+004B) contains a short segment B<<235.0,308.0>-<231.0,321.0>-<222.5,324.5>>
 
-	* K (U+004B) contains a short segment B<<238.0,308.0>-<234.0,321.0>-<225.5,324.5>>
+	* K (U+004B) contains a short segment B<<276.5,340.5>-<273.0,333.0>-<276.0,319.0>>
 
-	* M (U+004D) contains a short segment B<<364.5,246.5>-<372.0,224.0>-<379.5,219.5>>
+	* M (U+004D) contains a short segment B<<361.5,246.5>-<369.0,224.0>-<376.5,219.5>>
 
-	* M (U+004D) contains a short segment B<<379.5,219.5>-<387.0,215.0>-<398.0,215.0>>
+	* M (U+004D) contains a short segment B<<376.5,219.5>-<384.0,215.0>-<395.0,215.0>>
 
-	* M (U+004D) contains a short segment B<<398.0,215.0>-<409.0,215.0>-<417.0,219.5>>
+	* M (U+004D) contains a short segment B<<395.0,215.0>-<406.0,215.0>-<414.0,219.5>>
 
-	* M (U+004D) contains a short segment B<<417.0,219.5>-<425.0,224.0>-<432.5,246.5>>
+	* M (U+004D) contains a short segment B<<414.0,219.5>-<422.0,224.0>-<429.5,246.5>>
 
-	* M (U+004D) contains a short segment B<<667.0,556.0>-<662.0,573.0>-<649.0,577.5>>
+	* M (U+004D) contains a short segment B<<664.0,556.0>-<659.0,573.0>-<646.0,577.5>>
 
-	* M (U+004D) contains a short segment B<<553.5,576.0>-<540.0,570.0>-<534.0,555.0>>
+	* M (U+004D) contains a short segment B<<550.5,576.0>-<537.0,570.0>-<531.0,555.0>>
 
-	* M (U+004D) contains a short segment B<<262.0,555.0>-<257.0,570.0>-<243.0,576.0>>
+	* M (U+004D) contains a short segment B<<259.0,555.0>-<254.0,570.0>-<240.0,576.0>>
 
-	* M (U+004D) contains a short segment B<<148.0,578.0>-<135.0,574.0>-<130.0,556.0>>
+	* M (U+004D) contains a short segment B<<144.5,578.0>-<132.0,574.0>-<127.0,556.0>>
+
+	* e (U+0065) contains a short segment B<<111.0,171.0>-<103.0,171.0>-<103.0,162.0>>
+
+	* i (U+0069) contains a short segment B<<96.5,395.0>-<90.0,395.0>-<86.5,394.5>>
+
+	* i (U+0069) contains a short segment B<<86.5,394.5>-<83.0,394.0>-<76.5,394.0>>
 
 	* uni1EBE (U+1EBE) contains a short segment B<<129.0,99.0>-<133.0,90.0>-<139.5,84.5>>
 
+	* uni1EBF (U+1EBF) contains a short segment B<<111.0,171.0>-<103.0,171.0>-<103.0,162.0>>
+
 	* uni1EC0 (U+1EC0) contains a short segment B<<129.0,99.0>-<133.0,90.0>-<139.5,84.5>>
+
+	* uni1EC1 (U+1EC1) contains a short segment B<<111.0,171.0>-<103.0,171.0>-<103.0,162.0>>
 
 	* uni1EC4 (U+1EC4) contains a short segment B<<129.0,99.0>-<133.0,90.0>-<139.5,84.5>>
 
-	* trademark (U+2122) contains a short segment B<<995.5,246.5>-<1003.0,224.0>-<1010.5,219.5>>
+	* uni1EC5 (U+1EC5) contains a short segment B<<111.0,171.0>-<103.0,171.0>-<103.0,162.0>>
 
-	* trademark (U+2122) contains a short segment B<<1010.5,219.5>-<1018.0,215.0>-<1029.0,215.0>>
+	* trademark (U+2122) contains a short segment B<<992.5,246.5>-<1000.0,224.0>-<1007.5,219.5>>
 
-	* trademark (U+2122) contains a short segment B<<1029.0,215.0>-<1040.0,215.0>-<1048.0,219.5>>
+	* trademark (U+2122) contains a short segment B<<1007.5,219.5>-<1015.0,215.0>-<1026.0,215.0>>
 
-	* trademark (U+2122) contains a short segment B<<1048.0,219.5>-<1056.0,224.0>-<1063.5,246.5>>
+	* trademark (U+2122) contains a short segment B<<1026.0,215.0>-<1037.0,215.0>-<1045.0,219.5>>
 
-	* trademark (U+2122) contains a short segment B<<1298.0,556.0>-<1293.0,573.0>-<1280.0,577.5>>
+	* trademark (U+2122) contains a short segment B<<1045.0,219.5>-<1053.0,224.0>-<1060.5,246.5>>
 
-	* trademark (U+2122) contains a short segment B<<1184.5,576.0>-<1171.0,570.0>-<1165.0,555.0>>
+	* trademark (U+2122) contains a short segment B<<1295.0,556.0>-<1290.0,573.0>-<1277.0,577.5>>
 
-	* trademark (U+2122) contains a short segment B<<893.0,555.0>-<888.0,570.0>-<874.0,576.0>>
+	* trademark (U+2122) contains a short segment B<<1181.5,576.0>-<1168.0,570.0>-<1162.0,555.0>>
 
-	* trademark (U+2122) contains a short segment B<<779.0,578.0>-<766.0,574.0>-<761.0,556.0>> [code: found-short-segments]
+	* trademark (U+2122) contains a short segment B<<890.0,555.0>-<885.0,570.0>-<871.0,576.0>>
+
+	* trademark (U+2122) contains a short segment B<<775.5,578.0>-<763.0,574.0>-<758.0,556.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* m (U+006D): B<<113.0,396.5>-<113.0,362.0>-<114.0,336.0>>/B<<114.0,336.0>-<120.0,369.0>-<132.0,402.0>> = 12.507444630531817
 
 	* q (U+0071): B<<412.5,438.5>-<436.0,406.0>-<445.0,367.0>>/B<<445.0,367.0>-<445.0,397.0>-<445.0,433.5>> = 12.994616791916512 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -6860,10 +6884,6 @@ The following glyphs do not have the recommended number of contours:
 	* U (U+0055): L<<554.0,700.0>--<552.0,302.0>>
 
 	* U (U+0055): L<<87.0,304.0>--<85.0,700.0>>
-
-	* f (U+0066): L<<121.0,0.0>--<123.0,424.0>>
-
-	* f (U+0066): L<<159.0,424.0>--<161.0,0.0>>
 
 	* t (U+0074): L<<105.0,497.0>--<104.0,655.0>>
 
@@ -8376,11 +8396,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* G (U+0047): X=457.0,Y=2.0 (should be at baseline 0?)
 
-	* I (U+0049): X=73.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=72.0,Y=699.0 (should be at cap-height 700?)
 
-	* I (U+0049): X=426.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=425.0,Y=699.0 (should be at cap-height 700?)
 
-	* K (U+004B): X=630.0,Y=-2.0 (should be at baseline 0?)
+	* K (U+004B): X=629.0,Y=-2.0 (should be at baseline 0?)
 
 	* L (U+004C): X=73.0,Y=701.0 (should be at cap-height 700?)
 
@@ -8404,7 +8424,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* d (U+0064): X=368.0,Y=494.0 (should be at x-height 493?)
 
-	* f (U+0066): X=321.0,Y=799.0 (should be at ascender 800?)
+	* f (U+0066): X=337.0,Y=799.0 (should be at ascender 800?)
 
 	* g (U+0067): X=384.0,Y=492.0 (should be at x-height 493?)
 
@@ -8414,9 +8434,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* l (U+006C): X=275.5,Y=494.5 (should be at x-height 493?)
 
-	* m (U+006D): X=238.5,Y=491.0 (should be at x-height 493?)
-
-	* m (U+006D): X=626.5,Y=495.0 (should be at x-height 493?)
+	* m (U+006D): X=240.5,Y=493.5 (should be at x-height 493?)
 
 	* r (U+0072): X=247.5,Y=491.5 (should be at x-height 493?)
 
@@ -8434,23 +8452,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* E (U+0045) contains a short segment B<<155.0,381.0>-<163.0,374.0>-<175.0,370.5>>
 
-	* K (U+004B) contains a short segment B<<162.5,287.5>-<152.0,284.0>-<148.0,274.0>>
+	* K (U+004B) contains a short segment B<<161.0,287.5>-<151.0,284.0>-<147.0,274.0>>
 
-	* M (U+004D) contains a short segment B<<376.5,317.5>-<383.0,298.0>-<391.0,293.5>>
+	* M (U+004D) contains a short segment B<<375.5,317.5>-<382.0,298.0>-<389.5,293.5>>
 
-	* M (U+004D) contains a short segment B<<391.0,293.5>-<399.0,289.0>-<410.0,289.0>>
+	* M (U+004D) contains a short segment B<<389.5,293.5>-<397.0,289.0>-<409.0,289.0>>
 
-	* M (U+004D) contains a short segment B<<410.0,289.0>-<422.0,289.0>-<430.0,293.5>>
+	* M (U+004D) contains a short segment B<<409.0,289.0>-<421.0,289.0>-<429.0,293.5>>
 
-	* M (U+004D) contains a short segment B<<430.0,293.5>-<438.0,298.0>-<444.5,317.5>>
+	* M (U+004D) contains a short segment B<<429.0,293.5>-<437.0,298.0>-<443.0,317.5>>
 
-	* M (U+004D) contains a short segment B<<672.0,427.0>-<665.0,439.0>-<652.0,442.5>>
+	* M (U+004D) contains a short segment B<<670.0,427.0>-<664.0,439.0>-<650.5,442.5>>
 
-	* M (U+004D) contains a short segment B<<561.5,441.0>-<546.0,436.0>-<538.0,424.0>>
-
-	* M (U+004D) contains a short segment B<<283.0,424.0>-<275.0,436.0>-<259.5,441.0>>
-
-	* M (U+004D) contains a short segment B<<169.0,442.5>-<156.0,439.0>-<149.0,427.0>>
+	* M (U+004D) contains a short segment B<<167.5,442.5>-<154.0,439.0>-<148.0,427.0>>
 
 	* n (U+006E) contains a short segment B<<133.5,414.5>-<136.0,409.0>-<142.0,409.0>>
 
@@ -8460,21 +8474,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EC4 (U+1EC4) contains a short segment B<<155.0,381.0>-<163.0,374.0>-<175.0,370.5>>
 
-	* trademark (U+2122) contains a short segment B<<1027.5,317.5>-<1034.0,298.0>-<1042.0,293.5>>
+	* trademark (U+2122) contains a short segment B<<1026.5,317.5>-<1033.0,298.0>-<1040.5,293.5>>
 
-	* trademark (U+2122) contains a short segment B<<1042.0,293.5>-<1050.0,289.0>-<1061.0,289.0>>
+	* trademark (U+2122) contains a short segment B<<1040.5,293.5>-<1048.0,289.0>-<1060.0,289.0>>
 
-	* trademark (U+2122) contains a short segment B<<1061.0,289.0>-<1073.0,289.0>-<1081.0,293.5>>
+	* trademark (U+2122) contains a short segment B<<1060.0,289.0>-<1072.0,289.0>-<1080.0,293.5>>
 
-	* trademark (U+2122) contains a short segment B<<1081.0,293.5>-<1089.0,298.0>-<1095.5,317.5>>
+	* trademark (U+2122) contains a short segment B<<1080.0,293.5>-<1088.0,298.0>-<1094.0,317.5>>
 
-	* trademark (U+2122) contains a short segment B<<1323.0,427.0>-<1316.0,439.0>-<1303.0,442.5>>
+	* trademark (U+2122) contains a short segment B<<1321.0,427.0>-<1315.0,439.0>-<1301.5,442.5>>
 
-	* trademark (U+2122) contains a short segment B<<1212.5,441.0>-<1197.0,436.0>-<1189.0,424.0>>
-
-	* trademark (U+2122) contains a short segment B<<934.0,424.0>-<926.0,436.0>-<910.5,441.0>>
-
-	* trademark (U+2122) contains a short segment B<<820.0,442.5>-<807.0,439.0>-<800.0,427.0>> [code: found-short-segments]
+	* trademark (U+2122) contains a short segment B<<818.5,442.5>-<805.0,439.0>-<799.0,427.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -8498,7 +8508,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* U (U+0055): L<<74.0,307.0>--<73.0,700.0>>
 
-	* f (U+0066): L<<172.0,352.0>--<175.0,0.0>>
+	* f (U+0066): L<<433.0,482.0>--<432.0,316.0>>
+
+	* i (U+0069): L<<57.0,316.0>--<56.0,493.0>>
 
 	* u (U+0075): L<<525.0,493.0>--<523.0,241.0>>
 
@@ -10017,9 +10029,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* G (U+0047): X=445.0,Y=2.0 (should be at baseline 0?)
 
-	* I (U+0049): X=80.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=78.0,Y=699.0 (should be at cap-height 700?)
 
-	* I (U+0049): X=409.0,Y=699.0 (should be at cap-height 700?)
+	* I (U+0049): X=407.0,Y=699.0 (should be at cap-height 700?)
 
 	* L (U+004C): X=80.0,Y=701.0 (should be at cap-height 700?)
 
@@ -10049,11 +10061,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* b (U+0062): X=227.5,Y=487.5 (should be at x-height 489?)
 
-	* f (U+0066): X=319.0,Y=798.0 (should be at ascender 800?)
+	* f (U+0066): X=336.0,Y=798.0 (should be at ascender 800?)
+
+	* f (U+0066): X=195.0,Y=490.0 (should be at x-height 489?)
+
+	* g (U+0067): X=373.5,Y=-2.0 (should be at baseline 0?)
 
 	* g (U+0067): X=382.5,Y=487.5 (should be at x-height 489?)
-
-	* m (U+006D): X=235.5,Y=491.0 (should be at x-height 489?)
 
 	* t (U+0074): X=391.5,Y=-2.0 (should be at baseline 0?)
 
@@ -10119,25 +10133,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* E (U+0045) contains a short segment B<<143.0,390.0>-<149.0,380.0>-<159.5,375.5>>
 
-	* K (U+004B) contains a short segment B<<235.0,291.0>-<231.0,303.0>-<223.0,306.5>>
+	* K (U+004B) contains a short segment B<<233.0,291.0>-<229.0,303.0>-<221.0,306.5>>
 
-	* K (U+004B) contains a short segment B<<156.5,306.5>-<145.0,303.0>-<141.0,292.0>>
+	* K (U+004B) contains a short segment B<<154.0,306.5>-<143.0,303.0>-<139.0,292.0>>
 
-	* M (U+004D) contains a short segment B<<370.0,281.0>-<377.0,260.0>-<385.0,255.0>>
+	* M (U+004D) contains a short segment B<<368.0,281.0>-<375.0,260.0>-<383.0,255.0>>
 
-	* M (U+004D) contains a short segment B<<385.0,255.0>-<393.0,250.0>-<404.0,250.0>>
+	* M (U+004D) contains a short segment B<<383.0,255.0>-<391.0,250.0>-<402.0,250.0>>
 
-	* M (U+004D) contains a short segment B<<404.0,250.0>-<415.0,250.0>-<423.0,255.0>>
+	* M (U+004D) contains a short segment B<<402.0,250.0>-<413.0,250.0>-<421.0,255.0>>
 
-	* M (U+004D) contains a short segment B<<423.0,255.0>-<431.0,260.0>-<438.0,281.0>>
+	* M (U+004D) contains a short segment B<<421.0,255.0>-<429.0,260.0>-<436.0,281.0>>
 
-	* M (U+004D) contains a short segment B<<669.0,494.0>-<663.0,508.0>-<650.0,512.5>>
+	* M (U+004D) contains a short segment B<<667.0,494.0>-<661.0,508.0>-<648.0,512.5>>
 
-	* M (U+004D) contains a short segment B<<557.5,511.0>-<543.0,505.0>-<536.0,492.0>>
+	* M (U+004D) contains a short segment B<<555.0,511.0>-<540.0,505.0>-<534.0,492.0>>
 
-	* M (U+004D) contains a short segment B<<272.0,492.0>-<266.0,505.0>-<251.0,511.0>>
+	* M (U+004D) contains a short segment B<<270.0,492.0>-<263.0,505.0>-<248.5,511.0>>
 
-	* M (U+004D) contains a short segment B<<158.0,513.5>-<145.0,510.0>-<139.0,494.0>>
+	* M (U+004D) contains a short segment B<<156.0,513.5>-<143.0,510.0>-<137.0,494.0>>
 
 	* uni1EBE (U+1EBE) contains a short segment B<<142.0,545.0>-<137.0,540.0>-<134.0,525.0>>
 
@@ -10157,21 +10171,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EC4 (U+1EC4) contains a short segment B<<143.0,390.0>-<149.0,380.0>-<159.5,375.5>>
 
-	* trademark (U+2122) contains a short segment B<<1011.0,281.0>-<1018.0,260.0>-<1026.0,255.0>>
+	* trademark (U+2122) contains a short segment B<<1009.0,281.0>-<1016.0,260.0>-<1024.0,255.0>>
 
-	* trademark (U+2122) contains a short segment B<<1026.0,255.0>-<1034.0,250.0>-<1045.0,250.0>>
+	* trademark (U+2122) contains a short segment B<<1024.0,255.0>-<1032.0,250.0>-<1043.0,250.0>>
 
-	* trademark (U+2122) contains a short segment B<<1045.0,250.0>-<1056.0,250.0>-<1064.0,255.0>>
+	* trademark (U+2122) contains a short segment B<<1043.0,250.0>-<1054.0,250.0>-<1062.0,255.0>>
 
-	* trademark (U+2122) contains a short segment B<<1064.0,255.0>-<1072.0,260.0>-<1079.0,281.0>>
+	* trademark (U+2122) contains a short segment B<<1062.0,255.0>-<1070.0,260.0>-<1077.0,281.0>>
 
-	* trademark (U+2122) contains a short segment B<<1310.0,494.0>-<1304.0,508.0>-<1291.0,512.5>>
+	* trademark (U+2122) contains a short segment B<<1308.0,494.0>-<1302.0,508.0>-<1289.0,512.5>>
 
-	* trademark (U+2122) contains a short segment B<<1198.5,511.0>-<1184.0,505.0>-<1177.0,492.0>>
+	* trademark (U+2122) contains a short segment B<<1196.0,511.0>-<1181.0,505.0>-<1175.0,492.0>>
 
-	* trademark (U+2122) contains a short segment B<<913.0,492.0>-<907.0,505.0>-<892.0,511.0>>
+	* trademark (U+2122) contains a short segment B<<911.0,492.0>-<904.0,505.0>-<889.5,511.0>>
 
-	* trademark (U+2122) contains a short segment B<<799.0,513.5>-<786.0,510.0>-<780.0,494.0>> [code: found-short-segments]
+	* trademark (U+2122) contains a short segment B<<797.0,513.5>-<784.0,510.0>-<778.0,494.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -10194,10 +10208,6 @@ The following glyphs do not have the recommended number of contours:
 	* U (U+0055): L<<571.0,700.0>--<569.0,302.0>>
 
 	* U (U+0055): L<<80.0,305.0>--<79.0,700.0>>
-
-	* f (U+0066): L<<118.0,0.0>--<119.0,389.0>>
-
-	* f (U+0066): L<<165.0,389.0>--<168.0,0.0>>
 
 	* t (U+0074): L<<105.0,498.0>--<104.0,653.0>>
 
@@ -11734,19 +11744,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): X=629.0,Y=699.0 (should be at cap-height 700?)
 
-	* f (U+0066): X=104.0,Y=501.0 (should be at x-height 500?)
+	* e (U+0065): X=503.0,Y=2.0 (should be at baseline 0?)
 
-	* f (U+0066): X=325.0,Y=799.0 (should be at ascender 800?)
-
-	* g (U+0067): X=388.0,Y=0.5 (should be at baseline 0?)
+	* f (U+0066): X=339.0,Y=799.0 (should be at ascender 800?)
 
 	* g (U+0067): X=386.5,Y=499.0 (should be at x-height 500?)
 
-	* g (U+0067): X=390.5,Y=-198.5 (should be at descender -200?)
-
 	* h (U+0068): X=452.0,Y=501.0 (should be at x-height 500?)
 
-	* m (U+006D): X=650.0,Y=500.5 (should be at x-height 500?)
+	* m (U+006D): X=640.0,Y=501.0 (should be at x-height 500?)
 
 	* n (U+006E): X=452.0,Y=501.0 (should be at x-height 500?)
 
@@ -11755,6 +11761,12 @@ The following glyphs do not have the recommended number of contours:
 	* s (U+0073): X=364.0,Y=1.5 (should be at baseline 0?)
 
 	* t (U+0074): X=425.5,Y=0.5 (should be at baseline 0?)
+
+	* uni1EBF (U+1EBF): X=503.0,Y=2.0 (should be at baseline 0?)
+
+	* uni1EC1 (U+1EC1): X=503.0,Y=2.0 (should be at baseline 0?)
+
+	* uni1EC5 (U+1EC5): X=503.0,Y=2.0 (should be at baseline 0?)
 
 	* trademark (U+2122): X=40.0,Y=699.0 (should be at cap-height 700?)
 
@@ -11770,9 +11782,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* G (U+0047) contains a short segment B<<452.0,210.0>-<455.0,211.0>-<455.0,225.5>>
 
-	* K (U+004B) contains a short segment B<<329.0,337.0>-<329.0,329.0>-<341.5,321.5>>
-
 	* K (U+004B) contains a short segment B<<238.5,224.5>-<235.0,236.0>-<228.0,244.0>>
+
+	* K (U+004B) contains a short segment B<<329.0,337.0>-<329.0,329.0>-<341.5,321.5>>
 
 	* M (U+004D) contains a short segment B<<387.0,378.0>-<392.0,361.0>-<400.5,357.0>>
 
@@ -11792,11 +11804,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* h (U+0068) contains a short segment B<<142.5,417.5>-<145.0,410.0>-<152.0,410.0>>
 
-	* m (U+006D) contains a short segment B<<134.5,428.5>-<136.0,410.0>-<143.0,410.0>>
+	* m (U+006D) contains a short segment B<<137.0,416.0>-<139.0,410.0>-<143.0,410.0>>
 
-	* m (U+006D) contains a short segment B<<517.5,417.0>-<523.0,409.0>-<531.0,409.0>>
+	* m (U+006D) contains a short segment B<<143.0,410.0>-<151.0,410.0>-<159.5,417.5>>
 
-	* m (U+006D) contains a short segment B<<531.0,409.0>-<540.0,409.0>-<544.5,420.0>>
+	* m (U+006D) contains a short segment B<<503.5,420.0>-<513.0,409.0>-<519.0,409.0>>
+
+	* m (U+006D) contains a short segment B<<519.0,409.0>-<522.0,409.0>-<525.5,411.5>>
+
+	* m (U+006D) contains a short segment B<<525.5,411.5>-<529.0,414.0>-<538.0,424.0>>
+
+	* m (U+006D) contains a short segment B<<877.5,123.0>-<878.0,136.0>-<878.0,145.0>>
 
 	* n (U+006E) contains a short segment B<<142.0,415.0>-<145.0,410.0>-<152.0,410.0>>
 
@@ -11833,6 +11851,12 @@ The following glyphs do not have the recommended number of contours:
 	* U (U+0055): L<<619.0,700.0>--<616.0,302.0>>
 
 	* U (U+0055): L<<63.0,310.0>--<62.0,700.0>>
+
+	* f (U+0066): L<<433.0,480.0>--<432.0,240.0>>
+
+	* f (U+0066): L<<55.0,240.0>--<54.0,480.0>>
+
+	* i (U+0069): L<<61.0,250.0>--<60.0,500.0>>
 
 	* u (U+0075): L<<51.0,213.0>--<50.0,500.0>>
 

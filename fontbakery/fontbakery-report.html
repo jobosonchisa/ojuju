@@ -129,18 +129,18 @@ ul {
             <tr>
                 <td>14</td>
                 <td>84</td>
-                <td>69</td>
+                <td>66</td>
                 <td>863</td>
                 <td>36</td>
-                <td>575</td>
+                <td>578</td>
             </tr>
             <tr>
                 <td>1%</td>
                 <td>7%</td>
-                <td>6%</td>
+                <td>5%</td>
                 <td>70%</td>
                 <td>3%</td>
-                <td>46%</td>
+                <td>47%</td>
             </tr>
             </table>
             
@@ -1038,6 +1038,8 @@ The font may be embedded but must only be installed temporarily on other systems
 
 - R.alt
 
+- a.001
+
 - e.ss01
 
 - i.loclTRK
@@ -1056,6 +1058,8 @@ The font may be embedded but must only be installed temporarily on other systems
 <pre><code>- E.a
 
 - R.alt
+
+- a.001
 
 - e.ss01
 
@@ -1076,6 +1080,8 @@ The font may be embedded but must only be installed temporarily on other systems
 
 - R.alt
 
+- a.001
+
 - e.ss01
 
 - i.loclTRK
@@ -1094,6 +1100,8 @@ The font may be embedded but must only be installed temporarily on other systems
 <pre><code>- E.a
 
 - R.alt
+
+- a.001
 
 - e.ss01
 
@@ -1114,6 +1122,8 @@ The font may be embedded but must only be installed temporarily on other systems
 
 - R.alt
 
+- a.001
+
 - e.ss01
 
 - i.loclTRK
@@ -1133,6 +1143,8 @@ The font may be embedded but must only be installed temporarily on other systems
 
 - R.alt
 
+- a.001
+
 - e.ss01
 
 - i.loclTRK
@@ -1151,6 +1163,8 @@ The font may be embedded but must only be installed temporarily on other systems
 <pre><code>- E.a
 
 - R.alt
+
+- a.001
 
 - e.ss01
 
@@ -10288,7 +10302,7 @@ The font may be embedded but must only be installed temporarily on other systems
 * {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]</p>
 </span></li></ul></div></details>
 <h2>Section: Outline Correctness Checks</h2>
-<span class='section__emoji'>⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</span>
+<span class='section__emoji'>⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</span>
 <h3>Are there any misaligned on-curve points?</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
@@ -10343,12 +10357,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * T (U+0054): X=620.0,Y=699.0 (should be at cap-height 700?)
 
-* a (U+0061): X=483.0,Y=498.0 (should be at x-height 497?)
-
-* a (U+0061): X=553.0,Y=498.0 (should be at x-height 497?)
-
-* d (U+0064): X=396.0,Y=498.0 (should be at x-height 497?)
-
 * f (U+0066): X=33.0,Y=499.0 (should be at x-height 497?)
 
 * f (U+0066): X=323.0,Y=799.0 (should be at ascender 800?)
@@ -10357,19 +10365,17 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * f (U+0066): X=516.0,Y=499.0 (should be at x-height 497?)
 
-* g (U+0067): X=389.5,Y=-1.5 (should be at baseline 0?)
+* g (U+0067): X=389.5,Y=1.5 (should be at baseline 0?)
 
-* g (U+0067): X=394.0,Y=495.0 (should be at x-height 497?)
+* g (U+0067): X=385.0,Y=495.5 (should be at x-height 497?)
 
-* g (U+0067): X=486.0,Y=498.0 (should be at x-height 497?)
-
-* g (U+0067): X=556.0,Y=498.0 (should be at x-height 497?)
+* h (U+0068): X=259.5,Y=498.0 (should be at x-height 497?)
 
 * i (U+0069): X=116.0,Y=698.0 (should be at cap-height 700?)
 
 * i (U+0069): X=333.0,Y=698.0 (should be at cap-height 700?)
 
-* n (U+006E): X=281.5,Y=499.0 (should be at x-height 497?)
+* m (U+006D): X=639.0,Y=497.5 (should be at x-height 497?)
 
 * s (U+0073): X=57.0,Y=2.0 (should be at baseline 0?)
 
@@ -10449,11 +10455,19 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * a (U+0061): X=515.0,Y=-1.0 (should be at baseline 0?)
 
+* b (U+0062): X=211.5,Y=2.0 (should be at baseline 0?)
+
 * b (U+0062): X=84.0,Y=-1.0 (should be at baseline 0?)
+
+* d (U+0064): X=313.5,Y=-2.0 (should be at baseline 0?)
 
 * e (U+0065): X=394.5,Y=-0.5 (should be at baseline 0?)
 
 * f (U+0066): X=314.0,Y=798.0 (should be at ascender 800?)
+
+* g (U+0067): X=480.0,Y=1.0 (should be at baseline 0?)
+
+* g (U+0067): X=380.0,Y=479.0 (should be at x-height 480?)
 
 * u (U+0075): X=68.0,Y=479.0 (should be at x-height 480?)
 
@@ -10531,27 +10545,19 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * T (U+0054): X=582.0,Y=699.0 (should be at cap-height 700?)
 
-* a (U+0061): X=493.0,Y=482.0 (should be at x-height 481?)
+* a (U+0061): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-* a (U+0061): X=520.0,Y=482.0 (should be at x-height 481?)
+* b (U+0062): X=213.5,Y=2.0 (should be at baseline 0?)
 
-* a (U+0061): X=518.0,Y=-1.0 (should be at baseline 0?)
+* b (U+0062): X=81.0,Y=-1.0 (should be at baseline 0?)
 
-* a (U+0061): X=382.0,Y=-1.0 (should be at baseline 0?)
-
-* b (U+0062): X=217.5,Y=-0.5 (should be at baseline 0?)
-
-* b (U+0062): X=82.0,Y=-1.0 (should be at baseline 0?)
+* d (U+0064): X=320.0,Y=-2.0 (should be at baseline 0?)
 
 * e (U+0065): X=391.0,Y=479.0 (should be at x-height 481?)
 
 * f (U+0066): X=315.0,Y=798.0 (should be at ascender 800?)
 
-* g (U+0067): X=380.0,Y=-0.5 (should be at baseline 0?)
-
-* g (U+0067): X=490.0,Y=482.0 (should be at x-height 481?)
-
-* g (U+0067): X=517.0,Y=482.0 (should be at x-height 481?)
+* g (U+0067): X=380.5,Y=480.0 (should be at x-height 481?)
 
 * u (U+0075): X=67.0,Y=480.0 (should be at x-height 481?)
 
@@ -10565,33 +10571,19 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * v (U+0076): X=355.5,Y=1.5 (should be at baseline 0?)
 
-* ordfeminine (U+00AA): X=518.0,Y=-1.0 (should be at baseline 0?)
+* ordfeminine (U+00AA): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-* ordfeminine (U+00AA): X=382.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA5 (U+1EA5): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EA5 (U+1EA5): X=518.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA7 (U+1EA7): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EA5 (U+1EA5): X=382.0,Y=-1.0 (should be at baseline 0?)
+* uni1EAB (U+1EAB): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EA7 (U+1EA7): X=518.0,Y=-1.0 (should be at baseline 0?)
+* uni1EAF (U+1EAF): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EA7 (U+1EA7): X=382.0,Y=-1.0 (should be at baseline 0?)
+* uni1EB1 (U+1EB1): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EAB (U+1EAB): X=518.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1EAB (U+1EAB): X=382.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1EAF (U+1EAF): X=518.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1EAF (U+1EAF): X=382.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1EB1 (U+1EB1): X=518.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1EB1 (U+1EB1): X=382.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1EB5 (U+1EB5): X=518.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1EB5 (U+1EB5): X=382.0,Y=-1.0 (should be at baseline 0?)
+* uni1EB5 (U+1EB5): X=520.0,Y=-1.0 (should be at baseline 0?)
 
 * trademark (U+2122): X=40.0,Y=699.0 (should be at cap-height 700?)
 
@@ -10637,17 +10629,25 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * T (U+0054): X=591.0,Y=699.0 (should be at cap-height 700?)
 
-* a (U+0061): X=526.0,Y=-1.0 (should be at baseline 0?)
+* a (U+0061): X=376.5,Y=486.5 (should be at x-height 485?)
 
-* b (U+0062): X=77.0,Y=-1.0 (should be at baseline 0?)
+* a (U+0061): X=532.0,Y=-1.0 (should be at baseline 0?)
 
-* d (U+0064): X=129.5,Y=483.0 (should be at x-height 485?)
+* a (U+0061): X=377.0,Y=-2.0 (should be at baseline 0?)
 
-* d (U+0064): X=341.5,Y=483.5 (should be at x-height 485?)
+* b (U+0062): X=219.0,Y=2.0 (should be at baseline 0?)
+
+* b (U+0062): X=75.0,Y=-1.0 (should be at baseline 0?)
+
+* b (U+0062): X=223.5,Y=484.5 (should be at x-height 485?)
+
+* d (U+0064): X=335.0,Y=-1.0 (should be at baseline 0?)
 
 * f (U+0066): X=317.0,Y=798.0 (should be at ascender 800?)
 
-* g (U+0067): X=377.5,Y=-2.0 (should be at baseline 0?)
+* g (U+0067): X=381.5,Y=483.5 (should be at x-height 485?)
+
+* h (U+0068): X=114.0,Y=486.5 (should be at x-height 485?)
 
 * u (U+0075): X=64.0,Y=484.0 (should be at x-height 485?)
 
@@ -10657,19 +10657,33 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * u (U+0075): X=512.0,Y=484.0 (should be at x-height 485?)
 
-* ordfeminine (U+00AA): X=526.0,Y=-1.0 (should be at baseline 0?)
+* ordfeminine (U+00AA): X=532.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EA5 (U+1EA5): X=526.0,Y=-1.0 (should be at baseline 0?)
+* ordfeminine (U+00AA): X=377.0,Y=-2.0 (should be at baseline 0?)
 
-* uni1EA7 (U+1EA7): X=526.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA5 (U+1EA5): X=532.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EAB (U+1EAB): X=526.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA5 (U+1EA5): X=377.0,Y=-2.0 (should be at baseline 0?)
 
-* uni1EAF (U+1EAF): X=526.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA7 (U+1EA7): X=532.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EB1 (U+1EB1): X=526.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA7 (U+1EA7): X=377.0,Y=-2.0 (should be at baseline 0?)
 
-* uni1EB5 (U+1EB5): X=526.0,Y=-1.0 (should be at baseline 0?)
+* uni1EAB (U+1EAB): X=532.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1EAB (U+1EAB): X=377.0,Y=-2.0 (should be at baseline 0?)
+
+* uni1EAF (U+1EAF): X=532.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1EAF (U+1EAF): X=377.0,Y=-2.0 (should be at baseline 0?)
+
+* uni1EB1 (U+1EB1): X=532.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1EB1 (U+1EB1): X=377.0,Y=-2.0 (should be at baseline 0?)
+
+* uni1EB5 (U+1EB5): X=532.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1EB5 (U+1EB5): X=377.0,Y=-2.0 (should be at baseline 0?)
 
 * trademark (U+2122): X=40.0,Y=699.0 (should be at cap-height 700?)
 
@@ -10717,21 +10731,27 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * T (U+0054): X=611.0,Y=699.0 (should be at cap-height 700?)
 
-* a (U+0061): X=486.0,Y=494.0 (should be at x-height 493?)
+* a (U+0061): X=383.0,Y=491.0 (should be at x-height 493?)
 
-* a (U+0061): X=546.0,Y=494.0 (should be at x-height 493?)
+* b (U+0062): X=232.0,Y=491.5 (should be at x-height 493?)
+
+* d (U+0064): X=368.0,Y=494.0 (should be at x-height 493?)
 
 * f (U+0066): X=321.0,Y=799.0 (should be at ascender 800?)
 
-* g (U+0067): X=468.0,Y=-2.0 (should be at baseline 0?)
+* g (U+0067): X=384.0,Y=492.0 (should be at x-height 493?)
 
-* g (U+0067): X=392.5,Y=1.0 (should be at baseline 0?)
+* h (U+0068): X=249.5,Y=492.5 (should be at x-height 493?)
 
-* g (U+0067): X=487.0,Y=494.0 (should be at x-height 493?)
-
-* g (U+0067): X=547.0,Y=494.0 (should be at x-height 493?)
+* h (U+0068): X=444.0,Y=492.0 (should be at x-height 493?)
 
 * l (U+006C): X=275.5,Y=494.5 (should be at x-height 493?)
+
+* m (U+006D): X=238.5,Y=491.0 (should be at x-height 493?)
+
+* m (U+006D): X=626.5,Y=495.0 (should be at x-height 493?)
+
+* r (U+0072): X=247.5,Y=491.5 (should be at x-height 493?)
 
 * t (U+0074): X=404.5,Y=-1.0 (should be at baseline 0?)
 
@@ -10789,19 +10809,21 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * T (U+0054): X=601.0,Y=699.0 (should be at cap-height 700?)
 
-* a (U+0061): X=488.0,Y=490.0 (should be at x-height 489?)
+* a (U+0061): X=379.5,Y=488.5 (should be at x-height 489?)
 
-* a (U+0061): X=536.0,Y=490.0 (should be at x-height 489?)
+* a (U+0061): X=546.0,Y=-1.0 (should be at baseline 0?)
 
-* a (U+0061): X=535.0,Y=-1.0 (should be at baseline 0?)
+* a (U+0061): X=379.5,Y=-1.0 (should be at baseline 0?)
 
-* b (U+0062): X=72.0,Y=-1.0 (should be at baseline 0?)
+* b (U+0062): X=67.0,Y=-1.0 (should be at baseline 0?)
+
+* b (U+0062): X=227.5,Y=487.5 (should be at x-height 489?)
 
 * f (U+0066): X=319.0,Y=798.0 (should be at ascender 800?)
 
-* g (U+0067): X=488.0,Y=490.0 (should be at x-height 489?)
+* g (U+0067): X=382.5,Y=487.5 (should be at x-height 489?)
 
-* g (U+0067): X=536.0,Y=490.0 (should be at x-height 489?)
+* m (U+006D): X=235.5,Y=491.0 (should be at x-height 489?)
 
 * t (U+0074): X=391.5,Y=-2.0 (should be at baseline 0?)
 
@@ -10813,19 +10835,33 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * u (U+0075): X=518.0,Y=488.0 (should be at x-height 489?)
 
-* ordfeminine (U+00AA): X=535.0,Y=-1.0 (should be at baseline 0?)
+* ordfeminine (U+00AA): X=546.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EA5 (U+1EA5): X=535.0,Y=-1.0 (should be at baseline 0?)
+* ordfeminine (U+00AA): X=379.5,Y=-1.0 (should be at baseline 0?)
 
-* uni1EA7 (U+1EA7): X=535.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA5 (U+1EA5): X=546.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EAB (U+1EAB): X=535.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA5 (U+1EA5): X=379.5,Y=-1.0 (should be at baseline 0?)
 
-* uni1EAF (U+1EAF): X=535.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA7 (U+1EA7): X=546.0,Y=-1.0 (should be at baseline 0?)
 
-* uni1EB1 (U+1EB1): X=535.0,Y=-1.0 (should be at baseline 0?)
+* uni1EA7 (U+1EA7): X=379.5,Y=-1.0 (should be at baseline 0?)
 
-* uni1EB5 (U+1EB5): X=535.0,Y=-1.0 (should be at baseline 0?)
+* uni1EAB (U+1EAB): X=546.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1EAB (U+1EAB): X=379.5,Y=-1.0 (should be at baseline 0?)
+
+* uni1EAF (U+1EAF): X=546.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1EAF (U+1EAF): X=379.5,Y=-1.0 (should be at baseline 0?)
+
+* uni1EB1 (U+1EB1): X=546.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1EB1 (U+1EB1): X=379.5,Y=-1.0 (should be at baseline 0?)
+
+* uni1EB5 (U+1EB5): X=546.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1EB5 (U+1EB5): X=379.5,Y=-1.0 (should be at baseline 0?)
 
 * ellipsis (U+2026): X=96.5,Y=-1.5 (should be at baseline 0?)
 
@@ -10887,45 +10923,27 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * T (U+0054): X=629.0,Y=699.0 (should be at cap-height 700?)
 
-* a (U+0061): X=388.0,Y=498.5 (should be at x-height 500?)
-
-* a (U+0061): X=481.0,Y=502.0 (should be at x-height 500?)
-
-* a (U+0061): X=561.0,Y=502.0 (should be at x-height 500?)
-
-* a (U+0061): X=402.0,Y=1.5 (should be at baseline 0?)
-
 * f (U+0066): X=104.0,Y=501.0 (should be at x-height 500?)
 
 * f (U+0066): X=325.0,Y=799.0 (should be at ascender 800?)
 
-* g (U+0067): X=394.5,Y=499.5 (should be at x-height 500?)
+* g (U+0067): X=388.0,Y=0.5 (should be at baseline 0?)
 
-* g (U+0067): X=485.0,Y=502.0 (should be at x-height 500?)
+* g (U+0067): X=386.5,Y=499.0 (should be at x-height 500?)
 
-* g (U+0067): X=565.0,Y=502.0 (should be at x-height 500?)
+* g (U+0067): X=390.5,Y=-198.5 (should be at descender -200?)
 
-* g (U+0067): X=383.0,Y=-198.0 (should be at descender -200?)
+* h (U+0068): X=452.0,Y=501.0 (should be at x-height 500?)
 
-* n (U+006E): X=458.0,Y=501.0 (should be at x-height 500?)
+* m (U+006D): X=650.0,Y=500.5 (should be at x-height 500?)
+
+* n (U+006E): X=452.0,Y=501.0 (should be at x-height 500?)
+
+* r (U+0072): X=268.0,Y=502.0 (should be at x-height 500?)
 
 * s (U+0073): X=364.0,Y=1.5 (should be at baseline 0?)
 
 * t (U+0074): X=425.5,Y=0.5 (should be at baseline 0?)
-
-* ordfeminine (U+00AA): X=402.0,Y=1.5 (should be at baseline 0?)
-
-* uni1EA5 (U+1EA5): X=402.0,Y=1.5 (should be at baseline 0?)
-
-* uni1EA7 (U+1EA7): X=402.0,Y=1.5 (should be at baseline 0?)
-
-* uni1EAB (U+1EAB): X=402.0,Y=1.5 (should be at baseline 0?)
-
-* uni1EAF (U+1EAF): X=402.0,Y=1.5 (should be at baseline 0?)
-
-* uni1EB1 (U+1EB1): X=402.0,Y=1.5 (should be at baseline 0?)
-
-* uni1EB5 (U+1EB5): X=402.0,Y=1.5 (should be at baseline 0?)
 
 * trademark (U+2122): X=40.0,Y=699.0 (should be at cap-height 700?)
 
@@ -10952,7 +10970,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * M (U+004D) contains a short segment B&lt;&lt;178.5,383.0&gt;-&lt;165.0,380.0&gt;-&lt;158.0,370.0&gt;&gt;
 
-* n (U+006E) contains a short segment B&lt;&lt;145.0,416.5&gt;-&lt;148.0,411.0&gt;-&lt;155.0,411.0&gt;&gt;
+* n (U+006E) contains a short segment B&lt;&lt;138.0,415.0&gt;-&lt;141.0,410.0&gt;-&lt;147.0,410.0&gt;&gt;
 
 * trademark (U+2122) contains a short segment B&lt;&lt;1042.0,349.0&gt;-&lt;1048.0,331.0&gt;-&lt;1056.0,326.5&gt;&gt;
 
@@ -11278,6 +11296,8 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * M (U+004D) contains a short segment B&lt;&lt;169.0,442.5&gt;-&lt;156.0,439.0&gt;-&lt;149.0,427.0&gt;&gt;
 
+* n (U+006E) contains a short segment B&lt;&lt;133.5,414.5&gt;-&lt;136.0,409.0&gt;-&lt;142.0,409.0&gt;&gt;
+
 * uni1EBE (U+1EBE) contains a short segment B&lt;&lt;155.0,381.0&gt;-&lt;163.0,374.0&gt;-&lt;175.0,370.5&gt;&gt;
 
 * uni1EC0 (U+1EC0) contains a short segment B&lt;&lt;155.0,381.0&gt;-&lt;163.0,374.0&gt;-&lt;175.0,370.5&gt;&gt;
@@ -11386,7 +11406,19 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * M (U+004D) contains a short segment B&lt;&lt;187.5,326.5&gt;-&lt;174.0,324.0&gt;-&lt;166.0,316.0&gt;&gt;
 
-* n (U+006E) contains a short segment B&lt;&lt;150.5,417.5&gt;-&lt;154.0,412.0&gt;-&lt;162.0,412.0&gt;&gt;
+* b (U+0062) contains a short segment B&lt;&lt;132.5,420.5&gt;-&lt;135.0,410.0&gt;-&lt;141.0,410.0&gt;&gt;
+
+* d (U+0064) contains a short segment B&lt;&lt;505.0,410.0&gt;-&lt;511.0,410.0&gt;-&lt;513.5,420.5&gt;&gt;
+
+* h (U+0068) contains a short segment B&lt;&lt;142.5,417.5&gt;-&lt;145.0,410.0&gt;-&lt;152.0,410.0&gt;&gt;
+
+* m (U+006D) contains a short segment B&lt;&lt;134.5,428.5&gt;-&lt;136.0,410.0&gt;-&lt;143.0,410.0&gt;&gt;
+
+* m (U+006D) contains a short segment B&lt;&lt;517.5,417.0&gt;-&lt;523.0,409.0&gt;-&lt;531.0,409.0&gt;&gt;
+
+* m (U+006D) contains a short segment B&lt;&lt;531.0,409.0&gt;-&lt;540.0,409.0&gt;-&lt;544.5,420.0&gt;&gt;
+
+* n (U+006E) contains a short segment B&lt;&lt;142.0,415.0&gt;-&lt;145.0,410.0&gt;-&lt;152.0,410.0&gt;&gt;
 
 * s (U+0073) contains a short segment B&lt;&lt;364.0,162.0&gt;-&lt;364.0,168.0&gt;-&lt;356.0,171.5&gt;&gt;
 
@@ -11407,19 +11439,19 @@ The font may be embedded but must only be installed temporarily on other systems
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
 
 <details><summary>⚠️ Ojuju-ExtraLight.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* a (U+0061): B&lt;&lt;462.5,412.0&gt;-&lt;487.0,375.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 10.175510843043194
+<pre><code>* a (U+0061): B&lt;&lt;473.0,395.5&gt;-&lt;489.0,366.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 9.462322208025613
 
-* b (U+0062): L&lt;&lt;105.0,700.0&gt;--&lt;105.0,336.0&gt;&gt;/B&lt;&lt;105.0,336.0&gt;-&lt;112.0,375.0&gt;-&lt;136.5,412.0&gt;&gt; = 10.175510843043194
+* b (U+0062): L&lt;&lt;105.0,700.0&gt;--&lt;105.0,336.0&gt;&gt;/B&lt;&lt;105.0,336.0&gt;-&lt;110.0,362.0&gt;-&lt;123.0,388.5&gt;&gt; = 10.885527054658743
 
-* g (U+0067): B&lt;&lt;458.5,412.0&gt;-&lt;483.0,375.0&gt;-&lt;490.0,336.0&gt;&gt;/L&lt;&lt;490.0,336.0&gt;--&lt;490.0,480.0&gt;&gt; = 10.175510843043194
+* g (U+0067): B&lt;&lt;443.0,432.0&gt;-&lt;480.0,390.0&gt;-&lt;490.0,336.0&gt;&gt;/L&lt;&lt;490.0,336.0&gt;--&lt;490.0,480.0&gt;&gt; = 10.491477012331599
 
-* h (U+0068): B&lt;&lt;105.0,363.5&gt;-&lt;105.0,327.0&gt;-&lt;105.0,313.0&gt;&gt;/B&lt;&lt;105.0,313.0&gt;-&lt;110.0,360.0&gt;-&lt;134.5,401.5&gt;&gt; = 6.0724564072076905
+* h (U+0068): B&lt;&lt;105.0,363.5&gt;-&lt;105.0,327.0&gt;-&lt;105.0,313.0&gt;&gt;/B&lt;&lt;105.0,313.0&gt;-&lt;108.0,340.0&gt;-&lt;117.5,366.5&gt;&gt; = 6.340191745909908
 
-* m (U+006D): B&lt;&lt;105.5,387.5&gt;-&lt;105.0,347.0&gt;-&lt;105.0,313.0&gt;&gt;/B&lt;&lt;105.0,313.0&gt;-&lt;108.0,348.0&gt;-&lt;117.5,381.5&gt;&gt; = 4.899092453787774
+* m (U+006D): B&lt;&lt;105.5,387.5&gt;-&lt;105.0,347.0&gt;-&lt;105.0,313.0&gt;&gt;/B&lt;&lt;105.0,313.0&gt;-&lt;110.0,357.0&gt;-&lt;123.0,397.5&gt;&gt; = 6.483073692897206
 
-* m (U+006D): B&lt;&lt;417.5,453.0&gt;-&lt;460.0,412.0&gt;-&lt;466.0,323.0&gt;&gt;/B&lt;&lt;466.0,323.0&gt;-&lt;473.0,368.0&gt;-&lt;495.5,409.0&gt;&gt; = 12.698615545781497
+* m (U+006D): B&lt;&lt;425.0,444.0&gt;-&lt;460.0,401.0&gt;-&lt;466.0,323.0&gt;&gt;/B&lt;&lt;466.0,323.0&gt;-&lt;471.0,355.0&gt;-&lt;483.5,386.5&gt;&gt; = 13.279364505515746
 
-* ordfeminine (U+00AA): B&lt;&lt;462.5,412.0&gt;-&lt;487.0,375.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 10.175510843043194
+* ordfeminine (U+00AA): B&lt;&lt;473.0,395.5&gt;-&lt;489.0,366.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 9.462322208025613
 
 * p (U+0070): B&lt;&lt;107.5,79.5&gt;-&lt;86.0,118.0&gt;-&lt;77.0,161.0&gt;&gt;/B&lt;&lt;77.0,161.0&gt;-&lt;77.0,70.0&gt;-&lt;77.5,-20.0&gt;&gt; = 11.821488340607226
 
@@ -11429,35 +11461,35 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * q (U+0071): B&lt;&lt;436.0,-20.0&gt;-&lt;436.0,70.0&gt;-&lt;436.0,161.0&gt;&gt;/B&lt;&lt;436.0,161.0&gt;-&lt;427.0,118.0&gt;-&lt;405.5,79.5&gt;&gt; = 11.821488340607226
 
-* r (U+0072): B&lt;&lt;105.5,387.5&gt;-&lt;105.0,347.0&gt;-&lt;105.0,313.0&gt;&gt;/B&lt;&lt;105.0,313.0&gt;-&lt;110.0,360.0&gt;-&lt;134.5,401.5&gt;&gt; = 6.0724564072076905
+* r (U+0072): B&lt;&lt;105.5,387.5&gt;-&lt;105.0,347.0&gt;-&lt;105.0,313.0&gt;&gt;/B&lt;&lt;105.0,313.0&gt;-&lt;107.0,339.0&gt;-&lt;116.0,364.5&gt;&gt; = 4.398705354995508
 
-* uni1EA5 (U+1EA5): B&lt;&lt;462.5,412.0&gt;-&lt;487.0,375.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 10.175510843043194
+* uni1EA5 (U+1EA5): B&lt;&lt;473.0,395.5&gt;-&lt;489.0,366.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 9.462322208025613
 
-* uni1EA7 (U+1EA7): B&lt;&lt;462.5,412.0&gt;-&lt;487.0,375.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 10.175510843043194
+* uni1EA7 (U+1EA7): B&lt;&lt;473.0,395.5&gt;-&lt;489.0,366.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 9.462322208025613
 
-* uni1EAB (U+1EAB): B&lt;&lt;462.5,412.0&gt;-&lt;487.0,375.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 10.175510843043194
+* uni1EAB (U+1EAB): B&lt;&lt;473.0,395.5&gt;-&lt;489.0,366.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 9.462322208025613
 
-* uni1EAF (U+1EAF): B&lt;&lt;462.5,412.0&gt;-&lt;487.0,375.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 10.175510843043194
+* uni1EAF (U+1EAF): B&lt;&lt;473.0,395.5&gt;-&lt;489.0,366.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 9.462322208025613
 
-* uni1EB1 (U+1EB1): B&lt;&lt;462.5,412.0&gt;-&lt;487.0,375.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 10.175510843043194
+* uni1EB1 (U+1EB1): B&lt;&lt;473.0,395.5&gt;-&lt;489.0,366.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 9.462322208025613
 
-* uni1EB5 (U+1EB5): B&lt;&lt;462.5,412.0&gt;-&lt;487.0,375.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 10.175510843043194 [code: found-jaggy-segments]
+* uni1EB5 (U+1EB5): B&lt;&lt;473.0,395.5&gt;-&lt;489.0,366.0&gt;-&lt;494.0,336.0&gt;&gt;/L&lt;&lt;494.0,336.0&gt;--&lt;494.0,480.0&gt;&gt; = 9.462322208025613 [code: found-jaggy-segments]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ Ojuju-Light.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* a (U+0061): B&lt;&lt;461.5,415.0&gt;-&lt;486.0,379.0&gt;-&lt;493.0,340.0&gt;&gt;/B&lt;&lt;493.0,340.0&gt;-&lt;493.0,371.0&gt;-&lt;493.0,389.0&gt;&gt; = 10.175510843043194
+<pre><code>* a (U+0061): B&lt;&lt;473.0,397.0&gt;-&lt;488.0,369.0&gt;-&lt;494.0,341.0&gt;&gt;/B&lt;&lt;494.0,341.0&gt;-&lt;494.0,371.0&gt;-&lt;494.5,388.5&gt;&gt; = 12.094757077012089
 
-* b (U+0062): B&lt;&lt;107.0,395.5&gt;-&lt;107.0,360.0&gt;-&lt;107.0,341.0&gt;&gt;/B&lt;&lt;107.0,341.0&gt;-&lt;115.0,380.0&gt;-&lt;139.5,416.0&gt;&gt; = 11.592175410291041
+* b (U+0062): B&lt;&lt;107.0,392.5&gt;-&lt;107.0,359.0&gt;-&lt;107.0,341.0&gt;&gt;/B&lt;&lt;107.0,341.0&gt;-&lt;113.0,366.0&gt;-&lt;125.5,391.0&gt;&gt; = 13.495733280795811
 
-* g (U+0067): B&lt;&lt;458.5,415.0&gt;-&lt;483.0,379.0&gt;-&lt;490.0,340.0&gt;&gt;/B&lt;&lt;490.0,340.0&gt;-&lt;490.0,375.0&gt;-&lt;490.0,411.0&gt;&gt; = 10.175510843043194
+* g (U+0067): B&lt;&lt;473.5,389.0&gt;-&lt;485.0,365.0&gt;-&lt;490.0,341.0&gt;&gt;/B&lt;&lt;490.0,341.0&gt;-&lt;491.0,375.0&gt;-&lt;491.0,410.0&gt;&gt; = 13.452973249916925
 
-* h (U+0068): B&lt;&lt;107.0,369.5&gt;-&lt;107.0,333.0&gt;-&lt;107.0,319.0&gt;&gt;/B&lt;&lt;107.0,319.0&gt;-&lt;112.0,365.0&gt;-&lt;136.5,405.5&gt;&gt; = 6.203447901691829
+* h (U+0068): B&lt;&lt;108.0,366.5&gt;-&lt;108.0,332.0&gt;-&lt;108.0,320.0&gt;&gt;/B&lt;&lt;108.0,320.0&gt;-&lt;112.0,345.0&gt;-&lt;121.0,370.5&gt;&gt; = 9.090276920822312
 
-* m (U+006D): B&lt;&lt;107.5,393.0&gt;-&lt;107.0,354.0&gt;-&lt;107.0,319.0&gt;&gt;/B&lt;&lt;107.0,319.0&gt;-&lt;111.0,353.0&gt;-&lt;121.0,386.0&gt;&gt; = 6.709836807756896
+* m (U+006D): B&lt;&lt;107.5,391.5&gt;-&lt;107.0,351.0&gt;-&lt;108.0,320.0&gt;&gt;/B&lt;&lt;108.0,320.0&gt;-&lt;113.0,360.0&gt;-&lt;126.0,399.0&gt;&gt; = 8.972626614896358
 
-* m (U+006D): B&lt;&lt;420.5,455.0&gt;-&lt;463.0,415.0&gt;-&lt;470.0,328.0&gt;&gt;/B&lt;&lt;470.0,328.0&gt;-&lt;477.0,372.0&gt;-&lt;500.0,412.5&gt;&gt; = 13.639578469618403
+* m (U+006D): B&lt;&lt;456.5,395.0&gt;-&lt;467.0,366.0&gt;-&lt;471.0,329.0&gt;&gt;/B&lt;&lt;471.0,329.0&gt;-&lt;475.0,359.0&gt;-&lt;487.5,389.0&gt;&gt; = 13.764818463621042
 
-* ordfeminine (U+00AA): B&lt;&lt;461.5,415.0&gt;-&lt;486.0,379.0&gt;-&lt;493.0,340.0&gt;&gt;/B&lt;&lt;493.0,340.0&gt;-&lt;493.0,371.0&gt;-&lt;493.0,389.0&gt;&gt; = 10.175510843043194
+* ordfeminine (U+00AA): B&lt;&lt;473.0,397.0&gt;-&lt;488.0,369.0&gt;-&lt;494.0,341.0&gt;&gt;/B&lt;&lt;494.0,341.0&gt;-&lt;494.0,371.0&gt;-&lt;494.5,388.5&gt;&gt; = 12.094757077012089
 
 * p (U+0070): B&lt;&lt;112.0,75.5&gt;-&lt;90.0,113.0&gt;-&lt;81.0,155.0&gt;&gt;/B&lt;&lt;81.0,155.0&gt;-&lt;81.0,66.0&gt;-&lt;81.0,-22.5&gt;&gt; = 12.094757077012089
 
@@ -11467,101 +11499,23 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * q (U+0071): B&lt;&lt;438.5,-22.5&gt;-&lt;439.0,66.0&gt;-&lt;439.0,155.0&gt;&gt;/B&lt;&lt;439.0,155.0&gt;-&lt;429.0,113.0&gt;-&lt;407.5,75.5&gt;&gt; = 13.392497753751098
 
-* r (U+0072): B&lt;&lt;107.5,393.0&gt;-&lt;107.0,354.0&gt;-&lt;107.0,319.0&gt;&gt;/B&lt;&lt;107.0,319.0&gt;-&lt;112.0,365.0&gt;-&lt;136.5,405.5&gt;&gt; = 6.203447901691829
+* r (U+0072): B&lt;&lt;108.0,390.5&gt;-&lt;107.0,351.0&gt;-&lt;108.0,320.0&gt;&gt;/B&lt;&lt;108.0,320.0&gt;-&lt;111.0,344.0&gt;-&lt;120.5,369.5&gt;&gt; = 8.972626614896358
 
-* uni1EA5 (U+1EA5): B&lt;&lt;461.5,415.0&gt;-&lt;486.0,379.0&gt;-&lt;493.0,340.0&gt;&gt;/B&lt;&lt;493.0,340.0&gt;-&lt;493.0,371.0&gt;-&lt;493.0,389.0&gt;&gt; = 10.175510843043194
+* uni1EA5 (U+1EA5): B&lt;&lt;473.0,397.0&gt;-&lt;488.0,369.0&gt;-&lt;494.0,341.0&gt;&gt;/B&lt;&lt;494.0,341.0&gt;-&lt;494.0,371.0&gt;-&lt;494.5,388.5&gt;&gt; = 12.094757077012089
 
-* uni1EA7 (U+1EA7): B&lt;&lt;461.5,415.0&gt;-&lt;486.0,379.0&gt;-&lt;493.0,340.0&gt;&gt;/B&lt;&lt;493.0,340.0&gt;-&lt;493.0,371.0&gt;-&lt;493.0,389.0&gt;&gt; = 10.175510843043194
+* uni1EA7 (U+1EA7): B&lt;&lt;473.0,397.0&gt;-&lt;488.0,369.0&gt;-&lt;494.0,341.0&gt;&gt;/B&lt;&lt;494.0,341.0&gt;-&lt;494.0,371.0&gt;-&lt;494.5,388.5&gt;&gt; = 12.094757077012089
 
-* uni1EAB (U+1EAB): B&lt;&lt;461.5,415.0&gt;-&lt;486.0,379.0&gt;-&lt;493.0,340.0&gt;&gt;/B&lt;&lt;493.0,340.0&gt;-&lt;493.0,371.0&gt;-&lt;493.0,389.0&gt;&gt; = 10.175510843043194
+* uni1EAB (U+1EAB): B&lt;&lt;473.0,397.0&gt;-&lt;488.0,369.0&gt;-&lt;494.0,341.0&gt;&gt;/B&lt;&lt;494.0,341.0&gt;-&lt;494.0,371.0&gt;-&lt;494.5,388.5&gt;&gt; = 12.094757077012089
 
-* uni1EAF (U+1EAF): B&lt;&lt;461.5,415.0&gt;-&lt;486.0,379.0&gt;-&lt;493.0,340.0&gt;&gt;/B&lt;&lt;493.0,340.0&gt;-&lt;493.0,371.0&gt;-&lt;493.0,389.0&gt;&gt; = 10.175510843043194
+* uni1EAF (U+1EAF): B&lt;&lt;473.0,397.0&gt;-&lt;488.0,369.0&gt;-&lt;494.0,341.0&gt;&gt;/B&lt;&lt;494.0,341.0&gt;-&lt;494.0,371.0&gt;-&lt;494.5,388.5&gt;&gt; = 12.094757077012089
 
-* uni1EB1 (U+1EB1): B&lt;&lt;461.5,415.0&gt;-&lt;486.0,379.0&gt;-&lt;493.0,340.0&gt;&gt;/B&lt;&lt;493.0,340.0&gt;-&lt;493.0,371.0&gt;-&lt;493.0,389.0&gt;&gt; = 10.175510843043194
+* uni1EB1 (U+1EB1): B&lt;&lt;473.0,397.0&gt;-&lt;488.0,369.0&gt;-&lt;494.0,341.0&gt;&gt;/B&lt;&lt;494.0,341.0&gt;-&lt;494.0,371.0&gt;-&lt;494.5,388.5&gt;&gt; = 12.094757077012089
 
-* uni1EB5 (U+1EB5): B&lt;&lt;461.5,415.0&gt;-&lt;486.0,379.0&gt;-&lt;493.0,340.0&gt;&gt;/B&lt;&lt;493.0,340.0&gt;-&lt;493.0,371.0&gt;-&lt;493.0,389.0&gt;&gt; = 10.175510843043194 [code: found-jaggy-segments]
+* uni1EB5 (U+1EB5): B&lt;&lt;473.0,397.0&gt;-&lt;488.0,369.0&gt;-&lt;494.0,341.0&gt;&gt;/B&lt;&lt;494.0,341.0&gt;-&lt;494.0,371.0&gt;-&lt;494.5,388.5&gt;&gt; = 12.094757077012089 [code: found-jaggy-segments]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ Ojuju-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* a (U+0061): B&lt;&lt;460.0,422.5&gt;-&lt;484.0,388.0&gt;-&lt;492.0,351.0&gt;&gt;/B&lt;&lt;492.0,351.0&gt;-&lt;492.0,378.0&gt;-&lt;491.5,396.5&gt;&gt; = 12.200468727380786
-
-* b (U+0062): B&lt;&lt;112.0,425.0&gt;-&lt;112.0,379.0&gt;-&lt;112.0,352.0&gt;&gt;/B&lt;&lt;112.0,352.0&gt;-&lt;121.0,392.0&gt;-&lt;146.5,426.0&gt;&gt; = 12.680383491819796
-
-* g (U+0067): B&lt;&lt;457.5,423.0&gt;-&lt;481.0,389.0&gt;-&lt;490.0,351.0&gt;&gt;/B&lt;&lt;490.0,351.0&gt;-&lt;490.0,382.0&gt;-&lt;489.5,418.5&gt;&gt; = 13.324531261890783
-
-* h (U+0068): B&lt;&lt;113.0,385.0&gt;-&lt;113.0,349.0&gt;-&lt;113.0,334.0&gt;&gt;/B&lt;&lt;113.0,334.0&gt;-&lt;119.0,378.0&gt;-&lt;143.5,416.0&gt;&gt; = 7.765166018425308
-
-* m (U+006D): B&lt;&lt;112.5,406.5&gt;-&lt;112.0,371.0&gt;-&lt;112.0,334.0&gt;&gt;/B&lt;&lt;112.0,334.0&gt;-&lt;118.0,378.0&gt;-&lt;136.5,417.0&gt;&gt; = 7.765166018425308
-
-* ordfeminine (U+00AA): B&lt;&lt;460.0,422.5&gt;-&lt;484.0,388.0&gt;-&lt;492.0,351.0&gt;&gt;/B&lt;&lt;492.0,351.0&gt;-&lt;492.0,378.0&gt;-&lt;491.5,396.5&gt;&gt; = 12.200468727380786
-
-* q (U+0071): B&lt;&lt;412.5,438.5&gt;-&lt;436.0,406.0&gt;-&lt;445.0,367.0&gt;&gt;/B&lt;&lt;445.0,367.0&gt;-&lt;445.0,397.0&gt;-&lt;445.0,433.5&gt;&gt; = 12.994616791916512
-
-* r (U+0072): B&lt;&lt;112.5,406.5&gt;-&lt;112.0,371.0&gt;-&lt;112.0,334.0&gt;&gt;/B&lt;&lt;112.0,334.0&gt;-&lt;118.0,378.0&gt;-&lt;142.5,416.0&gt;&gt; = 7.765166018425308
-
-* uni1EA5 (U+1EA5): B&lt;&lt;460.0,422.5&gt;-&lt;484.0,388.0&gt;-&lt;492.0,351.0&gt;&gt;/B&lt;&lt;492.0,351.0&gt;-&lt;492.0,378.0&gt;-&lt;491.5,396.5&gt;&gt; = 12.200468727380786
-
-* uni1EA7 (U+1EA7): B&lt;&lt;460.0,422.5&gt;-&lt;484.0,388.0&gt;-&lt;492.0,351.0&gt;&gt;/B&lt;&lt;492.0,351.0&gt;-&lt;492.0,378.0&gt;-&lt;491.5,396.5&gt;&gt; = 12.200468727380786
-
-* uni1EAB (U+1EAB): B&lt;&lt;460.0,422.5&gt;-&lt;484.0,388.0&gt;-&lt;492.0,351.0&gt;&gt;/B&lt;&lt;492.0,351.0&gt;-&lt;492.0,378.0&gt;-&lt;491.5,396.5&gt;&gt; = 12.200468727380786
-
-* uni1EAF (U+1EAF): B&lt;&lt;460.0,422.5&gt;-&lt;484.0,388.0&gt;-&lt;492.0,351.0&gt;&gt;/B&lt;&lt;492.0,351.0&gt;-&lt;492.0,378.0&gt;-&lt;491.5,396.5&gt;&gt; = 12.200468727380786
-
-* uni1EB1 (U+1EB1): B&lt;&lt;460.0,422.5&gt;-&lt;484.0,388.0&gt;-&lt;492.0,351.0&gt;&gt;/B&lt;&lt;492.0,351.0&gt;-&lt;492.0,378.0&gt;-&lt;491.5,396.5&gt;&gt; = 12.200468727380786
-
-* uni1EB5 (U+1EB5): B&lt;&lt;460.0,422.5&gt;-&lt;484.0,388.0&gt;-&lt;492.0,351.0&gt;&gt;/B&lt;&lt;492.0,351.0&gt;-&lt;492.0,378.0&gt;-&lt;491.5,396.5&gt;&gt; = 12.200468727380786 [code: found-jaggy-segments]
-</code></pre>
-</span></li></ul></div></details>
-<details><summary>⚠️ Ojuju-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* h (U+0068): B&lt;&lt;126.0,421.5&gt;-&lt;126.0,386.0&gt;-&lt;126.0,369.0&gt;&gt;/B&lt;&lt;126.0,369.0&gt;-&lt;141.0,430.0&gt;-&lt;187.5,468.5&gt;&gt; = 13.81502534126161
-
-* m (U+006D): B&lt;&lt;124.5,439.0&gt;-&lt;123.0,412.0&gt;-&lt;123.0,369.0&gt;&gt;/B&lt;&lt;123.0,369.0&gt;-&lt;133.0,410.0&gt;-&lt;155.0,441.5&gt;&gt; = 13.706961004079783
-
-* r (U+0072): B&lt;&lt;124.5,439.0&gt;-&lt;123.0,412.0&gt;-&lt;123.0,369.0&gt;&gt;/B&lt;&lt;123.0,369.0&gt;-&lt;138.0,430.0&gt;-&lt;184.5,468.5&gt;&gt; = 13.81502534126161 [code: found-jaggy-segments]
-</code></pre>
-</span></li></ul></div></details>
-<details><summary>⚠️ Ojuju-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* a (U+0061): B&lt;&lt;458.5,430.5&gt;-&lt;482.0,398.0&gt;-&lt;490.0,364.0&gt;&gt;/B&lt;&lt;490.0,364.0&gt;-&lt;490.0,396.0&gt;-&lt;489.0,424.0&gt;&gt; = 13.240519915187184
-
-* g (U+0067): B&lt;&lt;457.0,432.0&gt;-&lt;480.0,400.0&gt;-&lt;489.0,364.0&gt;&gt;/B&lt;&lt;489.0,364.0&gt;-&lt;489.0,389.0&gt;-&lt;488.5,426.0&gt;&gt; = 14.036243467926484
-
-* h (U+0068): B&lt;&lt;119.0,402.5&gt;-&lt;119.0,367.0&gt;-&lt;119.0,351.0&gt;&gt;/B&lt;&lt;119.0,351.0&gt;-&lt;131.0,415.0&gt;-&lt;179.5,459.0&gt;&gt; = 10.61965527615514
-
-* m (U+006D): B&lt;&lt;118.0,422.0&gt;-&lt;117.0,391.0&gt;-&lt;117.0,351.0&gt;&gt;/B&lt;&lt;117.0,351.0&gt;-&lt;125.0,393.0&gt;-&lt;145.5,428.5&gt;&gt; = 10.784297867562596
-
-* ordfeminine (U+00AA): B&lt;&lt;458.5,430.5&gt;-&lt;482.0,398.0&gt;-&lt;490.0,364.0&gt;&gt;/B&lt;&lt;490.0,364.0&gt;-&lt;490.0,396.0&gt;-&lt;489.0,424.0&gt;&gt; = 13.240519915187184
-
-* r (U+0072): B&lt;&lt;118.0,422.0&gt;-&lt;117.0,391.0&gt;-&lt;117.0,351.0&gt;&gt;/B&lt;&lt;117.0,351.0&gt;-&lt;130.0,415.0&gt;-&lt;178.0,459.0&gt;&gt; = 11.481991354748077
-
-* uni1EA5 (U+1EA5): B&lt;&lt;458.5,430.5&gt;-&lt;482.0,398.0&gt;-&lt;490.0,364.0&gt;&gt;/B&lt;&lt;490.0,364.0&gt;-&lt;490.0,396.0&gt;-&lt;489.0,424.0&gt;&gt; = 13.240519915187184
-
-* uni1EA7 (U+1EA7): B&lt;&lt;458.5,430.5&gt;-&lt;482.0,398.0&gt;-&lt;490.0,364.0&gt;&gt;/B&lt;&lt;490.0,364.0&gt;-&lt;490.0,396.0&gt;-&lt;489.0,424.0&gt;&gt; = 13.240519915187184
-
-* uni1EAB (U+1EAB): B&lt;&lt;458.5,430.5&gt;-&lt;482.0,398.0&gt;-&lt;490.0,364.0&gt;&gt;/B&lt;&lt;490.0,364.0&gt;-&lt;490.0,396.0&gt;-&lt;489.0,424.0&gt;&gt; = 13.240519915187184
-
-* uni1EAF (U+1EAF): B&lt;&lt;458.5,430.5&gt;-&lt;482.0,398.0&gt;-&lt;490.0,364.0&gt;&gt;/B&lt;&lt;490.0,364.0&gt;-&lt;490.0,396.0&gt;-&lt;489.0,424.0&gt;&gt; = 13.240519915187184
-
-* uni1EB1 (U+1EB1): B&lt;&lt;458.5,430.5&gt;-&lt;482.0,398.0&gt;-&lt;490.0,364.0&gt;&gt;/B&lt;&lt;490.0,364.0&gt;-&lt;490.0,396.0&gt;-&lt;489.0,424.0&gt;&gt; = 13.240519915187184
-
-* uni1EB5 (U+1EB5): B&lt;&lt;458.5,430.5&gt;-&lt;482.0,398.0&gt;-&lt;490.0,364.0&gt;&gt;/B&lt;&lt;490.0,364.0&gt;-&lt;490.0,396.0&gt;-&lt;489.0,424.0&gt;&gt; = 13.240519915187184 [code: found-jaggy-segments]
-</code></pre>
-</span></li></ul></div></details>
-<details><summary>⚠️ Ojuju-ExtraBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* a (U+0061): B&lt;&lt;454.0,454.5&gt;-&lt;477.0,428.0&gt;-&lt;484.0,400.0&gt;&gt;/B&lt;&lt;484.0,400.0&gt;-&lt;484.0,408.0&gt;-&lt;483.5,429.0&gt;&gt; = 14.036243467926484
-
-* ordfeminine (U+00AA): B&lt;&lt;454.0,454.5&gt;-&lt;477.0,428.0&gt;-&lt;484.0,400.0&gt;&gt;/B&lt;&lt;484.0,400.0&gt;-&lt;484.0,408.0&gt;-&lt;483.5,429.0&gt;&gt; = 14.036243467926484
-
-* uni1EA5 (U+1EA5): B&lt;&lt;454.0,454.5&gt;-&lt;477.0,428.0&gt;-&lt;484.0,400.0&gt;&gt;/B&lt;&lt;484.0,400.0&gt;-&lt;484.0,408.0&gt;-&lt;483.5,429.0&gt;&gt; = 14.036243467926484
-
-* uni1EA7 (U+1EA7): B&lt;&lt;454.0,454.5&gt;-&lt;477.0,428.0&gt;-&lt;484.0,400.0&gt;&gt;/B&lt;&lt;484.0,400.0&gt;-&lt;484.0,408.0&gt;-&lt;483.5,429.0&gt;&gt; = 14.036243467926484
-
-* uni1EAB (U+1EAB): B&lt;&lt;454.0,454.5&gt;-&lt;477.0,428.0&gt;-&lt;484.0,400.0&gt;&gt;/B&lt;&lt;484.0,400.0&gt;-&lt;484.0,408.0&gt;-&lt;483.5,429.0&gt;&gt; = 14.036243467926484
-
-* uni1EAF (U+1EAF): B&lt;&lt;454.0,454.5&gt;-&lt;477.0,428.0&gt;-&lt;484.0,400.0&gt;&gt;/B&lt;&lt;484.0,400.0&gt;-&lt;484.0,408.0&gt;-&lt;483.5,429.0&gt;&gt; = 14.036243467926484
-
-* uni1EB1 (U+1EB1): B&lt;&lt;454.0,454.5&gt;-&lt;477.0,428.0&gt;-&lt;484.0,400.0&gt;&gt;/B&lt;&lt;484.0,400.0&gt;-&lt;484.0,408.0&gt;-&lt;483.5,429.0&gt;&gt; = 14.036243467926484
-
-* uni1EB5 (U+1EB5): B&lt;&lt;454.0,454.5&gt;-&lt;477.0,428.0&gt;-&lt;484.0,400.0&gt;&gt;/B&lt;&lt;484.0,400.0&gt;-&lt;484.0,408.0&gt;-&lt;483.5,429.0&gt;&gt; = 14.036243467926484 [code: found-jaggy-segments]
+<pre><code>* q (U+0071): B&lt;&lt;412.5,438.5&gt;-&lt;436.0,406.0&gt;-&lt;445.0,367.0&gt;&gt;/B&lt;&lt;445.0,367.0&gt;-&lt;445.0,397.0&gt;-&lt;445.0,433.5&gt;&gt; = 12.994616791916512 [code: found-jaggy-segments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>

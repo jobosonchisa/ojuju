@@ -1459,6 +1459,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- R.alt
 
+	- a.001
+
 	- e.ss01
 
 	- i.loclTRK
@@ -1538,12 +1540,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): X=620.0,Y=699.0 (should be at cap-height 700?)
 
-	* a (U+0061): X=483.0,Y=498.0 (should be at x-height 497?)
-
-	* a (U+0061): X=553.0,Y=498.0 (should be at x-height 497?)
-
-	* d (U+0064): X=396.0,Y=498.0 (should be at x-height 497?)
-
 	* f (U+0066): X=33.0,Y=499.0 (should be at x-height 497?)
 
 	* f (U+0066): X=323.0,Y=799.0 (should be at ascender 800?)
@@ -1552,19 +1548,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* f (U+0066): X=516.0,Y=499.0 (should be at x-height 497?)
 
-	* g (U+0067): X=389.5,Y=-1.5 (should be at baseline 0?)
+	* g (U+0067): X=389.5,Y=1.5 (should be at baseline 0?)
 
-	* g (U+0067): X=394.0,Y=495.0 (should be at x-height 497?)
+	* g (U+0067): X=385.0,Y=495.5 (should be at x-height 497?)
 
-	* g (U+0067): X=486.0,Y=498.0 (should be at x-height 497?)
-
-	* g (U+0067): X=556.0,Y=498.0 (should be at x-height 497?)
+	* h (U+0068): X=259.5,Y=498.0 (should be at x-height 497?)
 
 	* i (U+0069): X=116.0,Y=698.0 (should be at cap-height 700?)
 
 	* i (U+0069): X=333.0,Y=698.0 (should be at cap-height 700?)
 
-	* n (U+006E): X=281.5,Y=499.0 (should be at x-height 497?)
+	* m (U+006D): X=639.0,Y=497.5 (should be at x-height 497?)
 
 	* s (U+0073): X=57.0,Y=2.0 (should be at baseline 0?)
 
@@ -1622,7 +1616,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D) contains a short segment B<<178.5,383.0>-<165.0,380.0>-<158.0,370.0>>
 
-	* n (U+006E) contains a short segment B<<145.0,416.5>-<148.0,411.0>-<155.0,411.0>>
+	* n (U+006E) contains a short segment B<<138.0,415.0>-<141.0,410.0>-<147.0,410.0>>
 
 	* trademark (U+2122) contains a short segment B<<1042.0,349.0>-<1048.0,331.0>-<1056.0,326.5>>
 
@@ -3122,6 +3116,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- R.alt
 
+	- a.001
+
 	- e.ss01
 
 	- i.loclTRK
@@ -3191,11 +3187,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* a (U+0061): X=515.0,Y=-1.0 (should be at baseline 0?)
 
+	* b (U+0062): X=211.5,Y=2.0 (should be at baseline 0?)
+
 	* b (U+0062): X=84.0,Y=-1.0 (should be at baseline 0?)
+
+	* d (U+0064): X=313.5,Y=-2.0 (should be at baseline 0?)
 
 	* e (U+0065): X=394.5,Y=-0.5 (should be at baseline 0?)
 
 	* f (U+0066): X=314.0,Y=798.0 (should be at ascender 800?)
+
+	* g (U+0067): X=480.0,Y=1.0 (should be at baseline 0?)
+
+	* g (U+0067): X=380.0,Y=479.0 (should be at x-height 480?)
 
 	* u (U+0075): X=68.0,Y=479.0 (should be at x-height 480?)
 
@@ -3361,19 +3365,19 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): B<<462.5,412.0>-<487.0,375.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 10.175510843043194
+	* a (U+0061): B<<473.0,395.5>-<489.0,366.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 9.462322208025613
 
-	* b (U+0062): L<<105.0,700.0>--<105.0,336.0>>/B<<105.0,336.0>-<112.0,375.0>-<136.5,412.0>> = 10.175510843043194
+	* b (U+0062): L<<105.0,700.0>--<105.0,336.0>>/B<<105.0,336.0>-<110.0,362.0>-<123.0,388.5>> = 10.885527054658743
 
-	* g (U+0067): B<<458.5,412.0>-<483.0,375.0>-<490.0,336.0>>/L<<490.0,336.0>--<490.0,480.0>> = 10.175510843043194
+	* g (U+0067): B<<443.0,432.0>-<480.0,390.0>-<490.0,336.0>>/L<<490.0,336.0>--<490.0,480.0>> = 10.491477012331599
 
-	* h (U+0068): B<<105.0,363.5>-<105.0,327.0>-<105.0,313.0>>/B<<105.0,313.0>-<110.0,360.0>-<134.5,401.5>> = 6.0724564072076905
+	* h (U+0068): B<<105.0,363.5>-<105.0,327.0>-<105.0,313.0>>/B<<105.0,313.0>-<108.0,340.0>-<117.5,366.5>> = 6.340191745909908
 
-	* m (U+006D): B<<105.5,387.5>-<105.0,347.0>-<105.0,313.0>>/B<<105.0,313.0>-<108.0,348.0>-<117.5,381.5>> = 4.899092453787774
+	* m (U+006D): B<<105.5,387.5>-<105.0,347.0>-<105.0,313.0>>/B<<105.0,313.0>-<110.0,357.0>-<123.0,397.5>> = 6.483073692897206
 
-	* m (U+006D): B<<417.5,453.0>-<460.0,412.0>-<466.0,323.0>>/B<<466.0,323.0>-<473.0,368.0>-<495.5,409.0>> = 12.698615545781497
+	* m (U+006D): B<<425.0,444.0>-<460.0,401.0>-<466.0,323.0>>/B<<466.0,323.0>-<471.0,355.0>-<483.5,386.5>> = 13.279364505515746
 
-	* ordfeminine (U+00AA): B<<462.5,412.0>-<487.0,375.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 10.175510843043194
+	* ordfeminine (U+00AA): B<<473.0,395.5>-<489.0,366.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 9.462322208025613
 
 	* p (U+0070): B<<107.5,79.5>-<86.0,118.0>-<77.0,161.0>>/B<<77.0,161.0>-<77.0,70.0>-<77.5,-20.0>> = 11.821488340607226
 
@@ -3383,19 +3387,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* q (U+0071): B<<436.0,-20.0>-<436.0,70.0>-<436.0,161.0>>/B<<436.0,161.0>-<427.0,118.0>-<405.5,79.5>> = 11.821488340607226
 
-	* r (U+0072): B<<105.5,387.5>-<105.0,347.0>-<105.0,313.0>>/B<<105.0,313.0>-<110.0,360.0>-<134.5,401.5>> = 6.0724564072076905
+	* r (U+0072): B<<105.5,387.5>-<105.0,347.0>-<105.0,313.0>>/B<<105.0,313.0>-<107.0,339.0>-<116.0,364.5>> = 4.398705354995508
 
-	* uni1EA5 (U+1EA5): B<<462.5,412.0>-<487.0,375.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 10.175510843043194
+	* uni1EA5 (U+1EA5): B<<473.0,395.5>-<489.0,366.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 9.462322208025613
 
-	* uni1EA7 (U+1EA7): B<<462.5,412.0>-<487.0,375.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 10.175510843043194
+	* uni1EA7 (U+1EA7): B<<473.0,395.5>-<489.0,366.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 9.462322208025613
 
-	* uni1EAB (U+1EAB): B<<462.5,412.0>-<487.0,375.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 10.175510843043194
+	* uni1EAB (U+1EAB): B<<473.0,395.5>-<489.0,366.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 9.462322208025613
 
-	* uni1EAF (U+1EAF): B<<462.5,412.0>-<487.0,375.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 10.175510843043194
+	* uni1EAF (U+1EAF): B<<473.0,395.5>-<489.0,366.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 9.462322208025613
 
-	* uni1EB1 (U+1EB1): B<<462.5,412.0>-<487.0,375.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 10.175510843043194
+	* uni1EB1 (U+1EB1): B<<473.0,395.5>-<489.0,366.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 9.462322208025613
 
-	* uni1EB5 (U+1EB5): B<<462.5,412.0>-<487.0,375.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 10.175510843043194 [code: found-jaggy-segments]
+	* uni1EB5 (U+1EB5): B<<473.0,395.5>-<489.0,366.0>-<494.0,336.0>>/L<<494.0,336.0>--<494.0,480.0>> = 9.462322208025613 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -4885,6 +4889,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- R.alt
 
+	- a.001
+
 	- e.ss01
 
 	- i.loclTRK
@@ -4952,27 +4958,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): X=582.0,Y=699.0 (should be at cap-height 700?)
 
-	* a (U+0061): X=493.0,Y=482.0 (should be at x-height 481?)
+	* a (U+0061): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-	* a (U+0061): X=520.0,Y=482.0 (should be at x-height 481?)
+	* b (U+0062): X=213.5,Y=2.0 (should be at baseline 0?)
 
-	* a (U+0061): X=518.0,Y=-1.0 (should be at baseline 0?)
+	* b (U+0062): X=81.0,Y=-1.0 (should be at baseline 0?)
 
-	* a (U+0061): X=382.0,Y=-1.0 (should be at baseline 0?)
-
-	* b (U+0062): X=217.5,Y=-0.5 (should be at baseline 0?)
-
-	* b (U+0062): X=82.0,Y=-1.0 (should be at baseline 0?)
+	* d (U+0064): X=320.0,Y=-2.0 (should be at baseline 0?)
 
 	* e (U+0065): X=391.0,Y=479.0 (should be at x-height 481?)
 
 	* f (U+0066): X=315.0,Y=798.0 (should be at ascender 800?)
 
-	* g (U+0067): X=380.0,Y=-0.5 (should be at baseline 0?)
-
-	* g (U+0067): X=490.0,Y=482.0 (should be at x-height 481?)
-
-	* g (U+0067): X=517.0,Y=482.0 (should be at x-height 481?)
+	* g (U+0067): X=380.5,Y=480.0 (should be at x-height 481?)
 
 	* u (U+0075): X=67.0,Y=480.0 (should be at x-height 481?)
 
@@ -4986,33 +4984,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* v (U+0076): X=355.5,Y=1.5 (should be at baseline 0?)
 
-	* ordfeminine (U+00AA): X=518.0,Y=-1.0 (should be at baseline 0?)
+	* ordfeminine (U+00AA): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-	* ordfeminine (U+00AA): X=382.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA5 (U+1EA5): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EA5 (U+1EA5): X=518.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA7 (U+1EA7): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EA5 (U+1EA5): X=382.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EAB (U+1EAB): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EA7 (U+1EA7): X=518.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EAF (U+1EAF): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EA7 (U+1EA7): X=382.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EB1 (U+1EB1): X=520.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EAB (U+1EAB): X=518.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EAB (U+1EAB): X=382.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EAF (U+1EAF): X=518.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EAF (U+1EAF): X=382.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EB1 (U+1EB1): X=518.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EB1 (U+1EB1): X=382.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EB5 (U+1EB5): X=518.0,Y=-1.0 (should be at baseline 0?)
-
-	* uni1EB5 (U+1EB5): X=382.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EB5 (U+1EB5): X=520.0,Y=-1.0 (should be at baseline 0?)
 
 	* trademark (U+2122): X=40.0,Y=699.0 (should be at cap-height 700?)
 
@@ -5140,19 +5124,19 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): B<<461.5,415.0>-<486.0,379.0>-<493.0,340.0>>/B<<493.0,340.0>-<493.0,371.0>-<493.0,389.0>> = 10.175510843043194
+	* a (U+0061): B<<473.0,397.0>-<488.0,369.0>-<494.0,341.0>>/B<<494.0,341.0>-<494.0,371.0>-<494.5,388.5>> = 12.094757077012089
 
-	* b (U+0062): B<<107.0,395.5>-<107.0,360.0>-<107.0,341.0>>/B<<107.0,341.0>-<115.0,380.0>-<139.5,416.0>> = 11.592175410291041
+	* b (U+0062): B<<107.0,392.5>-<107.0,359.0>-<107.0,341.0>>/B<<107.0,341.0>-<113.0,366.0>-<125.5,391.0>> = 13.495733280795811
 
-	* g (U+0067): B<<458.5,415.0>-<483.0,379.0>-<490.0,340.0>>/B<<490.0,340.0>-<490.0,375.0>-<490.0,411.0>> = 10.175510843043194
+	* g (U+0067): B<<473.5,389.0>-<485.0,365.0>-<490.0,341.0>>/B<<490.0,341.0>-<491.0,375.0>-<491.0,410.0>> = 13.452973249916925
 
-	* h (U+0068): B<<107.0,369.5>-<107.0,333.0>-<107.0,319.0>>/B<<107.0,319.0>-<112.0,365.0>-<136.5,405.5>> = 6.203447901691829
+	* h (U+0068): B<<108.0,366.5>-<108.0,332.0>-<108.0,320.0>>/B<<108.0,320.0>-<112.0,345.0>-<121.0,370.5>> = 9.090276920822312
 
-	* m (U+006D): B<<107.5,393.0>-<107.0,354.0>-<107.0,319.0>>/B<<107.0,319.0>-<111.0,353.0>-<121.0,386.0>> = 6.709836807756896
+	* m (U+006D): B<<107.5,391.5>-<107.0,351.0>-<108.0,320.0>>/B<<108.0,320.0>-<113.0,360.0>-<126.0,399.0>> = 8.972626614896358
 
-	* m (U+006D): B<<420.5,455.0>-<463.0,415.0>-<470.0,328.0>>/B<<470.0,328.0>-<477.0,372.0>-<500.0,412.5>> = 13.639578469618403
+	* m (U+006D): B<<456.5,395.0>-<467.0,366.0>-<471.0,329.0>>/B<<471.0,329.0>-<475.0,359.0>-<487.5,389.0>> = 13.764818463621042
 
-	* ordfeminine (U+00AA): B<<461.5,415.0>-<486.0,379.0>-<493.0,340.0>>/B<<493.0,340.0>-<493.0,371.0>-<493.0,389.0>> = 10.175510843043194
+	* ordfeminine (U+00AA): B<<473.0,397.0>-<488.0,369.0>-<494.0,341.0>>/B<<494.0,341.0>-<494.0,371.0>-<494.5,388.5>> = 12.094757077012089
 
 	* p (U+0070): B<<112.0,75.5>-<90.0,113.0>-<81.0,155.0>>/B<<81.0,155.0>-<81.0,66.0>-<81.0,-22.5>> = 12.094757077012089
 
@@ -5162,19 +5146,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* q (U+0071): B<<438.5,-22.5>-<439.0,66.0>-<439.0,155.0>>/B<<439.0,155.0>-<429.0,113.0>-<407.5,75.5>> = 13.392497753751098
 
-	* r (U+0072): B<<107.5,393.0>-<107.0,354.0>-<107.0,319.0>>/B<<107.0,319.0>-<112.0,365.0>-<136.5,405.5>> = 6.203447901691829
+	* r (U+0072): B<<108.0,390.5>-<107.0,351.0>-<108.0,320.0>>/B<<108.0,320.0>-<111.0,344.0>-<120.5,369.5>> = 8.972626614896358
 
-	* uni1EA5 (U+1EA5): B<<461.5,415.0>-<486.0,379.0>-<493.0,340.0>>/B<<493.0,340.0>-<493.0,371.0>-<493.0,389.0>> = 10.175510843043194
+	* uni1EA5 (U+1EA5): B<<473.0,397.0>-<488.0,369.0>-<494.0,341.0>>/B<<494.0,341.0>-<494.0,371.0>-<494.5,388.5>> = 12.094757077012089
 
-	* uni1EA7 (U+1EA7): B<<461.5,415.0>-<486.0,379.0>-<493.0,340.0>>/B<<493.0,340.0>-<493.0,371.0>-<493.0,389.0>> = 10.175510843043194
+	* uni1EA7 (U+1EA7): B<<473.0,397.0>-<488.0,369.0>-<494.0,341.0>>/B<<494.0,341.0>-<494.0,371.0>-<494.5,388.5>> = 12.094757077012089
 
-	* uni1EAB (U+1EAB): B<<461.5,415.0>-<486.0,379.0>-<493.0,340.0>>/B<<493.0,340.0>-<493.0,371.0>-<493.0,389.0>> = 10.175510843043194
+	* uni1EAB (U+1EAB): B<<473.0,397.0>-<488.0,369.0>-<494.0,341.0>>/B<<494.0,341.0>-<494.0,371.0>-<494.5,388.5>> = 12.094757077012089
 
-	* uni1EAF (U+1EAF): B<<461.5,415.0>-<486.0,379.0>-<493.0,340.0>>/B<<493.0,340.0>-<493.0,371.0>-<493.0,389.0>> = 10.175510843043194
+	* uni1EAF (U+1EAF): B<<473.0,397.0>-<488.0,369.0>-<494.0,341.0>>/B<<494.0,341.0>-<494.0,371.0>-<494.5,388.5>> = 12.094757077012089
 
-	* uni1EB1 (U+1EB1): B<<461.5,415.0>-<486.0,379.0>-<493.0,340.0>>/B<<493.0,340.0>-<493.0,371.0>-<493.0,389.0>> = 10.175510843043194
+	* uni1EB1 (U+1EB1): B<<473.0,397.0>-<488.0,369.0>-<494.0,341.0>>/B<<494.0,341.0>-<494.0,371.0>-<494.5,388.5>> = 12.094757077012089
 
-	* uni1EB5 (U+1EB5): B<<461.5,415.0>-<486.0,379.0>-<493.0,340.0>>/B<<493.0,340.0>-<493.0,371.0>-<493.0,389.0>> = 10.175510843043194 [code: found-jaggy-segments]
+	* uni1EB5 (U+1EB5): B<<473.0,397.0>-<488.0,369.0>-<494.0,341.0>>/B<<494.0,341.0>-<494.0,371.0>-<494.5,388.5>> = 12.094757077012089 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -6664,6 +6648,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- R.alt
 
+	- a.001
+
 	- e.ss01
 
 	- i.loclTRK
@@ -6731,17 +6717,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): X=591.0,Y=699.0 (should be at cap-height 700?)
 
-	* a (U+0061): X=526.0,Y=-1.0 (should be at baseline 0?)
+	* a (U+0061): X=376.5,Y=486.5 (should be at x-height 485?)
 
-	* b (U+0062): X=77.0,Y=-1.0 (should be at baseline 0?)
+	* a (U+0061): X=532.0,Y=-1.0 (should be at baseline 0?)
 
-	* d (U+0064): X=129.5,Y=483.0 (should be at x-height 485?)
+	* a (U+0061): X=377.0,Y=-2.0 (should be at baseline 0?)
 
-	* d (U+0064): X=341.5,Y=483.5 (should be at x-height 485?)
+	* b (U+0062): X=219.0,Y=2.0 (should be at baseline 0?)
+
+	* b (U+0062): X=75.0,Y=-1.0 (should be at baseline 0?)
+
+	* b (U+0062): X=223.5,Y=484.5 (should be at x-height 485?)
+
+	* d (U+0064): X=335.0,Y=-1.0 (should be at baseline 0?)
 
 	* f (U+0066): X=317.0,Y=798.0 (should be at ascender 800?)
 
-	* g (U+0067): X=377.5,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=381.5,Y=483.5 (should be at x-height 485?)
+
+	* h (U+0068): X=114.0,Y=486.5 (should be at x-height 485?)
 
 	* u (U+0075): X=64.0,Y=484.0 (should be at x-height 485?)
 
@@ -6751,19 +6745,33 @@ The following glyphs do not have the recommended number of contours:
 
 	* u (U+0075): X=512.0,Y=484.0 (should be at x-height 485?)
 
-	* ordfeminine (U+00AA): X=526.0,Y=-1.0 (should be at baseline 0?)
+	* ordfeminine (U+00AA): X=532.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EA5 (U+1EA5): X=526.0,Y=-1.0 (should be at baseline 0?)
+	* ordfeminine (U+00AA): X=377.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni1EA7 (U+1EA7): X=526.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA5 (U+1EA5): X=532.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EAB (U+1EAB): X=526.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA5 (U+1EA5): X=377.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni1EAF (U+1EAF): X=526.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA7 (U+1EA7): X=532.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EB1 (U+1EB1): X=526.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA7 (U+1EA7): X=377.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni1EB5 (U+1EB5): X=526.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EAB (U+1EAB): X=532.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EAB (U+1EAB): X=377.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1EAF (U+1EAF): X=532.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EAF (U+1EAF): X=377.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1EB1 (U+1EB1): X=532.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EB1 (U+1EB1): X=377.0,Y=-2.0 (should be at baseline 0?)
+
+	* uni1EB5 (U+1EB5): X=532.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EB5 (U+1EB5): X=377.0,Y=-2.0 (should be at baseline 0?)
 
 	* trademark (U+2122): X=40.0,Y=699.0 (should be at cap-height 700?)
 
@@ -6825,33 +6833,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): B<<460.0,422.5>-<484.0,388.0>-<492.0,351.0>>/B<<492.0,351.0>-<492.0,378.0>-<491.5,396.5>> = 12.200468727380786
-
-	* b (U+0062): B<<112.0,425.0>-<112.0,379.0>-<112.0,352.0>>/B<<112.0,352.0>-<121.0,392.0>-<146.5,426.0>> = 12.680383491819796
-
-	* g (U+0067): B<<457.5,423.0>-<481.0,389.0>-<490.0,351.0>>/B<<490.0,351.0>-<490.0,382.0>-<489.5,418.5>> = 13.324531261890783
-
-	* h (U+0068): B<<113.0,385.0>-<113.0,349.0>-<113.0,334.0>>/B<<113.0,334.0>-<119.0,378.0>-<143.5,416.0>> = 7.765166018425308
-
-	* m (U+006D): B<<112.5,406.5>-<112.0,371.0>-<112.0,334.0>>/B<<112.0,334.0>-<118.0,378.0>-<136.5,417.0>> = 7.765166018425308
-
-	* ordfeminine (U+00AA): B<<460.0,422.5>-<484.0,388.0>-<492.0,351.0>>/B<<492.0,351.0>-<492.0,378.0>-<491.5,396.5>> = 12.200468727380786
-
-	* q (U+0071): B<<412.5,438.5>-<436.0,406.0>-<445.0,367.0>>/B<<445.0,367.0>-<445.0,397.0>-<445.0,433.5>> = 12.994616791916512
-
-	* r (U+0072): B<<112.5,406.5>-<112.0,371.0>-<112.0,334.0>>/B<<112.0,334.0>-<118.0,378.0>-<142.5,416.0>> = 7.765166018425308
-
-	* uni1EA5 (U+1EA5): B<<460.0,422.5>-<484.0,388.0>-<492.0,351.0>>/B<<492.0,351.0>-<492.0,378.0>-<491.5,396.5>> = 12.200468727380786
-
-	* uni1EA7 (U+1EA7): B<<460.0,422.5>-<484.0,388.0>-<492.0,351.0>>/B<<492.0,351.0>-<492.0,378.0>-<491.5,396.5>> = 12.200468727380786
-
-	* uni1EAB (U+1EAB): B<<460.0,422.5>-<484.0,388.0>-<492.0,351.0>>/B<<492.0,351.0>-<492.0,378.0>-<491.5,396.5>> = 12.200468727380786
-
-	* uni1EAF (U+1EAF): B<<460.0,422.5>-<484.0,388.0>-<492.0,351.0>>/B<<492.0,351.0>-<492.0,378.0>-<491.5,396.5>> = 12.200468727380786
-
-	* uni1EB1 (U+1EB1): B<<460.0,422.5>-<484.0,388.0>-<492.0,351.0>>/B<<492.0,351.0>-<492.0,378.0>-<491.5,396.5>> = 12.200468727380786
-
-	* uni1EB5 (U+1EB5): B<<460.0,422.5>-<484.0,388.0>-<492.0,351.0>>/B<<492.0,351.0>-<492.0,378.0>-<491.5,396.5>> = 12.200468727380786 [code: found-jaggy-segments]
+	* q (U+0071): B<<412.5,438.5>-<436.0,406.0>-<445.0,367.0>>/B<<445.0,367.0>-<445.0,397.0>-<445.0,433.5>> = 12.994616791916512 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -6888,7 +6870,7 @@ The following glyphs do not have the recommended number of contours:
 	* t (U+0074): L<<142.0,424.0>--<141.0,235.0>>
 
 	* u (U+0075): L<<65.0,282.0>--<64.0,484.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[24] Ojuju-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Ojuju-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -8344,6 +8326,8 @@ The following glyphs do not have the recommended number of contours:
 	- E.a
 
 	- R.alt
+
+	- a.001
 
 	- e.ss01
 
@@ -8414,21 +8398,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): X=611.0,Y=699.0 (should be at cap-height 700?)
 
-	* a (U+0061): X=486.0,Y=494.0 (should be at x-height 493?)
+	* a (U+0061): X=383.0,Y=491.0 (should be at x-height 493?)
 
-	* a (U+0061): X=546.0,Y=494.0 (should be at x-height 493?)
+	* b (U+0062): X=232.0,Y=491.5 (should be at x-height 493?)
+
+	* d (U+0064): X=368.0,Y=494.0 (should be at x-height 493?)
 
 	* f (U+0066): X=321.0,Y=799.0 (should be at ascender 800?)
 
-	* g (U+0067): X=468.0,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=384.0,Y=492.0 (should be at x-height 493?)
 
-	* g (U+0067): X=392.5,Y=1.0 (should be at baseline 0?)
+	* h (U+0068): X=249.5,Y=492.5 (should be at x-height 493?)
 
-	* g (U+0067): X=487.0,Y=494.0 (should be at x-height 493?)
-
-	* g (U+0067): X=547.0,Y=494.0 (should be at x-height 493?)
+	* h (U+0068): X=444.0,Y=492.0 (should be at x-height 493?)
 
 	* l (U+006C): X=275.5,Y=494.5 (should be at x-height 493?)
+
+	* m (U+006D): X=238.5,Y=491.0 (should be at x-height 493?)
+
+	* m (U+006D): X=626.5,Y=495.0 (should be at x-height 493?)
+
+	* r (U+0072): X=247.5,Y=491.5 (should be at x-height 493?)
 
 	* t (U+0074): X=404.5,Y=-1.0 (should be at baseline 0?)
 
@@ -8462,6 +8452,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D) contains a short segment B<<169.0,442.5>-<156.0,439.0>-<149.0,427.0>>
 
+	* n (U+006E) contains a short segment B<<133.5,414.5>-<136.0,409.0>-<142.0,409.0>>
+
 	* uni1EBE (U+1EBE) contains a short segment B<<155.0,381.0>-<163.0,374.0>-<175.0,370.5>>
 
 	* uni1EC0 (U+1EC0) contains a short segment B<<155.0,381.0>-<163.0,374.0>-<175.0,370.5>>
@@ -8483,16 +8475,6 @@ The following glyphs do not have the recommended number of contours:
 	* trademark (U+2122) contains a short segment B<<934.0,424.0>-<926.0,436.0>-<910.5,441.0>>
 
 	* trademark (U+2122) contains a short segment B<<820.0,442.5>-<807.0,439.0>-<800.0,427.0>> [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* h (U+0068): B<<126.0,421.5>-<126.0,386.0>-<126.0,369.0>>/B<<126.0,369.0>-<141.0,430.0>-<187.5,468.5>> = 13.81502534126161
-
-	* m (U+006D): B<<124.5,439.0>-<123.0,412.0>-<123.0,369.0>>/B<<123.0,369.0>-<133.0,410.0>-<155.0,441.5>> = 13.706961004079783
-
-	* r (U+0072): B<<124.5,439.0>-<123.0,412.0>-<123.0,369.0>>/B<<123.0,369.0>-<138.0,430.0>-<184.5,468.5>> = 13.81502534126161 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -8521,7 +8503,7 @@ The following glyphs do not have the recommended number of contours:
 	* u (U+0075): L<<525.0,493.0>--<523.0,241.0>>
 
 	* u (U+0075): L<<58.0,245.0>--<56.0,493.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[24] Ojuju-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Ojuju-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -9977,6 +9959,8 @@ The following glyphs do not have the recommended number of contours:
 	- E.a
 
 	- R.alt
+
+	- a.001
 
 	- e.ss01
 
@@ -10055,19 +10039,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): X=601.0,Y=699.0 (should be at cap-height 700?)
 
-	* a (U+0061): X=488.0,Y=490.0 (should be at x-height 489?)
+	* a (U+0061): X=379.5,Y=488.5 (should be at x-height 489?)
 
-	* a (U+0061): X=536.0,Y=490.0 (should be at x-height 489?)
+	* a (U+0061): X=546.0,Y=-1.0 (should be at baseline 0?)
 
-	* a (U+0061): X=535.0,Y=-1.0 (should be at baseline 0?)
+	* a (U+0061): X=379.5,Y=-1.0 (should be at baseline 0?)
 
-	* b (U+0062): X=72.0,Y=-1.0 (should be at baseline 0?)
+	* b (U+0062): X=67.0,Y=-1.0 (should be at baseline 0?)
+
+	* b (U+0062): X=227.5,Y=487.5 (should be at x-height 489?)
 
 	* f (U+0066): X=319.0,Y=798.0 (should be at ascender 800?)
 
-	* g (U+0067): X=488.0,Y=490.0 (should be at x-height 489?)
+	* g (U+0067): X=382.5,Y=487.5 (should be at x-height 489?)
 
-	* g (U+0067): X=536.0,Y=490.0 (should be at x-height 489?)
+	* m (U+006D): X=235.5,Y=491.0 (should be at x-height 489?)
 
 	* t (U+0074): X=391.5,Y=-2.0 (should be at baseline 0?)
 
@@ -10079,19 +10065,33 @@ The following glyphs do not have the recommended number of contours:
 
 	* u (U+0075): X=518.0,Y=488.0 (should be at x-height 489?)
 
-	* ordfeminine (U+00AA): X=535.0,Y=-1.0 (should be at baseline 0?)
+	* ordfeminine (U+00AA): X=546.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EA5 (U+1EA5): X=535.0,Y=-1.0 (should be at baseline 0?)
+	* ordfeminine (U+00AA): X=379.5,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EA7 (U+1EA7): X=535.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA5 (U+1EA5): X=546.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EAB (U+1EAB): X=535.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA5 (U+1EA5): X=379.5,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EAF (U+1EAF): X=535.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA7 (U+1EA7): X=546.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EB1 (U+1EB1): X=535.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EA7 (U+1EA7): X=379.5,Y=-1.0 (should be at baseline 0?)
 
-	* uni1EB5 (U+1EB5): X=535.0,Y=-1.0 (should be at baseline 0?)
+	* uni1EAB (U+1EAB): X=546.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EAB (U+1EAB): X=379.5,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EAF (U+1EAF): X=546.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EAF (U+1EAF): X=379.5,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EB1 (U+1EB1): X=546.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EB1 (U+1EB1): X=379.5,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EB5 (U+1EB5): X=546.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni1EB5 (U+1EB5): X=379.5,Y=-1.0 (should be at baseline 0?)
 
 	* ellipsis (U+2026): X=96.5,Y=-1.5 (should be at baseline 0?)
 
@@ -10172,34 +10172,6 @@ The following glyphs do not have the recommended number of contours:
 	* trademark (U+2122) contains a short segment B<<913.0,492.0>-<907.0,505.0>-<892.0,511.0>>
 
 	* trademark (U+2122) contains a short segment B<<799.0,513.5>-<786.0,510.0>-<780.0,494.0>> [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* a (U+0061): B<<458.5,430.5>-<482.0,398.0>-<490.0,364.0>>/B<<490.0,364.0>-<490.0,396.0>-<489.0,424.0>> = 13.240519915187184
-
-	* g (U+0067): B<<457.0,432.0>-<480.0,400.0>-<489.0,364.0>>/B<<489.0,364.0>-<489.0,389.0>-<488.5,426.0>> = 14.036243467926484
-
-	* h (U+0068): B<<119.0,402.5>-<119.0,367.0>-<119.0,351.0>>/B<<119.0,351.0>-<131.0,415.0>-<179.5,459.0>> = 10.61965527615514
-
-	* m (U+006D): B<<118.0,422.0>-<117.0,391.0>-<117.0,351.0>>/B<<117.0,351.0>-<125.0,393.0>-<145.5,428.5>> = 10.784297867562596
-
-	* ordfeminine (U+00AA): B<<458.5,430.5>-<482.0,398.0>-<490.0,364.0>>/B<<490.0,364.0>-<490.0,396.0>-<489.0,424.0>> = 13.240519915187184
-
-	* r (U+0072): B<<118.0,422.0>-<117.0,391.0>-<117.0,351.0>>/B<<117.0,351.0>-<130.0,415.0>-<178.0,459.0>> = 11.481991354748077
-
-	* uni1EA5 (U+1EA5): B<<458.5,430.5>-<482.0,398.0>-<490.0,364.0>>/B<<490.0,364.0>-<490.0,396.0>-<489.0,424.0>> = 13.240519915187184
-
-	* uni1EA7 (U+1EA7): B<<458.5,430.5>-<482.0,398.0>-<490.0,364.0>>/B<<490.0,364.0>-<490.0,396.0>-<489.0,424.0>> = 13.240519915187184
-
-	* uni1EAB (U+1EAB): B<<458.5,430.5>-<482.0,398.0>-<490.0,364.0>>/B<<490.0,364.0>-<490.0,396.0>-<489.0,424.0>> = 13.240519915187184
-
-	* uni1EAF (U+1EAF): B<<458.5,430.5>-<482.0,398.0>-<490.0,364.0>>/B<<490.0,364.0>-<490.0,396.0>-<489.0,424.0>> = 13.240519915187184
-
-	* uni1EB1 (U+1EB1): B<<458.5,430.5>-<482.0,398.0>-<490.0,364.0>>/B<<490.0,364.0>-<490.0,396.0>-<489.0,424.0>> = 13.240519915187184
-
-	* uni1EB5 (U+1EB5): B<<458.5,430.5>-<482.0,398.0>-<490.0,364.0>>/B<<490.0,364.0>-<490.0,396.0>-<489.0,424.0>> = 13.240519915187184 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -10232,7 +10204,7 @@ The following glyphs do not have the recommended number of contours:
 	* t (U+0074): L<<106.0,248.0>--<105.0,388.0>>
 
 	* t (U+0074): L<<152.0,389.0>--<151.0,242.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[24] Ojuju-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] Ojuju-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -11689,6 +11661,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- R.alt
 
+	- a.001
+
 	- e.ss01
 
 	- i.loclTRK
@@ -11760,45 +11734,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* T (U+0054): X=629.0,Y=699.0 (should be at cap-height 700?)
 
-	* a (U+0061): X=388.0,Y=498.5 (should be at x-height 500?)
-
-	* a (U+0061): X=481.0,Y=502.0 (should be at x-height 500?)
-
-	* a (U+0061): X=561.0,Y=502.0 (should be at x-height 500?)
-
-	* a (U+0061): X=402.0,Y=1.5 (should be at baseline 0?)
-
 	* f (U+0066): X=104.0,Y=501.0 (should be at x-height 500?)
 
 	* f (U+0066): X=325.0,Y=799.0 (should be at ascender 800?)
 
-	* g (U+0067): X=394.5,Y=499.5 (should be at x-height 500?)
+	* g (U+0067): X=388.0,Y=0.5 (should be at baseline 0?)
 
-	* g (U+0067): X=485.0,Y=502.0 (should be at x-height 500?)
+	* g (U+0067): X=386.5,Y=499.0 (should be at x-height 500?)
 
-	* g (U+0067): X=565.0,Y=502.0 (should be at x-height 500?)
+	* g (U+0067): X=390.5,Y=-198.5 (should be at descender -200?)
 
-	* g (U+0067): X=383.0,Y=-198.0 (should be at descender -200?)
+	* h (U+0068): X=452.0,Y=501.0 (should be at x-height 500?)
 
-	* n (U+006E): X=458.0,Y=501.0 (should be at x-height 500?)
+	* m (U+006D): X=650.0,Y=500.5 (should be at x-height 500?)
+
+	* n (U+006E): X=452.0,Y=501.0 (should be at x-height 500?)
+
+	* r (U+0072): X=268.0,Y=502.0 (should be at x-height 500?)
 
 	* s (U+0073): X=364.0,Y=1.5 (should be at baseline 0?)
 
 	* t (U+0074): X=425.5,Y=0.5 (should be at baseline 0?)
-
-	* ordfeminine (U+00AA): X=402.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1EA5 (U+1EA5): X=402.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1EA7 (U+1EA7): X=402.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1EAB (U+1EAB): X=402.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1EAF (U+1EAF): X=402.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1EB1 (U+1EB1): X=402.0,Y=1.5 (should be at baseline 0?)
-
-	* uni1EB5 (U+1EB5): X=402.0,Y=1.5 (should be at baseline 0?)
 
 	* trademark (U+2122): X=40.0,Y=699.0 (should be at cap-height 700?)
 
@@ -11830,7 +11786,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D) contains a short segment B<<187.5,326.5>-<174.0,324.0>-<166.0,316.0>>
 
-	* n (U+006E) contains a short segment B<<150.5,417.5>-<154.0,412.0>-<162.0,412.0>>
+	* b (U+0062) contains a short segment B<<132.5,420.5>-<135.0,410.0>-<141.0,410.0>>
+
+	* d (U+0064) contains a short segment B<<505.0,410.0>-<511.0,410.0>-<513.5,420.5>>
+
+	* h (U+0068) contains a short segment B<<142.5,417.5>-<145.0,410.0>-<152.0,410.0>>
+
+	* m (U+006D) contains a short segment B<<134.5,428.5>-<136.0,410.0>-<143.0,410.0>>
+
+	* m (U+006D) contains a short segment B<<517.5,417.0>-<523.0,409.0>-<531.0,409.0>>
+
+	* m (U+006D) contains a short segment B<<531.0,409.0>-<540.0,409.0>-<544.5,420.0>>
+
+	* n (U+006E) contains a short segment B<<142.0,415.0>-<145.0,410.0>-<152.0,410.0>>
 
 	* s (U+0073) contains a short segment B<<364.0,162.0>-<364.0,168.0>-<356.0,171.5>>
 
@@ -11845,26 +11813,6 @@ The following glyphs do not have the recommended number of contours:
 	* trademark (U+2122) contains a short segment B<<1345.0,316.0>-<1338.0,324.0>-<1324.0,326.5>>
 
 	* trademark (U+2122) contains a short segment B<<856.5,326.5>-<843.0,324.0>-<835.0,316.0>> [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* a (U+0061): B<<454.0,454.5>-<477.0,428.0>-<484.0,400.0>>/B<<484.0,400.0>-<484.0,408.0>-<483.5,429.0>> = 14.036243467926484
-
-	* ordfeminine (U+00AA): B<<454.0,454.5>-<477.0,428.0>-<484.0,400.0>>/B<<484.0,400.0>-<484.0,408.0>-<483.5,429.0>> = 14.036243467926484
-
-	* uni1EA5 (U+1EA5): B<<454.0,454.5>-<477.0,428.0>-<484.0,400.0>>/B<<484.0,400.0>-<484.0,408.0>-<483.5,429.0>> = 14.036243467926484
-
-	* uni1EA7 (U+1EA7): B<<454.0,454.5>-<477.0,428.0>-<484.0,400.0>>/B<<484.0,400.0>-<484.0,408.0>-<483.5,429.0>> = 14.036243467926484
-
-	* uni1EAB (U+1EAB): B<<454.0,454.5>-<477.0,428.0>-<484.0,400.0>>/B<<484.0,400.0>-<484.0,408.0>-<483.5,429.0>> = 14.036243467926484
-
-	* uni1EAF (U+1EAF): B<<454.0,454.5>-<477.0,428.0>-<484.0,400.0>>/B<<484.0,400.0>-<484.0,408.0>-<483.5,429.0>> = 14.036243467926484
-
-	* uni1EB1 (U+1EB1): B<<454.0,454.5>-<477.0,428.0>-<484.0,400.0>>/B<<484.0,400.0>-<484.0,408.0>-<483.5,429.0>> = 14.036243467926484
-
-	* uni1EB5 (U+1EB5): B<<454.0,454.5>-<477.0,428.0>-<484.0,400.0>>/B<<484.0,400.0>-<484.0,408.0>-<483.5,429.0>> = 14.036243467926484 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -11895,7 +11843,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 14 | 84 | 69 | 863 | 36 | 575 | 0 |
+| 14 | 84 | 66 | 863 | 36 | 578 | 0 |
 | 1% | 5% | 4% | 53% | 2% | 35% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

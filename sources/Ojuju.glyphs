@@ -169,19 +169,19 @@ customParameters = (
 name = "Axis Mappings";
 value = {
 wght = {
-37 = 200;
-54 = 300;
-96 = 400;
-144 = 500;
-196 = 600;
-240 = 700;
-282 = 800;
+200 = 37;
+300 = 54;
+400 = 96;
+500 = 144;
+600 = 196;
+700 = 240;
+800 = 282;
 };
 };
 },
 {
 name = "Variable Font Origin";
-value = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+value = m01;
 }
 );
 date = "2023-09-24 04:03:02 +0000";
@@ -21886,7 +21886,7 @@ weightClass = 800;
 customParameters = (
 {
 name = "Variable Font Origin";
-value = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+value = m01;
 }
 );
 name = Regular;

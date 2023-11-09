@@ -130,7 +130,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 224, but got 200 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 271, but got 200 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -205,14 +205,6 @@ which does not match the expected format, similar to:
 	- Glyph name: question	Expected: 2
 
 	- Glyph name: at	Expected: 2
-
-	- Glyph name: W	Expected: 1 or 2
-
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: bracketleft	Expected: 1
 
@@ -716,8 +708,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: endash	Expected: 1
@@ -882,8 +872,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Uring	Expected: 3
 
-	- Glyph name: W	Expected: 1 or 2
-
 	- Glyph name: Wacute	Expected: 2
 
 	- Glyph name: Wcircumflex	Expected: 2
@@ -892,10 +880,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Wgrave	Expected: 2
 
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
 	- Glyph name: Yacute	Expected: 2
 
 	- Glyph name: Ycircumflex	Expected: 2
@@ -903,8 +887,6 @@ which does not match the expected format, similar to:
 	- Glyph name: Ydieresis	Expected: 3
 
 	- Glyph name: Ygrave	Expected: 2
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: Zacute	Expected: 2
 
@@ -1294,8 +1276,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: uogonek	Expected: 1
@@ -1388,6 +1368,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
 
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni1EA4	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1EA5	Contours detected: 2	Expected: 4
@@ -1435,6 +1417,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1ED6	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
+
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
@@ -1460,8 +1444,6 @@ The following glyphs do not have the recommended number of contours:
 	- R.alt
 
 	- a.001
-
-	- e.ss01
 
 	- i.loclTRK
 
@@ -1506,15 +1488,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* B (U+0042): X=399.0,Y=699.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=488.5,Y=698.5 (should be at cap-height 700?)
+	* C (U+0043): X=478.5,Y=698.5 (should be at cap-height 700?)
 
-	* C (U+0043): X=442.5,Y=-2.0 (should be at baseline 0?)
+	* C (U+0043): X=433.0,Y=-2.0 (should be at baseline 0?)
 
 	* F (U+0046): X=67.0,Y=701.0 (should be at cap-height 700?)
 
 	* F (U+0046): X=566.0,Y=699.0 (should be at cap-height 700?)
 
-	* G (U+0047): X=472.0,Y=702.0 (should be at cap-height 700?)
+	* G (U+0047): X=462.0,Y=702.0 (should be at cap-height 700?)
 
 	* I (U+0049): X=67.0,Y=699.0 (should be at cap-height 700?)
 
@@ -1524,7 +1506,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=644.0,Y=-1.0 (should be at baseline 0?)
 
-	* L (U+004C): X=67.0,Y=701.0 (should be at cap-height 700?)
+	* L (U+004C): X=59.0,Y=701.0 (should be at cap-height 700?)
 
 	* L (U+004C): X=152.0,Y=701.0 (should be at cap-height 700?)
 
@@ -1539,6 +1521,16 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): X=40.0,Y=699.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=620.0,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=40.0,Y=702.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=189.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=317.0,Y=698.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=444.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=594.0,Y=702.0 (should be at cap-height 700?)
 
 	* f (U+0066): X=338.0,Y=799.0 (should be at ascender 800?)
 
@@ -1612,9 +1604,43 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D) contains a short segment B<<177.5,383.0>-<164.0,380.0>-<157.0,370.0>>
 
+	* W (U+0057) contains a short segment B<<422.0,347.0>-<410.0,347.0>-<401.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<401.5,343.0>-<393.0,339.0>-<388.0,322.0>>
+
+	* W (U+0057) contains a short segment B<<188.0,384.0>-<196.0,377.0>-<209.0,374.0>>
+
+	* W (U+0057) contains a short segment B<<280.5,375.0>-<292.0,379.0>-<302.0,388.0>>
+
+	* W (U+0057) contains a short segment B<<547.0,388.0>-<558.0,379.0>-<569.0,375.0>>
+
+	* W (U+0057) contains a short segment B<<640.5,374.0>-<654.0,377.0>-<661.0,384.0>>
+
+	* W (U+0057) contains a short segment B<<461.0,322.0>-<456.0,339.0>-<447.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<447.5,343.0>-<439.0,347.0>-<427.0,347.0>>
+
+	* X (U+0058) contains a short segment B<<175.0,361.0>-<175.0,370.0>-<172.5,380.0>>
+
+	* X (U+0058) contains a short segment B<<539.0,380.0>-<537.0,370.0>-<537.0,361.0>>
+
+	* X (U+0058) contains a short segment B<<537.0,361.0>-<537.0,352.0>-<539.5,341.5>>
+
+	* X (U+0058) contains a short segment B<<172.5,341.5>-<175.0,352.0>-<175.0,361.0>>
+
+	* Y (U+0059) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* Y (U+0059) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
+
+	* Z (U+005A) contains a short segment B<<262.0,214.0>-<262.0,207.0>-<271.5,204.5>>
+
 	* m (U+006D) contains a short segment B<<510.0,394.0>-<514.0,400.0>-<522.0,411.0>>
 
 	* n (U+006E) contains a short segment B<<138.0,415.0>-<141.0,410.0>-<147.0,410.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
 
 	* trademark (U+2122) contains a short segment B<<1041.0,349.0>-<1047.0,331.0>-<1055.0,326.5>>
 
@@ -1634,7 +1660,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* F (U+0046): L<<67.0,701.0>--<566.0,699.0>>
 
-	* G (U+0047): L<<535.0,680.0>--<534.0,382.0>>
+	* G (U+0047): L<<525.0,680.0>--<524.0,382.0>>
 
 	* P (U+0050): L<<70.0,701.0>--<406.0,699.0>>
 
@@ -1789,7 +1815,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 224, but got 200 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 271, but got 200 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -1864,14 +1890,6 @@ which does not match the expected format, similar to:
 	- Glyph name: question	Expected: 2
 
 	- Glyph name: at	Expected: 2
-
-	- Glyph name: W	Expected: 1 or 2
-
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: bracketleft	Expected: 1
 
@@ -2375,8 +2393,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: endash	Expected: 1
@@ -2541,8 +2557,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Uring	Expected: 3
 
-	- Glyph name: W	Expected: 1 or 2
-
 	- Glyph name: Wacute	Expected: 2
 
 	- Glyph name: Wcircumflex	Expected: 2
@@ -2551,10 +2565,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Wgrave	Expected: 2
 
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
 	- Glyph name: Yacute	Expected: 2
 
 	- Glyph name: Ycircumflex	Expected: 2
@@ -2562,8 +2572,6 @@ which does not match the expected format, similar to:
 	- Glyph name: Ydieresis	Expected: 3
 
 	- Glyph name: Ygrave	Expected: 2
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: Zacute	Expected: 2
 
@@ -2953,8 +2961,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: uogonek	Expected: 1
@@ -3047,6 +3053,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
 
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni1EA4	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1EA5	Contours detected: 2	Expected: 4
@@ -3094,6 +3102,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1ED6	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
+
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
@@ -3119,8 +3129,6 @@ The following glyphs do not have the recommended number of contours:
 	- R.alt
 
 	- a.001
-
-	- e.ss01
 
 	- i.loclTRK
 
@@ -3186,6 +3194,16 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): X=40.0,Y=699.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=579.0,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=40.0,Y=702.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=189.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=317.0,Y=698.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=444.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=594.0,Y=702.0 (should be at cap-height 700?)
 
 	* a (U+0061): X=515.0,Y=-1.0 (should be at baseline 0?)
 
@@ -3285,6 +3303,36 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D) contains a short segment B<<123.0,653.0>-<117.0,647.0>-<114.0,632.0>>
 
+	* W (U+0057) contains a short segment B<<422.0,347.0>-<410.0,347.0>-<401.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<401.5,343.0>-<393.0,339.0>-<388.0,322.0>>
+
+	* W (U+0057) contains a short segment B<<188.0,384.0>-<196.0,377.0>-<209.0,374.0>>
+
+	* W (U+0057) contains a short segment B<<280.5,375.0>-<292.0,379.0>-<302.0,388.0>>
+
+	* W (U+0057) contains a short segment B<<547.0,388.0>-<558.0,379.0>-<569.0,375.0>>
+
+	* W (U+0057) contains a short segment B<<640.5,374.0>-<654.0,377.0>-<661.0,384.0>>
+
+	* W (U+0057) contains a short segment B<<461.0,322.0>-<456.0,339.0>-<447.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<447.5,343.0>-<439.0,347.0>-<427.0,347.0>>
+
+	* X (U+0058) contains a short segment B<<175.0,361.0>-<175.0,370.0>-<172.5,380.0>>
+
+	* X (U+0058) contains a short segment B<<539.0,380.0>-<537.0,370.0>-<537.0,361.0>>
+
+	* X (U+0058) contains a short segment B<<537.0,361.0>-<537.0,352.0>-<539.5,341.5>>
+
+	* X (U+0058) contains a short segment B<<172.5,341.5>-<175.0,352.0>-<175.0,361.0>>
+
+	* Y (U+0059) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* Y (U+0059) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
+
+	* Z (U+005A) contains a short segment B<<262.0,214.0>-<262.0,207.0>-<271.5,204.5>>
+
 	* e (U+0065) contains a short segment B<<98.0,175.0>-<91.0,176.0>-<91.0,167.0>>
 
 	* v (U+0076) contains a short segment B<<174.0,46.0>-<176.0,40.0>-<180.5,37.0>>
@@ -3344,6 +3392,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC4 (U+1EC4) contains a short segment B<<121.0,48.5>-<125.0,42.0>-<139.5,39.5>>
 
 	* uni1EC5 (U+1EC5) contains a short segment B<<98.0,175.0>-<91.0,176.0>-<91.0,167.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
 
 	* trademark (U+2122) contains a short segment B<<977.5,191.0>-<984.0,177.0>-<990.5,174.0>>
 
@@ -3558,7 +3610,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 224, but got 200 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 271, but got 200 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -3633,14 +3685,6 @@ which does not match the expected format, similar to:
 	- Glyph name: question	Expected: 2
 
 	- Glyph name: at	Expected: 2
-
-	- Glyph name: W	Expected: 1 or 2
-
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: bracketleft	Expected: 1
 
@@ -4144,8 +4188,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: endash	Expected: 1
@@ -4310,8 +4352,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Uring	Expected: 3
 
-	- Glyph name: W	Expected: 1 or 2
-
 	- Glyph name: Wacute	Expected: 2
 
 	- Glyph name: Wcircumflex	Expected: 2
@@ -4320,10 +4360,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Wgrave	Expected: 2
 
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
 	- Glyph name: Yacute	Expected: 2
 
 	- Glyph name: Ycircumflex	Expected: 2
@@ -4331,8 +4367,6 @@ which does not match the expected format, similar to:
 	- Glyph name: Ydieresis	Expected: 3
 
 	- Glyph name: Ygrave	Expected: 2
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: Zacute	Expected: 2
 
@@ -4722,8 +4756,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: uogonek	Expected: 1
@@ -4816,6 +4848,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
 
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni1EA4	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1EA5	Contours detected: 2	Expected: 4
@@ -4863,6 +4897,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1ED6	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
+
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
@@ -4888,8 +4924,6 @@ The following glyphs do not have the recommended number of contours:
 	- R.alt
 
 	- a.001
-
-	- e.ss01
 
 	- i.loclTRK
 
@@ -4932,7 +4966,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* F (U+0046): X=92.0,Y=701.0 (should be at cap-height 700?)
 
-	* G (U+0047): X=423.5,Y=1.5 (should be at baseline 0?)
+	* G (U+0047): X=422.5,Y=1.5 (should be at baseline 0?)
 
 	* I (U+0049): X=88.0,Y=699.0 (should be at cap-height 700?)
 
@@ -4940,7 +4974,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* J (U+004A): X=238.5,Y=2.0 (should be at baseline 0?)
 
-	* L (U+004C): X=92.0,Y=701.0 (should be at cap-height 700?)
+	* L (U+004C): X=91.0,Y=701.0 (should be at cap-height 700?)
 
 	* L (U+004C): X=126.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4955,6 +4989,16 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): X=40.0,Y=699.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=582.0,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=40.0,Y=702.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=189.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=317.0,Y=698.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=444.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=594.0,Y=702.0 (should be at cap-height 700?)
 
 	* a (U+0061): X=520.0,Y=-1.0 (should be at baseline 0?)
 
@@ -5026,8 +5070,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048) contains a short segment B<<513.5,393.0>-<519.0,400.0>-<519.0,412.0>>
 
-	* K (U+004B) contains a short segment B<<263.5,337.0>-<261.0,329.0>-<264.0,315.0>>
-
 	* K (U+004B) contains a short segment B<<580.0,-7.0>-<572.0,-7.0>-<565.0,-7.0>>
 
 	* L (U+004C) contains a short segment B<<406.0,32.5>-<406.0,27.0>-<406.0,21.5>>
@@ -5047,6 +5089,36 @@ The following glyphs do not have the recommended number of contours:
 	* M (U+004D) contains a short segment B<<250.0,610.0>-<246.0,626.0>-<232.5,632.5>>
 
 	* M (U+004D) contains a short segment B<<135.0,635.0>-<122.0,631.0>-<118.0,610.0>>
+
+	* W (U+0057) contains a short segment B<<422.0,347.0>-<410.0,347.0>-<401.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<401.5,343.0>-<393.0,339.0>-<388.0,322.0>>
+
+	* W (U+0057) contains a short segment B<<188.0,384.0>-<196.0,377.0>-<209.0,374.0>>
+
+	* W (U+0057) contains a short segment B<<280.5,375.0>-<292.0,379.0>-<302.0,388.0>>
+
+	* W (U+0057) contains a short segment B<<547.0,388.0>-<558.0,379.0>-<569.0,375.0>>
+
+	* W (U+0057) contains a short segment B<<640.5,374.0>-<654.0,377.0>-<661.0,384.0>>
+
+	* W (U+0057) contains a short segment B<<461.0,322.0>-<456.0,339.0>-<447.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<447.5,343.0>-<439.0,347.0>-<427.0,347.0>>
+
+	* X (U+0058) contains a short segment B<<175.0,361.0>-<175.0,370.0>-<172.5,380.0>>
+
+	* X (U+0058) contains a short segment B<<539.0,380.0>-<537.0,370.0>-<537.0,361.0>>
+
+	* X (U+0058) contains a short segment B<<537.0,361.0>-<537.0,352.0>-<539.5,341.5>>
+
+	* X (U+0058) contains a short segment B<<172.5,341.5>-<175.0,352.0>-<175.0,361.0>>
+
+	* Y (U+0059) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* Y (U+0059) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
+
+	* Z (U+005A) contains a short segment B<<262.0,214.0>-<262.0,207.0>-<271.5,204.5>>
 
 	* e (U+0065) contains a short segment B<<102.0,174.0>-<94.0,175.0>-<94.0,166.0>>
 
@@ -5115,6 +5187,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC4 (U+1EC4) contains a short segment B<<126.5,59.0>-<131.0,53.0>-<145.5,50.5>>
 
 	* uni1EC5 (U+1EC5) contains a short segment B<<102.0,174.0>-<94.0,175.0>-<94.0,166.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
 
 	* trademark (U+2122) contains a short segment B<<983.0,203.0>-<989.0,189.0>-<996.0,186.5>>
 
@@ -5327,7 +5403,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 224, but got 200 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 271, but got 200 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -5402,14 +5478,6 @@ which does not match the expected format, similar to:
 	- Glyph name: question	Expected: 2
 
 	- Glyph name: at	Expected: 2
-
-	- Glyph name: W	Expected: 1 or 2
-
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: bracketleft	Expected: 1
 
@@ -5913,8 +5981,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: endash	Expected: 1
@@ -6079,8 +6145,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Uring	Expected: 3
 
-	- Glyph name: W	Expected: 1 or 2
-
 	- Glyph name: Wacute	Expected: 2
 
 	- Glyph name: Wcircumflex	Expected: 2
@@ -6089,10 +6153,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Wgrave	Expected: 2
 
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
 	- Glyph name: Yacute	Expected: 2
 
 	- Glyph name: Ycircumflex	Expected: 2
@@ -6100,8 +6160,6 @@ which does not match the expected format, similar to:
 	- Glyph name: Ydieresis	Expected: 3
 
 	- Glyph name: Ygrave	Expected: 2
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: Zacute	Expected: 2
 
@@ -6491,8 +6549,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: uogonek	Expected: 1
@@ -6585,6 +6641,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
 
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni1EA4	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1EA5	Contours detected: 2	Expected: 4
@@ -6632,6 +6690,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1ED6	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
+
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
@@ -6657,8 +6717,6 @@ The following glyphs do not have the recommended number of contours:
 	- R.alt
 
 	- a.001
-
-	- e.ss01
 
 	- i.loclTRK
 
@@ -6693,7 +6751,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* B (U+0042): X=361.0,Y=699.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=460.0,Y=699.5 (should be at cap-height 700?)
+	* C (U+0043): X=457.0,Y=699.5 (should be at cap-height 700?)
 
 	* D (U+0044): X=317.0,Y=1.0 (should be at baseline 0?)
 
@@ -6701,21 +6759,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* F (U+0046): X=86.0,Y=701.0 (should be at cap-height 700?)
 
-	* G (U+0047): X=433.5,Y=2.0 (should be at baseline 0?)
+	* G (U+0047): X=430.5,Y=2.0 (should be at baseline 0?)
 
 	* I (U+0049): X=83.0,Y=699.0 (should be at cap-height 700?)
 
 	* I (U+0049): X=390.0,Y=699.0 (should be at cap-height 700?)
 
-	* L (U+004C): X=86.0,Y=701.0 (should be at cap-height 700?)
+	* L (U+004C): X=84.0,Y=701.0 (should be at cap-height 700?)
 
 	* L (U+004C): X=132.0,Y=701.0 (should be at cap-height 700?)
 
 	* P (U+0050): X=89.0,Y=701.0 (should be at cap-height 700?)
 
 	* P (U+0050): X=383.0,Y=699.0 (should be at cap-height 700?)
-
-	* Q (U+0051): X=414.0,Y=-2.0 (should be at baseline 0?)
 
 	* R (U+0052): X=89.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6724,6 +6780,16 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): X=40.0,Y=699.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=591.0,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=40.0,Y=702.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=189.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=317.0,Y=698.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=444.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=594.0,Y=702.0 (should be at cap-height 700?)
 
 	* a (U+0061): X=376.5,Y=486.5 (should be at x-height 485?)
 
@@ -6799,8 +6865,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B) contains a short segment B<<235.0,308.0>-<231.0,321.0>-<222.5,324.5>>
 
-	* K (U+004B) contains a short segment B<<276.5,340.5>-<273.0,333.0>-<276.0,319.0>>
-
 	* M (U+004D) contains a short segment B<<361.5,246.5>-<369.0,224.0>-<376.5,219.5>>
 
 	* M (U+004D) contains a short segment B<<376.5,219.5>-<384.0,215.0>-<395.0,215.0>>
@@ -6816,6 +6880,36 @@ The following glyphs do not have the recommended number of contours:
 	* M (U+004D) contains a short segment B<<259.0,555.0>-<254.0,570.0>-<240.0,576.0>>
 
 	* M (U+004D) contains a short segment B<<144.5,578.0>-<132.0,574.0>-<127.0,556.0>>
+
+	* W (U+0057) contains a short segment B<<422.0,347.0>-<410.0,347.0>-<401.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<401.5,343.0>-<393.0,339.0>-<388.0,322.0>>
+
+	* W (U+0057) contains a short segment B<<188.0,384.0>-<196.0,377.0>-<209.0,374.0>>
+
+	* W (U+0057) contains a short segment B<<280.5,375.0>-<292.0,379.0>-<302.0,388.0>>
+
+	* W (U+0057) contains a short segment B<<547.0,388.0>-<558.0,379.0>-<569.0,375.0>>
+
+	* W (U+0057) contains a short segment B<<640.5,374.0>-<654.0,377.0>-<661.0,384.0>>
+
+	* W (U+0057) contains a short segment B<<461.0,322.0>-<456.0,339.0>-<447.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<447.5,343.0>-<439.0,347.0>-<427.0,347.0>>
+
+	* X (U+0058) contains a short segment B<<175.0,361.0>-<175.0,370.0>-<172.5,380.0>>
+
+	* X (U+0058) contains a short segment B<<539.0,380.0>-<537.0,370.0>-<537.0,361.0>>
+
+	* X (U+0058) contains a short segment B<<537.0,361.0>-<537.0,352.0>-<539.5,341.5>>
+
+	* X (U+0058) contains a short segment B<<172.5,341.5>-<175.0,352.0>-<175.0,361.0>>
+
+	* Y (U+0059) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* Y (U+0059) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
+
+	* Z (U+005A) contains a short segment B<<262.0,214.0>-<262.0,207.0>-<271.5,204.5>>
 
 	* e (U+0065) contains a short segment B<<111.0,171.0>-<103.0,171.0>-<103.0,162.0>>
 
@@ -6834,6 +6928,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC4 (U+1EC4) contains a short segment B<<129.0,99.0>-<133.0,90.0>-<139.5,84.5>>
 
 	* uni1EC5 (U+1EC5) contains a short segment B<<111.0,171.0>-<103.0,171.0>-<103.0,162.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
 
 	* trademark (U+2122) contains a short segment B<<992.5,246.5>-<1000.0,224.0>-<1007.5,219.5>>
 
@@ -6865,7 +6963,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* F (U+0046): L<<86.0,701.0>--<520.0,700.0>>
 
-	* G (U+0047): L<<506.0,682.0>--<505.0,559.0>>
+	* G (U+0047): L<<503.0,682.0>--<502.0,559.0>>
 
 	* H (U+0048): L<<128.0,700.0>--<126.0,443.0>>
 
@@ -7018,7 +7116,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 224, but got 200 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 271, but got 200 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -7093,14 +7191,6 @@ which does not match the expected format, similar to:
 	- Glyph name: question	Expected: 2
 
 	- Glyph name: at	Expected: 2
-
-	- Glyph name: W	Expected: 1 or 2
-
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: bracketleft	Expected: 1
 
@@ -7604,8 +7694,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: endash	Expected: 1
@@ -7770,8 +7858,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Uring	Expected: 3
 
-	- Glyph name: W	Expected: 1 or 2
-
 	- Glyph name: Wacute	Expected: 2
 
 	- Glyph name: Wcircumflex	Expected: 2
@@ -7780,10 +7866,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Wgrave	Expected: 2
 
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
 	- Glyph name: Yacute	Expected: 2
 
 	- Glyph name: Ycircumflex	Expected: 2
@@ -7791,8 +7873,6 @@ which does not match the expected format, similar to:
 	- Glyph name: Ydieresis	Expected: 3
 
 	- Glyph name: Ygrave	Expected: 2
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: Zacute	Expected: 2
 
@@ -8182,8 +8262,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: uogonek	Expected: 1
@@ -8276,6 +8354,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
 
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni1EA4	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1EA5	Contours detected: 2	Expected: 4
@@ -8323,6 +8403,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1ED6	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
+
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
@@ -8348,8 +8430,6 @@ The following glyphs do not have the recommended number of contours:
 	- R.alt
 
 	- a.001
-
-	- e.ss01
 
 	- i.loclTRK
 
@@ -8386,15 +8466,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* B (U+0042): X=388.0,Y=699.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=479.5,Y=698.5 (should be at cap-height 700?)
+	* C (U+0043): X=472.0,Y=698.5 (should be at cap-height 700?)
 
 	* F (U+0046): X=73.0,Y=701.0 (should be at cap-height 700?)
 
 	* F (U+0046): X=552.0,Y=699.0 (should be at cap-height 700?)
 
-	* G (U+0047): X=463.5,Y=702.0 (should be at cap-height 700?)
+	* G (U+0047): X=456.0,Y=702.0 (should be at cap-height 700?)
 
-	* G (U+0047): X=457.0,Y=2.0 (should be at baseline 0?)
+	* G (U+0047): X=449.5,Y=2.0 (should be at baseline 0?)
 
 	* I (U+0049): X=72.0,Y=699.0 (should be at cap-height 700?)
 
@@ -8402,7 +8482,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=629.0,Y=-2.0 (should be at baseline 0?)
 
-	* L (U+004C): X=73.0,Y=701.0 (should be at cap-height 700?)
+	* L (U+004C): X=67.0,Y=701.0 (should be at cap-height 700?)
 
 	* L (U+004C): X=146.0,Y=701.0 (should be at cap-height 700?)
 
@@ -8417,6 +8497,16 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): X=40.0,Y=699.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=611.0,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=40.0,Y=702.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=189.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=317.0,Y=698.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=444.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=594.0,Y=702.0 (should be at cap-height 700?)
 
 	* a (U+0061): X=383.0,Y=491.0 (should be at x-height 493?)
 
@@ -8466,6 +8556,36 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D) contains a short segment B<<167.5,442.5>-<154.0,439.0>-<148.0,427.0>>
 
+	* W (U+0057) contains a short segment B<<422.0,347.0>-<410.0,347.0>-<401.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<401.5,343.0>-<393.0,339.0>-<388.0,322.0>>
+
+	* W (U+0057) contains a short segment B<<188.0,384.0>-<196.0,377.0>-<209.0,374.0>>
+
+	* W (U+0057) contains a short segment B<<280.5,375.0>-<292.0,379.0>-<302.0,388.0>>
+
+	* W (U+0057) contains a short segment B<<547.0,388.0>-<558.0,379.0>-<569.0,375.0>>
+
+	* W (U+0057) contains a short segment B<<640.5,374.0>-<654.0,377.0>-<661.0,384.0>>
+
+	* W (U+0057) contains a short segment B<<461.0,322.0>-<456.0,339.0>-<447.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<447.5,343.0>-<439.0,347.0>-<427.0,347.0>>
+
+	* X (U+0058) contains a short segment B<<175.0,361.0>-<175.0,370.0>-<172.5,380.0>>
+
+	* X (U+0058) contains a short segment B<<539.0,380.0>-<537.0,370.0>-<537.0,361.0>>
+
+	* X (U+0058) contains a short segment B<<537.0,361.0>-<537.0,352.0>-<539.5,341.5>>
+
+	* X (U+0058) contains a short segment B<<172.5,341.5>-<175.0,352.0>-<175.0,361.0>>
+
+	* Y (U+0059) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* Y (U+0059) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
+
+	* Z (U+005A) contains a short segment B<<262.0,214.0>-<262.0,207.0>-<271.5,204.5>>
+
 	* n (U+006E) contains a short segment B<<133.5,414.5>-<136.0,409.0>-<142.0,409.0>>
 
 	* uni1EBE (U+1EBE) contains a short segment B<<155.0,381.0>-<163.0,374.0>-<175.0,370.5>>
@@ -8473,6 +8593,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC0 (U+1EC0) contains a short segment B<<155.0,381.0>-<163.0,374.0>-<175.0,370.5>>
 
 	* uni1EC4 (U+1EC4) contains a short segment B<<155.0,381.0>-<163.0,374.0>-<175.0,370.5>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
 
 	* trademark (U+2122) contains a short segment B<<1026.5,317.5>-<1033.0,298.0>-<1040.5,293.5>>
 
@@ -8491,8 +8615,6 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* F (U+0046): L<<73.0,701.0>--<552.0,699.0>>
-
-	* G (U+0047): L<<526.0,681.0>--<525.0,436.0>>
 
 	* P (U+0050): L<<76.0,701.0>--<399.0,699.0>>
 
@@ -8643,7 +8765,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 224, but got 200 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 271, but got 200 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -8718,14 +8840,6 @@ which does not match the expected format, similar to:
 	- Glyph name: question	Expected: 2
 
 	- Glyph name: at	Expected: 2
-
-	- Glyph name: W	Expected: 1 or 2
-
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: bracketleft	Expected: 1
 
@@ -9229,8 +9343,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: endash	Expected: 1
@@ -9395,8 +9507,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Uring	Expected: 3
 
-	- Glyph name: W	Expected: 1 or 2
-
 	- Glyph name: Wacute	Expected: 2
 
 	- Glyph name: Wcircumflex	Expected: 2
@@ -9405,10 +9515,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Wgrave	Expected: 2
 
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
 	- Glyph name: Yacute	Expected: 2
 
 	- Glyph name: Ycircumflex	Expected: 2
@@ -9416,8 +9522,6 @@ which does not match the expected format, similar to:
 	- Glyph name: Ydieresis	Expected: 3
 
 	- Glyph name: Ygrave	Expected: 2
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: Zacute	Expected: 2
 
@@ -9807,8 +9911,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: uogonek	Expected: 1
@@ -9901,6 +10003,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
 
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni1EA4	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1EA5	Contours detected: 2	Expected: 4
@@ -9948,6 +10052,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1ED6	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
+
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
@@ -9973,8 +10079,6 @@ The following glyphs do not have the recommended number of contours:
 	- R.alt
 
 	- a.001
-
-	- e.ss01
 
 	- i.loclTRK
 
@@ -10019,7 +10123,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* B (U+0042): X=374.0,Y=699.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=469.5,Y=699.0 (should be at cap-height 700?)
+	* C (U+0043): X=464.0,Y=699.0 (should be at cap-height 700?)
 
 	* D (U+0044): X=317.0,Y=1.0 (should be at baseline 0?)
 
@@ -10027,21 +10131,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* F (U+0046): X=80.0,Y=701.0 (should be at cap-height 700?)
 
-	* G (U+0047): X=445.0,Y=2.0 (should be at baseline 0?)
+	* G (U+0047): X=439.5,Y=2.0 (should be at baseline 0?)
 
 	* I (U+0049): X=78.0,Y=699.0 (should be at cap-height 700?)
 
 	* I (U+0049): X=407.0,Y=699.0 (should be at cap-height 700?)
 
-	* L (U+004C): X=80.0,Y=701.0 (should be at cap-height 700?)
+	* L (U+004C): X=76.0,Y=701.0 (should be at cap-height 700?)
 
 	* L (U+004C): X=139.0,Y=701.0 (should be at cap-height 700?)
 
 	* P (U+0050): X=83.0,Y=701.0 (should be at cap-height 700?)
 
 	* P (U+0050): X=390.0,Y=699.0 (should be at cap-height 700?)
-
-	* Q (U+0051): X=512.5,Y=-2.0 (should be at baseline 0?)
 
 	* R (U+0052): X=83.0,Y=701.0 (should be at cap-height 700?)
 
@@ -10050,6 +10152,16 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): X=40.0,Y=699.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=601.0,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=40.0,Y=702.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=189.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=317.0,Y=698.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=444.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=594.0,Y=702.0 (should be at cap-height 700?)
 
 	* a (U+0061): X=379.5,Y=488.5 (should be at x-height 489?)
 
@@ -10153,6 +10265,36 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D) contains a short segment B<<156.0,513.5>-<143.0,510.0>-<137.0,494.0>>
 
+	* W (U+0057) contains a short segment B<<422.0,347.0>-<410.0,347.0>-<401.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<401.5,343.0>-<393.0,339.0>-<388.0,322.0>>
+
+	* W (U+0057) contains a short segment B<<188.0,384.0>-<196.0,377.0>-<209.0,374.0>>
+
+	* W (U+0057) contains a short segment B<<280.5,375.0>-<292.0,379.0>-<302.0,388.0>>
+
+	* W (U+0057) contains a short segment B<<547.0,388.0>-<558.0,379.0>-<569.0,375.0>>
+
+	* W (U+0057) contains a short segment B<<640.5,374.0>-<654.0,377.0>-<661.0,384.0>>
+
+	* W (U+0057) contains a short segment B<<461.0,322.0>-<456.0,339.0>-<447.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<447.5,343.0>-<439.0,347.0>-<427.0,347.0>>
+
+	* X (U+0058) contains a short segment B<<175.0,361.0>-<175.0,370.0>-<172.5,380.0>>
+
+	* X (U+0058) contains a short segment B<<539.0,380.0>-<537.0,370.0>-<537.0,361.0>>
+
+	* X (U+0058) contains a short segment B<<537.0,361.0>-<537.0,352.0>-<539.5,341.5>>
+
+	* X (U+0058) contains a short segment B<<172.5,341.5>-<175.0,352.0>-<175.0,361.0>>
+
+	* Y (U+0059) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* Y (U+0059) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
+
+	* Z (U+005A) contains a short segment B<<262.0,214.0>-<262.0,207.0>-<271.5,204.5>>
+
 	* uni1EBE (U+1EBE) contains a short segment B<<142.0,545.0>-<137.0,540.0>-<134.0,525.0>>
 
 	* uni1EBE (U+1EBE) contains a short segment B<<134.5,410.0>-<138.0,395.0>-<143.0,390.0>>
@@ -10170,6 +10312,10 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EC4 (U+1EC4) contains a short segment B<<134.5,410.0>-<138.0,395.0>-<143.0,390.0>>
 
 	* uni1EC4 (U+1EC4) contains a short segment B<<143.0,390.0>-<149.0,380.0>-<159.5,375.5>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
 
 	* trademark (U+2122) contains a short segment B<<1009.0,281.0>-<1016.0,260.0>-<1024.0,255.0>>
 
@@ -10342,7 +10488,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 224, but got 200 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 271, but got 200 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -10417,14 +10563,6 @@ which does not match the expected format, similar to:
 	- Glyph name: question	Expected: 2
 
 	- Glyph name: at	Expected: 2
-
-	- Glyph name: W	Expected: 1 or 2
-
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: bracketleft	Expected: 1
 
@@ -10928,8 +11066,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: endash	Expected: 1
@@ -11094,8 +11230,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Uring	Expected: 3
 
-	- Glyph name: W	Expected: 1 or 2
-
 	- Glyph name: Wacute	Expected: 2
 
 	- Glyph name: Wcircumflex	Expected: 2
@@ -11104,10 +11238,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: Wgrave	Expected: 2
 
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
 	- Glyph name: Yacute	Expected: 2
 
 	- Glyph name: Ycircumflex	Expected: 2
@@ -11115,8 +11245,6 @@ which does not match the expected format, similar to:
 	- Glyph name: Ydieresis	Expected: 3
 
 	- Glyph name: Ygrave	Expected: 2
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: Zacute	Expected: 2
 
@@ -11506,8 +11634,6 @@ which does not match the expected format, similar to:
 
 	- Glyph name: uni1EF7	Expected: 2
 
-	- Glyph name: uni1EF8	Expected: 2
-
 	- Glyph name: uni1EF9	Expected: 2
 
 	- Glyph name: uogonek	Expected: 1
@@ -11600,6 +11726,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
 
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni1EA4	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1EA5	Contours detected: 2	Expected: 4
@@ -11647,6 +11775,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1ED6	Contours detected: 2	Expected: 4
 
 	- Glyph name: uni1ED7	Contours detected: 2	Expected: 4
+
+	- Glyph name: uni1EF8	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
@@ -11672,8 +11802,6 @@ The following glyphs do not have the recommended number of contours:
 	- R.alt
 
 	- a.001
-
-	- e.ss01
 
 	- i.loclTRK
 
@@ -11712,15 +11840,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* B (U+0042): X=410.0,Y=699.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=497.0,Y=698.0 (should be at cap-height 700?)
+	* C (U+0043): X=485.0,Y=698.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=449.5,Y=-2.0 (should be at baseline 0?)
+	* C (U+0043): X=437.5,Y=-2.0 (should be at baseline 0?)
 
 	* F (U+0046): X=62.0,Y=701.0 (should be at cap-height 700?)
 
 	* F (U+0046): X=580.0,Y=699.0 (should be at cap-height 700?)
 
-	* G (U+0047): X=481.0,Y=702.0 (should be at cap-height 700?)
+	* G (U+0047): X=469.0,Y=702.0 (should be at cap-height 700?)
 
 	* I (U+0049): X=62.0,Y=699.0 (should be at cap-height 700?)
 
@@ -11728,7 +11856,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* J (U+004A): X=75.0,Y=2.0 (should be at baseline 0?)
 
-	* L (U+004C): X=62.0,Y=701.0 (should be at cap-height 700?)
+	* L (U+004C): X=52.0,Y=701.0 (should be at cap-height 700?)
 
 	* L (U+004C): X=158.0,Y=701.0 (should be at cap-height 700?)
 
@@ -11743,6 +11871,16 @@ The following glyphs do not have the recommended number of contours:
 	* T (U+0054): X=40.0,Y=699.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=629.0,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=40.0,Y=702.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=189.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=317.0,Y=698.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=444.5,Y=699.0 (should be at cap-height 700?)
+
+	* Z (U+005A): X=594.0,Y=702.0 (should be at cap-height 700?)
 
 	* e (U+0065): X=503.0,Y=2.0 (should be at baseline 0?)
 
@@ -11780,11 +11918,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* B (U+0042) contains a short segment B<<487.0,368.0>-<487.0,368.0>-<501.0,364.5>>
 
-	* G (U+0047) contains a short segment B<<452.0,210.0>-<455.0,211.0>-<455.0,225.5>>
+	* G (U+0047) contains a short segment B<<440.0,210.0>-<443.0,211.0>-<443.0,225.5>>
 
 	* K (U+004B) contains a short segment B<<238.5,224.5>-<235.0,236.0>-<228.0,244.0>>
-
-	* K (U+004B) contains a short segment B<<329.0,337.0>-<329.0,329.0>-<341.5,321.5>>
 
 	* M (U+004D) contains a short segment B<<387.0,378.0>-<392.0,361.0>-<400.5,357.0>>
 
@@ -11797,6 +11933,36 @@ The following glyphs do not have the recommended number of contours:
 	* M (U+004D) contains a short segment B<<676.0,316.0>-<669.0,324.0>-<655.0,326.5>>
 
 	* M (U+004D) contains a short segment B<<187.5,326.5>-<174.0,324.0>-<166.0,316.0>>
+
+	* W (U+0057) contains a short segment B<<422.0,347.0>-<410.0,347.0>-<401.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<401.5,343.0>-<393.0,339.0>-<388.0,322.0>>
+
+	* W (U+0057) contains a short segment B<<188.0,384.0>-<196.0,377.0>-<209.0,374.0>>
+
+	* W (U+0057) contains a short segment B<<280.5,375.0>-<292.0,379.0>-<302.0,388.0>>
+
+	* W (U+0057) contains a short segment B<<547.0,388.0>-<558.0,379.0>-<569.0,375.0>>
+
+	* W (U+0057) contains a short segment B<<640.5,374.0>-<654.0,377.0>-<661.0,384.0>>
+
+	* W (U+0057) contains a short segment B<<461.0,322.0>-<456.0,339.0>-<447.5,343.0>>
+
+	* W (U+0057) contains a short segment B<<447.5,343.0>-<439.0,347.0>-<427.0,347.0>>
+
+	* X (U+0058) contains a short segment B<<175.0,361.0>-<175.0,370.0>-<172.5,380.0>>
+
+	* X (U+0058) contains a short segment B<<539.0,380.0>-<537.0,370.0>-<537.0,361.0>>
+
+	* X (U+0058) contains a short segment B<<537.0,361.0>-<537.0,352.0>-<539.5,341.5>>
+
+	* X (U+0058) contains a short segment B<<172.5,341.5>-<175.0,352.0>-<175.0,361.0>>
+
+	* Y (U+0059) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* Y (U+0059) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
+
+	* Z (U+005A) contains a short segment B<<262.0,214.0>-<262.0,207.0>-<271.5,204.5>>
 
 	* b (U+0062) contains a short segment B<<132.5,420.5>-<135.0,410.0>-<141.0,410.0>>
 
@@ -11819,6 +11985,10 @@ The following glyphs do not have the recommended number of contours:
 	* n (U+006E) contains a short segment B<<142.0,415.0>-<145.0,410.0>-<152.0,410.0>>
 
 	* s (U+0073) contains a short segment B<<364.0,162.0>-<364.0,168.0>-<356.0,171.5>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<510.0,289.5>-<511.0,298.0>-<503.0,301.0>>
+
+	* uni1EF8 (U+1EF8) contains a short segment B<<587.0,253.0>-<586.0,245.0>-<586.0,240.0>>
 
 	* trademark (U+2122) contains a short segment B<<1056.0,378.0>-<1061.0,361.0>-<1069.5,357.0>>
 

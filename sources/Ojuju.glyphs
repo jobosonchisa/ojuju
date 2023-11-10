@@ -87,6 +87,27 @@ wght = {
 {
 name = "Variable Font Origin";
 value = m01;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = blueScale;
+value = 0.04;
+},
+{
+name = blueShift;
+value = 7;
+},
+{
+name = blueFuzz;
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2023-09-24 04:03:02 +0000";

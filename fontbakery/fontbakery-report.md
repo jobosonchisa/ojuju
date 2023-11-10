@@ -33,6 +33,9 @@ fontbakery version: 0.9.2
 	- 0x02D9 (DOT ABOVE)
 
 
+	- 0x0079 (LATIN SMALL LETTER Y)
+
+
 	- 0x0307 (COMBINING DOT ABOVE)
 
 
@@ -210,8 +213,6 @@ which does not match the expected format, similar to:
 	- Glyph name: w	Expected: 1
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: z	Expected: 1
 
@@ -1278,8 +1279,6 @@ which does not match the expected format, similar to:
 	- Glyph name: wgrave	Expected: 2
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: yacute	Expected: 2
 
@@ -1695,6 +1694,9 @@ The following glyphs do not have the recommended number of contours:
 	- 0x02D9 (DOT ABOVE)
 
 
+	- 0x0079 (LATIN SMALL LETTER Y)
+
+
 	- 0x0307 (COMBINING DOT ABOVE)
 
 
@@ -1872,8 +1874,6 @@ which does not match the expected format, similar to:
 	- Glyph name: w	Expected: 1
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: z	Expected: 1
 
@@ -2940,8 +2940,6 @@ which does not match the expected format, similar to:
 	- Glyph name: wgrave	Expected: 2
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: yacute	Expected: 2
 
@@ -3203,9 +3201,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* u (U+0075): X=458.0,Y=479.0 (should be at x-height 480?)
 
-	* v (U+0076): X=186.5,Y=1.0 (should be at baseline 0?)
+	* v (U+0076): X=216.5,Y=1.0 (should be at baseline 0?)
 
-	* v (U+0076): X=352.5,Y=1.0 (should be at baseline 0?)
+	* v (U+0076): X=323.5,Y=1.0 (should be at baseline 0?)
 
 	* ordfeminine (U+00AA): X=359.0,Y=-0.5 (should be at baseline 0?)
 
@@ -3326,10 +3324,6 @@ The following glyphs do not have the recommended number of contours:
 	* n (U+006E) contains a short segment B<<118.0,397.0>-<120.0,393.0>-<124.0,393.0>>
 
 	* r (U+0072) contains a short segment B<<118.0,378.0>-<120.0,373.0>-<124.0,373.0>>
-
-	* v (U+0076) contains a short segment B<<174.0,46.0>-<176.0,40.0>-<180.5,37.0>>
-
-	* v (U+0076) contains a short segment B<<359.0,37.0>-<364.0,40.0>-<365.0,46.0>>
 
 	* uni1EBE (U+1EBE) contains a short segment B<<141.0,659.5>-<127.0,657.0>-<123.0,650.5>>
 
@@ -3453,6 +3447,9 @@ The following glyphs do not have the recommended number of contours:
 
 
 	- 0x02D9 (DOT ABOVE)
+
+
+	- 0x0079 (LATIN SMALL LETTER Y)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -3632,8 +3629,6 @@ which does not match the expected format, similar to:
 	- Glyph name: w	Expected: 1
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: z	Expected: 1
 
@@ -4700,8 +4695,6 @@ which does not match the expected format, similar to:
 	- Glyph name: wgrave	Expected: 2
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: yacute	Expected: 2
 
@@ -4991,9 +4984,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* u (U+0075): X=462.0,Y=480.0 (should be at x-height 481?)
 
-	* v (U+0076): X=185.0,Y=1.5 (should be at baseline 0?)
+	* v (U+0076): X=214.5,Y=1.5 (should be at baseline 0?)
 
-	* v (U+0076): X=355.0,Y=1.5 (should be at baseline 0?)
+	* v (U+0076): X=325.5,Y=1.5 (should be at baseline 0?)
 
 	* ordfeminine (U+00AA): X=361.0,Y=-0.5 (should be at baseline 0?)
 
@@ -5116,10 +5109,6 @@ The following glyphs do not have the recommended number of contours:
 	* n (U+006E) contains a short segment B<<119.0,398.5>-<121.0,394.0>-<126.0,394.0>>
 
 	* r (U+0072) contains a short segment B<<119.0,380.5>-<121.0,375.0>-<126.0,375.0>>
-
-	* v (U+0076) contains a short segment B<<172.0,61.0>-<174.0,54.0>-<179.0,51.0>>
-
-	* v (U+0076) contains a short segment B<<361.0,51.0>-<366.0,54.0>-<368.0,61.0>>
 
 	* uni1EBE (U+1EBE) contains a short segment B<<145.5,646.5>-<131.0,644.0>-<126.5,638.0>>
 
@@ -5249,6 +5238,9 @@ The following glyphs do not have the recommended number of contours:
 
 
 	- 0x02D9 (DOT ABOVE)
+
+
+	- 0x0079 (LATIN SMALL LETTER Y)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -5428,8 +5420,6 @@ which does not match the expected format, similar to:
 	- Glyph name: w	Expected: 1
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: z	Expected: 1
 
@@ -6496,8 +6486,6 @@ which does not match the expected format, similar to:
 	- Glyph name: wgrave	Expected: 2
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: yacute	Expected: 2
 
@@ -6871,10 +6859,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* n (U+006E) contains a short segment B<<121.0,399.5>-<123.0,395.0>-<128.0,395.0>>
 
-	* v (U+0076) contains a short segment B<<170.0,84.0>-<172.0,77.0>-<177.5,73.0>>
-
-	* v (U+0076) contains a short segment B<<365.0,73.0>-<371.0,77.0>-<372.0,84.0>>
-
 	* uni1EBE (U+1EBE) contains a short segment B<<152.5,627.5>-<138.0,625.0>-<133.0,619.5>>
 
 	* uni1EBE (U+1EBE) contains a short segment B<<133.0,619.5>-<128.0,614.0>-<124.0,604.0>>
@@ -6987,6 +6971,9 @@ The following glyphs do not have the recommended number of contours:
 
 
 	- 0x02D9 (DOT ABOVE)
+
+
+	- 0x0079 (LATIN SMALL LETTER Y)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -7166,8 +7153,6 @@ which does not match the expected format, similar to:
 	- Glyph name: w	Expected: 1
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: z	Expected: 1
 
@@ -8234,8 +8219,6 @@ which does not match the expected format, similar to:
 	- Glyph name: wgrave	Expected: 2
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: yacute	Expected: 2
 
@@ -8657,6 +8640,9 @@ The following glyphs do not have the recommended number of contours:
 	- 0x02D9 (DOT ABOVE)
 
 
+	- 0x0079 (LATIN SMALL LETTER Y)
+
+
 	- 0x0307 (COMBINING DOT ABOVE)
 
 
@@ -8834,8 +8820,6 @@ which does not match the expected format, similar to:
 	- Glyph name: w	Expected: 1
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: z	Expected: 1
 
@@ -9902,8 +9886,6 @@ which does not match the expected format, similar to:
 	- Glyph name: wgrave	Expected: 2
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: yacute	Expected: 2
 
@@ -10327,6 +10309,9 @@ The following glyphs do not have the recommended number of contours:
 	- 0x02D9 (DOT ABOVE)
 
 
+	- 0x0079 (LATIN SMALL LETTER Y)
+
+
 	- 0x0307 (COMBINING DOT ABOVE)
 
 
@@ -10504,8 +10489,6 @@ which does not match the expected format, similar to:
 	- Glyph name: w	Expected: 1
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: z	Expected: 1
 
@@ -11572,8 +11555,6 @@ which does not match the expected format, similar to:
 	- Glyph name: wgrave	Expected: 2
 
 	- Glyph name: x	Expected: 1
-
-	- Glyph name: y	Expected: 1
 
 	- Glyph name: yacute	Expected: 2
 

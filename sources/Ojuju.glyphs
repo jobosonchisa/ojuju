@@ -28,20 +28,6 @@ tag = wght;
 );
 customParameters = (
 {
-name = "Axis Mappings";
-value = {
-wght = {
-37 = 200;
-51 = 300;
-72 = 400;
-102 = 500;
-143 = 600;
-201 = 700;
-282 = 800;
-};
-};
-},
-{
 name = "Variable Font Origin";
 value = m01;
 },
@@ -65,6 +51,20 @@ value = 1;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+200 = 37;
+300 = 51;
+400 = 72;
+500 = 102;
+600 = 143;
+700 = 201;
+800 = 282;
+};
+};
 }
 );
 date = "2023-09-24 04:03:02 +0000";

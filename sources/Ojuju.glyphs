@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -17487,7 +17487,7 @@ unicode = 7797;
 {
 color = 1;
 glyphname = v;
-lastChange = "2023-11-17 19:47:01 +0000";
+lastChange = "2023-11-17 20:57:53 +0000";
 layers = (
 {
 anchors = (
@@ -17628,10 +17628,10 @@ nodes = (
 (205,46,cs),
 (74,480,l),
 (41,480,l),
-(189,23,ls),
-(196,1,o),
-(202,0,o),
-(257,0,cs)
+(197,0,l),
+(210,0,o),
+(210,0,o),
+(265,0,cs)
 );
 }
 );
@@ -24388,12 +24388,18 @@ fpID = "2343D23F-205B-4C58-97D3-68D5A4726B86";
 weightClass = 800;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = "Variable Font Origin";
 value = m01;
 }
 );
+instanceInterpolations = {
+"60D037D9-62E9-4843-B070-F1594CB0B0D1" = 1;
+};
 name = Regular;
 type = variable;
 }

@@ -90,7 +90,8 @@ uuznnonzoozoo
 
 
 volumetrics evolved evolution voluntary revolving 
-"
+",
+b
 );
 axes = (
 {
@@ -10336,7 +10337,7 @@ unicode = 483;
 {
 color = 3;
 glyphname = b;
-lastChange = "2023-11-21 17:23:00 +0000";
+lastChange = "2023-11-21 17:49:26 +0000";
 layers = (
 {
 anchors = (
@@ -10425,6 +10426,20 @@ nodes = (
 width = 648;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = center;
+pos = (304,240);
+},
+{
+name = top;
+pos = (304,480);
+}
+);
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {

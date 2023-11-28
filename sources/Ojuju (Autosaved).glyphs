@@ -696,6 +696,7 @@ glyphname = C;
 lastChange = "2023-11-28 17:37:26 +0000";
 layers = (
 {
+.lastUpdate = 722885839.212;
 anchors = (
 {
 name = bottom;
@@ -750,6 +751,7 @@ nodes = (
 width = 620;
 },
 {
+.lastUpdate = 722885840.457;
 anchors = (
 {
 name = bottom;
@@ -887,6 +889,7 @@ nodes = (
 width = 677;
 },
 {
+.lastUpdate = 722885551.445;
 anchors = (
 {
 name = bottom;
@@ -1330,6 +1333,7 @@ nodes = (
 width = 643;
 },
 {
+.lastUpdate = 722885551.446;
 background = {
 shapes = (
 {
@@ -1599,6 +1603,7 @@ nodes = (
 width = 479;
 },
 {
+.lastUpdate = 722885551.447;
 anchors = (
 {
 name = bottom;
@@ -1718,6 +1723,7 @@ nodes = (
 width = 553;
 },
 {
+.lastUpdate = 722885551.448;
 anchors = (
 {
 name = bottom;
@@ -2638,6 +2644,7 @@ nodes = (
 width = 704;
 },
 {
+.lastUpdate = 722885551.449;
 anchors = (
 {
 name = bottom;
@@ -2713,6 +2720,7 @@ glyphname = R;
 lastChange = "2023-11-28 17:32:31 +0000";
 layers = (
 {
+.lastUpdate = 722885551.45;
 background = {
 shapes = (
 {
@@ -2997,6 +3005,7 @@ nodes = (
 width = 566;
 },
 {
+.lastUpdate = 722885551.451;
 anchors = (
 {
 name = bottom;
@@ -3246,6 +3255,7 @@ nodes = (
 width = 621;
 },
 {
+.lastUpdate = 722885551.452;
 anchors = (
 {
 name = bottom;
@@ -3745,6 +3755,7 @@ nodes = (
 width = 650;
 },
 {
+.lastUpdate = 722885551.453;
 anchors = (
 {
 name = bottom;
@@ -3889,6 +3900,7 @@ nodes = (
 width = 638;
 },
 {
+.lastUpdate = 722885551.454;
 anchors = (
 {
 name = bottom;
@@ -4100,6 +4112,7 @@ nodes = (
 width = 582;
 },
 {
+.lastUpdate = 722885551.456;
 anchors = (
 {
 name = bottom;
@@ -4328,6 +4341,7 @@ nodes = (
 width = 592;
 },
 {
+.lastUpdate = 722885551.456;
 anchors = (
 {
 name = bottom;
@@ -4470,6 +4484,7 @@ nodes = (
 width = 495;
 },
 {
+.lastUpdate = 722885551.457;
 anchors = (
 {
 name = bottom;
@@ -4621,6 +4636,7 @@ nodes = (
 width = 591;
 },
 {
+.lastUpdate = 722885551.458;
 anchors = (
 {
 name = bottom;
@@ -4770,7 +4786,7 @@ ref = o;
 );
 };
 backgroundImage = {
-imagePath = "../../../../Downloads/Images/e-ExtraBold.tif";
+imagePath = "/Users/mirkovelimirovic/Downloads/Images/e-ExtraBold.tif";
 locked = 1;
 pos = (-968,-3564);
 scale = (1.4452,1.4452);
@@ -4818,6 +4834,7 @@ nodes = (
 width = 534;
 },
 {
+.lastUpdate = 722885551.459;
 background = {
 shapes = (
 {
@@ -5107,6 +5124,7 @@ nodes = (
 width = 580;
 },
 {
+.lastUpdate = 722885551.461;
 anchors = (
 {
 name = bottom;
@@ -5811,6 +5829,7 @@ nodes = (
 width = 525;
 },
 {
+.lastUpdate = 722885551.462;
 anchors = (
 {
 name = bottom;
@@ -6619,6 +6638,7 @@ nodes = (
 width = 592;
 },
 {
+.lastUpdate = 722885551.462;
 anchors = (
 {
 name = bottom;
@@ -6775,6 +6795,7 @@ nodes = (
 width = 592;
 },
 {
+.lastUpdate = 722885551.463;
 anchors = (
 {
 name = bottom;
@@ -7304,6 +7325,7 @@ nodes = (
 width = 547;
 },
 {
+.lastUpdate = 722885551.464;
 anchors = (
 {
 name = bottom;
@@ -7384,6 +7406,7 @@ glyphname = v;
 lastChange = "2023-11-28 17:32:25 +0000";
 layers = (
 {
+.lastUpdate = 722885545.817;
 anchors = (
 {
 name = bottom;
@@ -7516,6 +7539,7 @@ glyphname = w;
 lastChange = "2023-11-28 17:32:31 +0000";
 layers = (
 {
+.lastUpdate = 722885551.532;
 anchors = (
 {
 name = bottom;
@@ -7829,6 +7853,7 @@ glyphname = y;
 lastChange = "2023-11-28 17:32:31 +0000";
 layers = (
 {
+.lastUpdate = 722885547.904;
 anchors = (
 {
 name = bottom;
@@ -7895,6 +7920,7 @@ nodes = (
 width = 530;
 },
 {
+.lastUpdate = 722885551.464;
 anchors = (
 {
 name = bottom;
@@ -7969,6 +7995,7 @@ glyphname = z;
 lastChange = "2023-11-28 17:27:19 +0000";
 layers = (
 {
+.lastUpdate = 722885239.981;
 anchors = (
 {
 name = bottom;
@@ -8270,6 +8297,7 @@ glyphname = ordfeminine;
 lastChange = "2023-11-28 17:37:30 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -8279,6 +8307,7 @@ ref = a;
 width = 607;
 },
 {
+.lastUpdate = 722885850.125;
 layerId = m01;
 shapes = (
 {
@@ -8289,6 +8318,7 @@ width = 582;
 }
 );
 unicode = 170;
+changeCount = 1;
 },
 {
 color = 0;
@@ -8296,6 +8326,7 @@ glyphname = ordmasculine;
 lastChange = "2023-11-27 22:54:43 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -8305,6 +8336,7 @@ ref = o;
 width = 578;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -9579,6 +9611,7 @@ glyphname = colon;
 lastChange = "2023-11-17 20:34:11 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -9593,6 +9626,7 @@ ref = period;
 width = 251;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -9617,6 +9651,7 @@ glyphname = semicolon;
 lastChange = "2023-11-21 16:49:02 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 background = {
 shapes = (
 {
@@ -9639,6 +9674,7 @@ ref = comma;
 width = 252;
 },
 {
+.lastUpdate = 722885850.103;
 background = {
 shapes = (
 {
@@ -9671,6 +9707,7 @@ glyphname = ellipsis;
 lastChange = "2023-11-28 17:32:31 +0000";
 layers = (
 {
+.lastUpdate = 722885551.522;
 background = {
 anchors = (
 {
@@ -9757,6 +9794,7 @@ ref = period;
 width = 793;
 },
 {
+.lastUpdate = 722885850.125;
 background = {
 anchors = (
 {
@@ -9922,6 +9960,7 @@ glyphname = exclamdown;
 lastChange = "2023-11-24 18:39:04 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -9933,6 +9972,7 @@ scale = (1,-1);
 width = 251;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -10066,6 +10106,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -10090,6 +10131,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -10278,6 +10320,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -10493,6 +10536,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -10585,6 +10629,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -10646,6 +10691,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -10683,6 +10729,7 @@ glyphname = quotedblbase;
 lastChange = "2023-11-24 18:39:04 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -10695,6 +10742,7 @@ ref = comma;
 width = 600;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -10720,6 +10768,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -10749,6 +10798,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -11867,6 +11917,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885826.938;
 layerId = m01;
 shapes = (
 {
@@ -12067,6 +12118,7 @@ layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 width = 600;
 },
 {
+.lastUpdate = 722885826.938;
 layerId = m01;
 shapes = (
 {
@@ -13718,6 +13770,7 @@ glyphname = brevecomb_acutecomb;
 lastChange = "2023-11-24 18:38:50 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -13730,6 +13783,7 @@ ref = acutecomb;
 width = 300;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -13750,6 +13804,7 @@ glyphname = brevecomb_gravecomb;
 lastChange = "2023-11-24 18:38:50 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -13762,6 +13817,7 @@ ref = gravecomb;
 width = 300;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -13798,6 +13854,7 @@ glyphname = brevecomb_tildecomb;
 lastChange = "2023-11-24 18:38:50 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -13810,6 +13867,7 @@ ref = tildecomb;
 width = 300;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -13830,6 +13888,7 @@ glyphname = circumflexcomb_acutecomb;
 lastChange = "2023-11-24 18:38:50 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -13842,6 +13901,7 @@ ref = acutecomb;
 width = 300;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -13862,6 +13922,7 @@ glyphname = circumflexcomb_gravecomb;
 lastChange = "2023-11-24 18:38:50 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -13874,6 +13935,7 @@ ref = gravecomb;
 width = 300;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {
@@ -13910,6 +13972,7 @@ glyphname = circumflexcomb_tildecomb;
 lastChange = "2023-11-24 18:38:50 +0000";
 layers = (
 {
+.lastUpdate = 722885850.103;
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
@@ -13922,6 +13985,7 @@ ref = tildecomb;
 width = 300;
 },
 {
+.lastUpdate = 722885850.103;
 layerId = m01;
 shapes = (
 {

@@ -807,7 +807,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
@@ -821,80 +821,80 @@ which does not match the expected format, similar to:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, khmer, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
- * U+002C COMMA: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, nushu, masaram-gondi, coptic, wancho, khmer
- * U+002E FULL STOP: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, avestan, math, nushu, syriac, masaram-gondi, coptic, wancho, khmer
- * U+0030 DIGIT ZERO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0031 DIGIT ONE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0032 DIGIT TWO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0033 DIGIT THREE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0034 DIGIT FOUR: try adding one of: latin, nushu, math, symbols, khmer
- * U+0035 DIGIT FIVE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0036 DIGIT SIX: try adding one of: latin, nushu, math, symbols, khmer
- * U+0037 DIGIT SEVEN: try adding one of: latin, nushu, math, symbols, khmer
- * U+0038 DIGIT EIGHT: try adding one of: latin, nushu, math, symbols, khmer
- * U+0039 DIGIT NINE: try adding one of: latin, nushu, math, symbols, khmer
- * U+003A COLON: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, syriac, masaram-gondi, coptic, meroitic, khmer
- * U+003B SEMICOLON: try adding one of: cham, latin, adlam, thaana, math, masaram-gondi, coptic, khmer
- * U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+004A LATIN CAPITAL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+004B LATIN CAPITAL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+004C LATIN CAPITAL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+004D LATIN CAPITAL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+004E LATIN CAPITAL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+004F LATIN CAPITAL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+0061 LATIN SMALL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0062 LATIN SMALL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0063 LATIN SMALL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0064 LATIN SMALL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0065 LATIN SMALL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0066 LATIN SMALL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0067 LATIN SMALL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0068 LATIN SMALL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0069 LATIN SMALL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+006A LATIN SMALL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+006B LATIN SMALL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+006C LATIN SMALL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+006D LATIN SMALL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+006E LATIN SMALL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+006F LATIN SMALL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0070 LATIN SMALL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0071 LATIN SMALL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0072 LATIN SMALL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0073 LATIN SMALL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0074 LATIN SMALL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0075 LATIN SMALL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0076 LATIN SMALL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0077 LATIN SMALL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0078 LATIN SMALL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0079 LATIN SMALL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+007A LATIN SMALL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+00A0 NO-BREAK SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
+ * U+0020 SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, khmer, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
+ * U+002C COMMA: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+002E FULL STOP: try adding one of: syriac, thaana, cham, avestan, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+0030 DIGIT ZERO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0031 DIGIT ONE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0032 DIGIT TWO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0033 DIGIT THREE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0034 DIGIT FOUR: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0035 DIGIT FIVE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0036 DIGIT SIX: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0037 DIGIT SEVEN: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0038 DIGIT EIGHT: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0039 DIGIT NINE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+003A COLON: try adding one of: syriac, thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, math, meroitic, khmer
+ * U+003B SEMICOLON: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, math, khmer
+ * U+0041 LATIN CAPITAL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0042 LATIN CAPITAL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0043 LATIN CAPITAL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0044 LATIN CAPITAL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0045 LATIN CAPITAL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0046 LATIN CAPITAL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0047 LATIN CAPITAL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0048 LATIN CAPITAL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0049 LATIN CAPITAL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004A LATIN CAPITAL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004B LATIN CAPITAL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004C LATIN CAPITAL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004D LATIN CAPITAL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004E LATIN CAPITAL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004F LATIN CAPITAL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0050 LATIN CAPITAL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0051 LATIN CAPITAL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0052 LATIN CAPITAL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0053 LATIN CAPITAL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0054 LATIN CAPITAL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0055 LATIN CAPITAL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0056 LATIN CAPITAL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0057 LATIN CAPITAL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0058 LATIN CAPITAL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0059 LATIN CAPITAL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+005A LATIN CAPITAL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0061 LATIN SMALL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0062 LATIN SMALL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0063 LATIN SMALL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0064 LATIN SMALL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0065 LATIN SMALL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0066 LATIN SMALL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0067 LATIN SMALL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0068 LATIN SMALL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0069 LATIN SMALL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006A LATIN SMALL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006B LATIN SMALL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006C LATIN SMALL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006D LATIN SMALL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006E LATIN SMALL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006F LATIN SMALL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0070 LATIN SMALL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0071 LATIN SMALL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0072 LATIN SMALL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0073 LATIN SMALL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0074 LATIN SMALL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0075 LATIN SMALL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0076 LATIN SMALL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0077 LATIN SMALL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0078 LATIN SMALL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0079 LATIN SMALL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+007A LATIN SMALL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+00A0 NO-BREAK SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
  * U+00AA FEMININE ORDINAL INDICATOR: try adding latin
- * U+00B0 DEGREE SIGN: try adding one of: syriac, latin
+ * U+00B0 DEGREE SIGN: try adding one of: latin, syriac
  * U+00BA MASCULINE ORDINAL INDICATOR: try adding latin
- * U+2026 HORIZONTAL ELLIPSIS: try adding one of: gunjala-gondi, phags-pa, latin, adlam, syriac, masaram-gondi, meroitic
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: old-permic, brahmi, mahajani, khojki, music, manichaean, mende-kikakui, caucasian-albanian, yi, phags-pa, adlam, marchen, bengali, wancho, myanmar, tirhuta, sundanese, tai-le, cham, grantha, takri, symbols, tai-viet, hanunoo, tagbanwa, gurmukhi, elbasan, kaithi, thaana, khudawadi, duployan, osage, lepcha, masaram-gondi, modi, syloti-nagri, hanifi-rohingya, buhid, tagalog, meetei-mayek, zanabazar-square, tamil, tifinagh, malayalam, kharoshthi, javanese, miao, coptic, devanagari, pahawh-hmong, siddham, mongolian, hebrew, sharada, batak, limbu, buginese, rejang, bassa-vah, kayah-li, tibetan, khmer, newa, kannada, dogra, sogdian, soyombo, ahom, chakma, syriac, bhaiksuki, new-tai-lue, oriya, gujarati, sinhala, telugu, psalter-pahlavi, nko, mandaic, math, lao, thai, gunjala-gondi, balinese
+ * U+2026 HORIZONTAL ELLIPSIS: try adding one of: syriac, phags-pa, masaram-gondi, adlam, latin, gunjala-gondi, meroitic
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: tamil, adlam, math, khudawadi, symbols, gujarati, batak, meetei-mayek, sundanese, tai-le, new-tai-lue, mende-kikakui, modi, psalter-pahlavi, siddham, gurmukhi, caucasian-albanian, zanabazar-square, tifinagh, oriya, mahajani, cham, kaithi, lepcha, hebrew, masaram-gondi, lao, limbu, javanese, tai-viet, yi, phags-pa, bhaiksuki, music, thaana, myanmar, buhid, newa, sinhala, ahom, tirhuta, bassa-vah, bengali, kannada, syriac, tagalog, khojki, rejang, old-permic, malayalam, marchen, sharada, syloti-nagri, hanifi-rohingya, soyombo, wancho, mongolian, brahmi, coptic, sogdian, tibetan, gunjala-gondi, pahawh-hmong, grantha, buginese, khmer, takri, balinese, telugu, tagbanwa, mandaic, duployan, chakma, hanunoo, kayah-li, thai, nko, elbasan, manichaean, miao, devanagari, dogra, osage, kharoshthi
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -910,9 +910,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- K.ss08
+	- K.salt
 
 	- K.ss10.BRACKET.varAlt01
+
+	- R.salt
 
 	- k.001
  [code: unreachable-glyphs]
@@ -952,8 +954,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* P (U+0050): X=300.0,Y=699.0 (should be at cap-height 700?)
 
 	* R (U+0052): X=84.0,Y=701.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=298.0,Y=699.0 (should be at cap-height 700?)
 
 	* S (U+0053): X=363.5,Y=701.5 (should be at cap-height 700?)
 
@@ -1045,6 +1045,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* J (U+004A) contains a short segment B<<308.0,657.0>-<304.0,654.0>-<301.5,646.0>>
 
+	* K (U+004B) contains a short segment B<<127.0,334.5>-<119.0,332.0>-<111.0,326.0>>
+
 	* M (U+004D) contains a short segment B<<358.0,194.0>-<364.0,180.0>-<370.0,177.0>>
 
 	* M (U+004D) contains a short segment B<<370.0,177.0>-<376.0,174.0>-<383.0,174.0>>
@@ -1057,13 +1059,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* M (U+004D) contains a short segment B<<133.0,656.0>-<120.0,652.0>-<117.0,635.0>>
 
-	* P (U+0050) contains a short segment B<<89.0,338.0>-<89.0,342.0>-<89.0,342.5>>
-
-	* P (U+0050) contains a short segment B<<89.0,342.5>-<89.0,343.0>-<89.0,350.0>>
-
-	* R (U+0052) contains a short segment B<<124.5,286.5>-<119.0,284.0>-<115.0,279.0>>
-
-	* R (U+0052) contains a short segment B<<115.0,279.0>-<111.0,275.0>-<109.5,267.5>>
+	* R (U+0052) contains a short segment B<<128.5,287.0>-<119.0,284.0>-<115.0,279.0>>
 
 	* W (U+0057) contains a short segment B<<137.0,68.0>-<142.0,49.0>-<156.5,43.5>>
 
@@ -1177,7 +1173,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* J (U+004A): L<<296.0,386.0>--<297.0,196.0>> [code: found-semi-vertical]
+	* J (U+004A): L<<296.0,386.0>--<297.0,196.0>>
+
+	* R (U+0052): L<<84.0,701.0>--<298.0,700.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[18] Ojuju-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1983,7 +1981,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
@@ -1997,80 +1995,80 @@ which does not match the expected format, similar to:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, khmer, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
- * U+002C COMMA: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, nushu, masaram-gondi, coptic, wancho, khmer
- * U+002E FULL STOP: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, avestan, math, nushu, syriac, masaram-gondi, coptic, wancho, khmer
- * U+0030 DIGIT ZERO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0031 DIGIT ONE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0032 DIGIT TWO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0033 DIGIT THREE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0034 DIGIT FOUR: try adding one of: latin, nushu, math, symbols, khmer
- * U+0035 DIGIT FIVE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0036 DIGIT SIX: try adding one of: latin, nushu, math, symbols, khmer
- * U+0037 DIGIT SEVEN: try adding one of: latin, nushu, math, symbols, khmer
- * U+0038 DIGIT EIGHT: try adding one of: latin, nushu, math, symbols, khmer
- * U+0039 DIGIT NINE: try adding one of: latin, nushu, math, symbols, khmer
- * U+003A COLON: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, syriac, masaram-gondi, coptic, meroitic, khmer
- * U+003B SEMICOLON: try adding one of: cham, latin, adlam, thaana, math, masaram-gondi, coptic, khmer
- * U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+004A LATIN CAPITAL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+004B LATIN CAPITAL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+004C LATIN CAPITAL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+004D LATIN CAPITAL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+004E LATIN CAPITAL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+004F LATIN CAPITAL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+0061 LATIN SMALL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0062 LATIN SMALL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0063 LATIN SMALL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0064 LATIN SMALL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0065 LATIN SMALL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0066 LATIN SMALL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0067 LATIN SMALL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0068 LATIN SMALL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0069 LATIN SMALL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+006A LATIN SMALL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+006B LATIN SMALL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+006C LATIN SMALL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+006D LATIN SMALL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+006E LATIN SMALL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+006F LATIN SMALL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0070 LATIN SMALL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0071 LATIN SMALL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0072 LATIN SMALL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0073 LATIN SMALL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0074 LATIN SMALL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0075 LATIN SMALL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0076 LATIN SMALL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0077 LATIN SMALL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0078 LATIN SMALL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0079 LATIN SMALL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+007A LATIN SMALL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+00A0 NO-BREAK SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
+ * U+0020 SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, khmer, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
+ * U+002C COMMA: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+002E FULL STOP: try adding one of: syriac, thaana, cham, avestan, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+0030 DIGIT ZERO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0031 DIGIT ONE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0032 DIGIT TWO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0033 DIGIT THREE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0034 DIGIT FOUR: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0035 DIGIT FIVE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0036 DIGIT SIX: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0037 DIGIT SEVEN: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0038 DIGIT EIGHT: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0039 DIGIT NINE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+003A COLON: try adding one of: syriac, thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, math, meroitic, khmer
+ * U+003B SEMICOLON: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, math, khmer
+ * U+0041 LATIN CAPITAL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0042 LATIN CAPITAL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0043 LATIN CAPITAL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0044 LATIN CAPITAL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0045 LATIN CAPITAL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0046 LATIN CAPITAL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0047 LATIN CAPITAL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0048 LATIN CAPITAL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0049 LATIN CAPITAL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004A LATIN CAPITAL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004B LATIN CAPITAL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004C LATIN CAPITAL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004D LATIN CAPITAL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004E LATIN CAPITAL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004F LATIN CAPITAL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0050 LATIN CAPITAL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0051 LATIN CAPITAL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0052 LATIN CAPITAL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0053 LATIN CAPITAL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0054 LATIN CAPITAL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0055 LATIN CAPITAL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0056 LATIN CAPITAL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0057 LATIN CAPITAL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0058 LATIN CAPITAL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0059 LATIN CAPITAL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+005A LATIN CAPITAL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0061 LATIN SMALL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0062 LATIN SMALL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0063 LATIN SMALL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0064 LATIN SMALL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0065 LATIN SMALL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0066 LATIN SMALL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0067 LATIN SMALL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0068 LATIN SMALL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0069 LATIN SMALL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006A LATIN SMALL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006B LATIN SMALL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006C LATIN SMALL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006D LATIN SMALL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006E LATIN SMALL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006F LATIN SMALL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0070 LATIN SMALL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0071 LATIN SMALL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0072 LATIN SMALL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0073 LATIN SMALL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0074 LATIN SMALL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0075 LATIN SMALL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0076 LATIN SMALL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0077 LATIN SMALL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0078 LATIN SMALL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0079 LATIN SMALL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+007A LATIN SMALL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+00A0 NO-BREAK SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
  * U+00AA FEMININE ORDINAL INDICATOR: try adding latin
- * U+00B0 DEGREE SIGN: try adding one of: syriac, latin
+ * U+00B0 DEGREE SIGN: try adding one of: latin, syriac
  * U+00BA MASCULINE ORDINAL INDICATOR: try adding latin
- * U+2026 HORIZONTAL ELLIPSIS: try adding one of: gunjala-gondi, phags-pa, latin, adlam, syriac, masaram-gondi, meroitic
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: old-permic, brahmi, mahajani, khojki, music, manichaean, mende-kikakui, caucasian-albanian, yi, phags-pa, adlam, marchen, bengali, wancho, myanmar, tirhuta, sundanese, tai-le, cham, grantha, takri, symbols, tai-viet, hanunoo, tagbanwa, gurmukhi, elbasan, kaithi, thaana, khudawadi, duployan, osage, lepcha, masaram-gondi, modi, syloti-nagri, hanifi-rohingya, buhid, tagalog, meetei-mayek, zanabazar-square, tamil, tifinagh, malayalam, kharoshthi, javanese, miao, coptic, devanagari, pahawh-hmong, siddham, mongolian, hebrew, sharada, batak, limbu, buginese, rejang, bassa-vah, kayah-li, tibetan, khmer, newa, kannada, dogra, sogdian, soyombo, ahom, chakma, syriac, bhaiksuki, new-tai-lue, oriya, gujarati, sinhala, telugu, psalter-pahlavi, nko, mandaic, math, lao, thai, gunjala-gondi, balinese
+ * U+2026 HORIZONTAL ELLIPSIS: try adding one of: syriac, phags-pa, masaram-gondi, adlam, latin, gunjala-gondi, meroitic
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: tamil, adlam, math, khudawadi, symbols, gujarati, batak, meetei-mayek, sundanese, tai-le, new-tai-lue, mende-kikakui, modi, psalter-pahlavi, siddham, gurmukhi, caucasian-albanian, zanabazar-square, tifinagh, oriya, mahajani, cham, kaithi, lepcha, hebrew, masaram-gondi, lao, limbu, javanese, tai-viet, yi, phags-pa, bhaiksuki, music, thaana, myanmar, buhid, newa, sinhala, ahom, tirhuta, bassa-vah, bengali, kannada, syriac, tagalog, khojki, rejang, old-permic, malayalam, marchen, sharada, syloti-nagri, hanifi-rohingya, soyombo, wancho, mongolian, brahmi, coptic, sogdian, tibetan, gunjala-gondi, pahawh-hmong, grantha, buginese, khmer, takri, balinese, telugu, tagbanwa, mandaic, duployan, chakma, hanunoo, kayah-li, thai, nko, elbasan, manichaean, miao, devanagari, dogra, osage, kharoshthi
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -2086,9 +2084,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- K.ss08
+	- K.salt
 
 	- K.ss10.BRACKET.varAlt01
+
+	- R.salt
 
 	- k.001
  [code: unreachable-glyphs]
@@ -2117,15 +2117,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* M (U+004D): X=129.0,Y=-1.0 (should be at baseline 0?)
 
-	* P (U+0050): X=82.0,Y=701.0 (should be at cap-height 700?)
+	* P (U+0050): X=81.0,Y=701.0 (should be at cap-height 700?)
 
-	* P (U+0050): X=333.0,Y=699.0 (should be at cap-height 700?)
+	* P (U+0050): X=332.0,Y=699.0 (should be at cap-height 700?)
 
-	* R (U+0052): X=81.0,Y=701.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=331.0,Y=699.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=580.0,Y=2.0 (should be at baseline 0?)
+	* R (U+0052): X=80.0,Y=701.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=11.0,Y=699.0 (should be at cap-height 700?)
 
@@ -2219,23 +2215,23 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* nine (U+0039) contains a short segment B<<513.0,387.0>-<507.0,387.0>-<500.5,376.5>>
 
-	* E (U+0045) contains a short segment B<<146.0,604.0>-<133.0,602.0>-<127.0,596.0>>
+	* E (U+0045) contains a short segment B<<145.5,604.0>-<133.0,602.0>-<127.0,596.0>>
 
-	* E (U+0045) contains a short segment B<<122.0,395.0>-<126.0,390.0>-<131.5,388.0>>
+	* E (U+0045) contains a short segment B<<122.0,397.0>-<125.0,393.0>-<130.5,390.5>>
 
-	* E (U+0045) contains a short segment B<<131.5,388.0>-<137.0,386.0>-<152.0,385.0>>
+	* E (U+0045) contains a short segment B<<130.5,390.5>-<136.0,388.0>-<151.0,387.0>>
 
-	* E (U+0045) contains a short segment B<<152.5,343.5>-<138.0,342.0>-<132.5,339.5>>
+	* E (U+0045) contains a short segment B<<151.5,343.0>-<137.0,342.0>-<131.5,339.5>>
 
-	* E (U+0045) contains a short segment B<<132.5,339.5>-<127.0,337.0>-<124.0,333.0>>
+	* E (U+0045) contains a short segment B<<131.5,339.5>-<126.0,337.0>-<123.0,333.0>>
 
-	* E (U+0045) contains a short segment B<<126.0,119.0>-<129.0,110.0>-<134.5,105.0>>
+	* E (U+0045) contains a short segment B<<125.0,119.0>-<128.0,111.0>-<133.5,106.0>>
 
-	* E (U+0045) contains a short segment B<<134.5,105.0>-<140.0,100.0>-<154.5,97.5>>
-
-	* F (U+0046) contains a short segment B<<131.0,378.0>-<135.0,373.0>-<140.5,371.0>>
+	* E (U+0045) contains a short segment B<<133.5,106.0>-<139.0,101.0>-<153.5,98.5>>
 
 	* J (U+004A) contains a short segment B<<337.0,602.0>-<332.0,599.0>-<328.0,592.0>>
+
+	* K (U+004B) contains a short segment B<<143.5,299.5>-<135.0,296.0>-<128.0,290.0>>
 
 	* M (U+004D) contains a short segment B<<365.0,254.5>-<372.0,232.0>-<379.0,226.5>>
 
@@ -2250,10 +2246,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* M (U+004D) contains a short segment B<<150.0,571.0>-<136.0,567.0>-<131.0,553.0>>
 
 	* N (U+004E) contains a short segment B<<124.0,532.0>-<123.0,519.0>-<122.5,506.5>>
-
-	* R (U+0052) contains a short segment B<<143.5,277.5>-<134.0,274.0>-<129.0,267.0>>
-
-	* R (U+0052) contains a short segment B<<129.0,267.0>-<125.0,262.0>-<123.0,254.0>>
 
 	* W (U+0057) contains a short segment B<<236.5,124.0>-<250.0,130.0>-<256.0,145.0>>
 
@@ -2335,9 +2327,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* P (U+0050): L<<82.0,701.0>--<333.0,699.0>>
+	* P (U+0050): L<<81.0,701.0>--<332.0,699.0>>
 
-	* R (U+0052): L<<81.0,701.0>--<331.0,699.0>> [code: found-semi-vertical]
+	* R (U+0052): L<<80.0,701.0>--<330.0,700.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[18] Ojuju-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3143,7 +3135,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
@@ -3157,80 +3149,80 @@ which does not match the expected format, similar to:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, khmer, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
- * U+002C COMMA: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, nushu, masaram-gondi, coptic, wancho, khmer
- * U+002E FULL STOP: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, avestan, math, nushu, syriac, masaram-gondi, coptic, wancho, khmer
- * U+0030 DIGIT ZERO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0031 DIGIT ONE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0032 DIGIT TWO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0033 DIGIT THREE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0034 DIGIT FOUR: try adding one of: latin, nushu, math, symbols, khmer
- * U+0035 DIGIT FIVE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0036 DIGIT SIX: try adding one of: latin, nushu, math, symbols, khmer
- * U+0037 DIGIT SEVEN: try adding one of: latin, nushu, math, symbols, khmer
- * U+0038 DIGIT EIGHT: try adding one of: latin, nushu, math, symbols, khmer
- * U+0039 DIGIT NINE: try adding one of: latin, nushu, math, symbols, khmer
- * U+003A COLON: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, syriac, masaram-gondi, coptic, meroitic, khmer
- * U+003B SEMICOLON: try adding one of: cham, latin, adlam, thaana, math, masaram-gondi, coptic, khmer
- * U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+004A LATIN CAPITAL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+004B LATIN CAPITAL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+004C LATIN CAPITAL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+004D LATIN CAPITAL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+004E LATIN CAPITAL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+004F LATIN CAPITAL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+0061 LATIN SMALL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0062 LATIN SMALL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0063 LATIN SMALL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0064 LATIN SMALL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0065 LATIN SMALL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0066 LATIN SMALL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0067 LATIN SMALL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0068 LATIN SMALL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0069 LATIN SMALL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+006A LATIN SMALL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+006B LATIN SMALL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+006C LATIN SMALL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+006D LATIN SMALL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+006E LATIN SMALL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+006F LATIN SMALL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0070 LATIN SMALL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0071 LATIN SMALL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0072 LATIN SMALL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0073 LATIN SMALL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0074 LATIN SMALL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0075 LATIN SMALL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0076 LATIN SMALL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0077 LATIN SMALL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0078 LATIN SMALL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0079 LATIN SMALL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+007A LATIN SMALL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+00A0 NO-BREAK SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
+ * U+0020 SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, khmer, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
+ * U+002C COMMA: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+002E FULL STOP: try adding one of: syriac, thaana, cham, avestan, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+0030 DIGIT ZERO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0031 DIGIT ONE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0032 DIGIT TWO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0033 DIGIT THREE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0034 DIGIT FOUR: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0035 DIGIT FIVE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0036 DIGIT SIX: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0037 DIGIT SEVEN: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0038 DIGIT EIGHT: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0039 DIGIT NINE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+003A COLON: try adding one of: syriac, thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, math, meroitic, khmer
+ * U+003B SEMICOLON: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, math, khmer
+ * U+0041 LATIN CAPITAL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0042 LATIN CAPITAL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0043 LATIN CAPITAL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0044 LATIN CAPITAL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0045 LATIN CAPITAL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0046 LATIN CAPITAL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0047 LATIN CAPITAL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0048 LATIN CAPITAL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0049 LATIN CAPITAL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004A LATIN CAPITAL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004B LATIN CAPITAL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004C LATIN CAPITAL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004D LATIN CAPITAL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004E LATIN CAPITAL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004F LATIN CAPITAL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0050 LATIN CAPITAL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0051 LATIN CAPITAL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0052 LATIN CAPITAL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0053 LATIN CAPITAL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0054 LATIN CAPITAL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0055 LATIN CAPITAL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0056 LATIN CAPITAL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0057 LATIN CAPITAL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0058 LATIN CAPITAL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0059 LATIN CAPITAL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+005A LATIN CAPITAL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0061 LATIN SMALL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0062 LATIN SMALL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0063 LATIN SMALL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0064 LATIN SMALL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0065 LATIN SMALL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0066 LATIN SMALL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0067 LATIN SMALL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0068 LATIN SMALL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0069 LATIN SMALL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006A LATIN SMALL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006B LATIN SMALL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006C LATIN SMALL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006D LATIN SMALL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006E LATIN SMALL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006F LATIN SMALL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0070 LATIN SMALL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0071 LATIN SMALL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0072 LATIN SMALL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0073 LATIN SMALL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0074 LATIN SMALL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0075 LATIN SMALL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0076 LATIN SMALL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0077 LATIN SMALL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0078 LATIN SMALL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0079 LATIN SMALL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+007A LATIN SMALL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+00A0 NO-BREAK SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
  * U+00AA FEMININE ORDINAL INDICATOR: try adding latin
- * U+00B0 DEGREE SIGN: try adding one of: syriac, latin
+ * U+00B0 DEGREE SIGN: try adding one of: latin, syriac
  * U+00BA MASCULINE ORDINAL INDICATOR: try adding latin
- * U+2026 HORIZONTAL ELLIPSIS: try adding one of: gunjala-gondi, phags-pa, latin, adlam, syriac, masaram-gondi, meroitic
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: old-permic, brahmi, mahajani, khojki, music, manichaean, mende-kikakui, caucasian-albanian, yi, phags-pa, adlam, marchen, bengali, wancho, myanmar, tirhuta, sundanese, tai-le, cham, grantha, takri, symbols, tai-viet, hanunoo, tagbanwa, gurmukhi, elbasan, kaithi, thaana, khudawadi, duployan, osage, lepcha, masaram-gondi, modi, syloti-nagri, hanifi-rohingya, buhid, tagalog, meetei-mayek, zanabazar-square, tamil, tifinagh, malayalam, kharoshthi, javanese, miao, coptic, devanagari, pahawh-hmong, siddham, mongolian, hebrew, sharada, batak, limbu, buginese, rejang, bassa-vah, kayah-li, tibetan, khmer, newa, kannada, dogra, sogdian, soyombo, ahom, chakma, syriac, bhaiksuki, new-tai-lue, oriya, gujarati, sinhala, telugu, psalter-pahlavi, nko, mandaic, math, lao, thai, gunjala-gondi, balinese
+ * U+2026 HORIZONTAL ELLIPSIS: try adding one of: syriac, phags-pa, masaram-gondi, adlam, latin, gunjala-gondi, meroitic
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: tamil, adlam, math, khudawadi, symbols, gujarati, batak, meetei-mayek, sundanese, tai-le, new-tai-lue, mende-kikakui, modi, psalter-pahlavi, siddham, gurmukhi, caucasian-albanian, zanabazar-square, tifinagh, oriya, mahajani, cham, kaithi, lepcha, hebrew, masaram-gondi, lao, limbu, javanese, tai-viet, yi, phags-pa, bhaiksuki, music, thaana, myanmar, buhid, newa, sinhala, ahom, tirhuta, bassa-vah, bengali, kannada, syriac, tagalog, khojki, rejang, old-permic, malayalam, marchen, sharada, syloti-nagri, hanifi-rohingya, soyombo, wancho, mongolian, brahmi, coptic, sogdian, tibetan, gunjala-gondi, pahawh-hmong, grantha, buginese, khmer, takri, balinese, telugu, tagbanwa, mandaic, duployan, chakma, hanunoo, kayah-li, thai, nko, elbasan, manichaean, miao, devanagari, dogra, osage, kharoshthi
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -3246,9 +3238,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- K.ss08
+	- K.salt
 
 	- K.ss10.BRACKET.varAlt01
+
+	- R.salt
 
 	- k.001
  [code: unreachable-glyphs]
@@ -3281,13 +3275,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* P (U+0050): X=83.0,Y=701.0 (should be at cap-height 700?)
 
-	* P (U+0050): X=318.0,Y=699.0 (should be at cap-height 700?)
+	* P (U+0050): X=317.0,Y=699.0 (should be at cap-height 700?)
 
 	* R (U+0052): X=82.0,Y=701.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=316.0,Y=699.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=568.0,Y=-1.0 (should be at baseline 0?)
 
 	* S (U+0053): X=369.5,Y=701.5 (should be at cap-height 700?)
 
@@ -3355,23 +3345,23 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* nine (U+0039) contains a short segment B<<510.0,395.0>-<505.0,395.0>-<499.0,383.5>>
 
-	* E (U+0045) contains a short segment B<<140.0,629.5>-<127.0,627.0>-<123.0,621.0>>
+	* E (U+0045) contains a short segment B<<139.5,629.5>-<127.0,627.0>-<122.0,621.0>>
 
-	* E (U+0045) contains a short segment B<<117.0,395.0>-<119.0,391.0>-<124.0,388.5>>
+	* E (U+0045) contains a short segment B<<116.0,396.0>-<119.0,392.0>-<124.0,389.5>>
 
-	* E (U+0045) contains a short segment B<<124.0,388.5>-<129.0,386.0>-<144.0,385.0>>
+	* E (U+0045) contains a short segment B<<124.0,389.5>-<129.0,387.0>-<143.5,386.0>>
 
-	* E (U+0045) contains a short segment B<<144.0,347.0>-<129.0,346.0>-<124.5,343.5>>
+	* E (U+0045) contains a short segment B<<143.5,347.0>-<129.0,346.0>-<124.0,343.5>>
 
-	* E (U+0045) contains a short segment B<<124.5,343.5>-<120.0,341.0>-<117.0,336.0>>
+	* E (U+0045) contains a short segment B<<124.0,343.5>-<119.0,341.0>-<116.0,336.0>>
 
-	* E (U+0045) contains a short segment B<<119.0,96.0>-<122.0,86.0>-<127.0,80.5>>
+	* E (U+0045) contains a short segment B<<119.0,97.0>-<121.0,87.0>-<126.0,81.5>>
 
-	* E (U+0045) contains a short segment B<<127.0,80.5>-<132.0,75.0>-<146.5,72.5>>
+	* E (U+0045) contains a short segment B<<126.0,81.5>-<131.0,76.0>-<145.5,73.5>>
 
-	* F (U+0046) contains a short segment B<<121.0,376.0>-<124.0,372.0>-<129.0,369.5>>
+	* F (U+0046) contains a short segment B<<120.0,376.0>-<123.0,371.0>-<128.5,368.5>>
 
-	* F (U+0046) contains a short segment B<<122.5,318.0>-<118.0,313.0>-<116.0,305.0>>
+	* F (U+0046) contains a short segment B<<122.5,316.0>-<118.0,311.0>-<116.0,302.0>>
 
 	* H (U+0048) contains a short segment B<<117.0,440.0>-<117.0,427.0>-<122.5,420.0>>
 
@@ -3380,6 +3370,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* J (U+004A) contains a short segment B<<272.0,616.5>-<269.0,624.0>-<264.0,627.0>>
 
 	* J (U+004A) contains a short segment B<<324.0,627.0>-<319.0,624.0>-<316.0,617.0>>
+
+	* K (U+004B) contains a short segment B<<136.5,316.0>-<128.0,313.0>-<120.0,307.0>>
 
 	* M (U+004D) contains a short segment B<<359.5,233.0>-<367.0,210.0>-<373.5,205.0>>
 
@@ -3392,12 +3384,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* M (U+004D) contains a short segment B<<657.0,591.0>-<653.0,605.0>-<641.5,609.5>>
 
 	* M (U+004D) contains a short segment B<<142.0,610.0>-<128.0,606.0>-<125.0,591.0>>
-
-	* P (U+0050) contains a short segment B<<87.5,323.5>-<88.0,331.0>-<87.5,335.5>>
-
-	* R (U+0052) contains a short segment B<<136.5,282.0>-<127.0,279.0>-<122.0,272.0>>
-
-	* R (U+0052) contains a short segment B<<122.0,272.0>-<118.0,268.0>-<116.5,260.0>>
 
 	* W (U+0057) contains a short segment B<<142.0,109.0>-<147.0,91.0>-<162.0,86.0>>
 
@@ -3487,9 +3473,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* J (U+004A): L<<308.0,386.0>--<309.0,195.0>>
 
-	* P (U+0050): L<<83.0,701.0>--<318.0,699.0>>
+	* P (U+0050): L<<83.0,701.0>--<317.0,699.0>>
 
-	* R (U+0052): L<<82.0,701.0>--<316.0,699.0>> [code: found-semi-vertical]
+	* R (U+0052): L<<82.0,701.0>--<315.0,700.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[18] Ojuju-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -4295,7 +4281,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
@@ -4309,80 +4295,80 @@ which does not match the expected format, similar to:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, khmer, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
- * U+002C COMMA: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, nushu, masaram-gondi, coptic, wancho, khmer
- * U+002E FULL STOP: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, avestan, math, nushu, syriac, masaram-gondi, coptic, wancho, khmer
- * U+0030 DIGIT ZERO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0031 DIGIT ONE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0032 DIGIT TWO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0033 DIGIT THREE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0034 DIGIT FOUR: try adding one of: latin, nushu, math, symbols, khmer
- * U+0035 DIGIT FIVE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0036 DIGIT SIX: try adding one of: latin, nushu, math, symbols, khmer
- * U+0037 DIGIT SEVEN: try adding one of: latin, nushu, math, symbols, khmer
- * U+0038 DIGIT EIGHT: try adding one of: latin, nushu, math, symbols, khmer
- * U+0039 DIGIT NINE: try adding one of: latin, nushu, math, symbols, khmer
- * U+003A COLON: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, syriac, masaram-gondi, coptic, meroitic, khmer
- * U+003B SEMICOLON: try adding one of: cham, latin, adlam, thaana, math, masaram-gondi, coptic, khmer
- * U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+004A LATIN CAPITAL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+004B LATIN CAPITAL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+004C LATIN CAPITAL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+004D LATIN CAPITAL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+004E LATIN CAPITAL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+004F LATIN CAPITAL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+0061 LATIN SMALL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0062 LATIN SMALL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0063 LATIN SMALL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0064 LATIN SMALL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0065 LATIN SMALL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0066 LATIN SMALL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0067 LATIN SMALL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0068 LATIN SMALL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0069 LATIN SMALL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+006A LATIN SMALL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+006B LATIN SMALL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+006C LATIN SMALL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+006D LATIN SMALL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+006E LATIN SMALL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+006F LATIN SMALL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0070 LATIN SMALL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0071 LATIN SMALL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0072 LATIN SMALL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0073 LATIN SMALL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0074 LATIN SMALL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0075 LATIN SMALL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0076 LATIN SMALL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0077 LATIN SMALL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0078 LATIN SMALL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0079 LATIN SMALL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+007A LATIN SMALL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+00A0 NO-BREAK SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
+ * U+0020 SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, khmer, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
+ * U+002C COMMA: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+002E FULL STOP: try adding one of: syriac, thaana, cham, avestan, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+0030 DIGIT ZERO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0031 DIGIT ONE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0032 DIGIT TWO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0033 DIGIT THREE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0034 DIGIT FOUR: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0035 DIGIT FIVE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0036 DIGIT SIX: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0037 DIGIT SEVEN: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0038 DIGIT EIGHT: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0039 DIGIT NINE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+003A COLON: try adding one of: syriac, thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, math, meroitic, khmer
+ * U+003B SEMICOLON: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, math, khmer
+ * U+0041 LATIN CAPITAL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0042 LATIN CAPITAL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0043 LATIN CAPITAL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0044 LATIN CAPITAL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0045 LATIN CAPITAL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0046 LATIN CAPITAL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0047 LATIN CAPITAL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0048 LATIN CAPITAL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0049 LATIN CAPITAL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004A LATIN CAPITAL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004B LATIN CAPITAL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004C LATIN CAPITAL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004D LATIN CAPITAL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004E LATIN CAPITAL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004F LATIN CAPITAL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0050 LATIN CAPITAL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0051 LATIN CAPITAL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0052 LATIN CAPITAL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0053 LATIN CAPITAL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0054 LATIN CAPITAL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0055 LATIN CAPITAL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0056 LATIN CAPITAL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0057 LATIN CAPITAL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0058 LATIN CAPITAL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0059 LATIN CAPITAL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+005A LATIN CAPITAL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0061 LATIN SMALL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0062 LATIN SMALL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0063 LATIN SMALL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0064 LATIN SMALL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0065 LATIN SMALL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0066 LATIN SMALL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0067 LATIN SMALL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0068 LATIN SMALL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0069 LATIN SMALL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006A LATIN SMALL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006B LATIN SMALL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006C LATIN SMALL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006D LATIN SMALL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006E LATIN SMALL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006F LATIN SMALL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0070 LATIN SMALL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0071 LATIN SMALL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0072 LATIN SMALL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0073 LATIN SMALL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0074 LATIN SMALL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0075 LATIN SMALL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0076 LATIN SMALL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0077 LATIN SMALL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0078 LATIN SMALL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0079 LATIN SMALL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+007A LATIN SMALL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+00A0 NO-BREAK SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
  * U+00AA FEMININE ORDINAL INDICATOR: try adding latin
- * U+00B0 DEGREE SIGN: try adding one of: syriac, latin
+ * U+00B0 DEGREE SIGN: try adding one of: latin, syriac
  * U+00BA MASCULINE ORDINAL INDICATOR: try adding latin
- * U+2026 HORIZONTAL ELLIPSIS: try adding one of: gunjala-gondi, phags-pa, latin, adlam, syriac, masaram-gondi, meroitic
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: old-permic, brahmi, mahajani, khojki, music, manichaean, mende-kikakui, caucasian-albanian, yi, phags-pa, adlam, marchen, bengali, wancho, myanmar, tirhuta, sundanese, tai-le, cham, grantha, takri, symbols, tai-viet, hanunoo, tagbanwa, gurmukhi, elbasan, kaithi, thaana, khudawadi, duployan, osage, lepcha, masaram-gondi, modi, syloti-nagri, hanifi-rohingya, buhid, tagalog, meetei-mayek, zanabazar-square, tamil, tifinagh, malayalam, kharoshthi, javanese, miao, coptic, devanagari, pahawh-hmong, siddham, mongolian, hebrew, sharada, batak, limbu, buginese, rejang, bassa-vah, kayah-li, tibetan, khmer, newa, kannada, dogra, sogdian, soyombo, ahom, chakma, syriac, bhaiksuki, new-tai-lue, oriya, gujarati, sinhala, telugu, psalter-pahlavi, nko, mandaic, math, lao, thai, gunjala-gondi, balinese
+ * U+2026 HORIZONTAL ELLIPSIS: try adding one of: syriac, phags-pa, masaram-gondi, adlam, latin, gunjala-gondi, meroitic
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: tamil, adlam, math, khudawadi, symbols, gujarati, batak, meetei-mayek, sundanese, tai-le, new-tai-lue, mende-kikakui, modi, psalter-pahlavi, siddham, gurmukhi, caucasian-albanian, zanabazar-square, tifinagh, oriya, mahajani, cham, kaithi, lepcha, hebrew, masaram-gondi, lao, limbu, javanese, tai-viet, yi, phags-pa, bhaiksuki, music, thaana, myanmar, buhid, newa, sinhala, ahom, tirhuta, bassa-vah, bengali, kannada, syriac, tagalog, khojki, rejang, old-permic, malayalam, marchen, sharada, syloti-nagri, hanifi-rohingya, soyombo, wancho, mongolian, brahmi, coptic, sogdian, tibetan, gunjala-gondi, pahawh-hmong, grantha, buginese, khmer, takri, balinese, telugu, tagbanwa, mandaic, duployan, chakma, hanunoo, kayah-li, thai, nko, elbasan, manichaean, miao, devanagari, dogra, osage, kharoshthi
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -4398,9 +4384,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- K.ss08
+	- K.salt
 
 	- K.ss10.BRACKET.varAlt01
+
+	- R.salt
 
 	- k.001
  [code: unreachable-glyphs]
@@ -4417,10 +4405,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* B (U+0042): X=76.0,Y=701.0 (should be at cap-height 700?)
-
-	* B (U+0042): X=387.0,Y=699.0 (should be at cap-height 700?)
-
 	* F (U+0046): X=76.0,Y=701.0 (should be at cap-height 700?)
 
 	* F (U+0046): X=552.0,Y=699.0 (should be at cap-height 700?)
@@ -4431,13 +4415,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* L (U+004C): X=161.0,Y=701.0 (should be at cap-height 700?)
 
-	* P (U+0050): X=77.0,Y=701.0 (should be at cap-height 700?)
+	* P (U+0050): X=380.0,Y=699.0 (should be at cap-height 700?)
 
-	* P (U+0050): X=382.0,Y=699.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=77.0,Y=701.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=382.0,Y=699.0 (should be at cap-height 700?)
+	* R (U+0052): X=380.0,Y=699.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=18.0,Y=699.0 (should be at cap-height 700?)
 
@@ -4511,13 +4491,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* nine (U+0039) contains a short segment B<<529.0,351.0>-<529.0,362.0>-<521.0,362.0>>
 
-	* E (U+0045) contains a short segment B<<165.0,520.0>-<151.0,518.0>-<143.0,513.0>>
+	* E (U+0045) contains a short segment B<<164.5,520.0>-<151.0,518.0>-<142.0,514.0>>
 
-	* E (U+0045) contains a short segment B<<141.0,393.0>-<148.0,388.0>-<160.5,386.0>>
+	* E (U+0045) contains a short segment B<<140.0,398.0>-<148.0,394.0>-<160.0,391.5>>
 
-	* E (U+0045) contains a short segment B<<165.0,329.5>-<153.0,327.0>-<146.0,323.0>>
+	* E (U+0045) contains a short segment B<<162.5,328.0>-<150.0,326.0>-<143.0,322.0>>
 
-	* E (U+0045) contains a short segment B<<147.0,193.0>-<154.0,186.0>-<166.0,182.5>>
+	* E (U+0045) contains a short segment B<<144.0,195.0>-<151.0,188.0>-<163.5,184.5>>
+
+	* K (U+004B) contains a short segment B<<169.5,246.5>-<161.0,242.0>-<155.0,235.0>>
 
 	* M (U+004D) contains a short segment B<<396.5,299.5>-<404.0,294.0>-<415.0,294.0>>
 
@@ -4571,13 +4553,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* B (U+0042): L<<76.0,701.0>--<387.0,699.0>>
-
 	* F (U+0046): L<<76.0,701.0>--<552.0,699.0>>
 
-	* P (U+0050): L<<77.0,701.0>--<382.0,699.0>>
+	* P (U+0050): L<<75.0,700.0>--<380.0,699.0>>
 
-	* R (U+0052): L<<77.0,701.0>--<382.0,699.0>> [code: found-semi-vertical]
+	* R (U+0052): L<<75.0,700.0>--<380.0,699.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[18] Ojuju-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -5383,7 +5363,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
@@ -5397,80 +5377,80 @@ which does not match the expected format, similar to:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, khmer, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
- * U+002C COMMA: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, nushu, masaram-gondi, coptic, wancho, khmer
- * U+002E FULL STOP: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, avestan, math, nushu, syriac, masaram-gondi, coptic, wancho, khmer
- * U+0030 DIGIT ZERO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0031 DIGIT ONE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0032 DIGIT TWO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0033 DIGIT THREE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0034 DIGIT FOUR: try adding one of: latin, nushu, math, symbols, khmer
- * U+0035 DIGIT FIVE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0036 DIGIT SIX: try adding one of: latin, nushu, math, symbols, khmer
- * U+0037 DIGIT SEVEN: try adding one of: latin, nushu, math, symbols, khmer
- * U+0038 DIGIT EIGHT: try adding one of: latin, nushu, math, symbols, khmer
- * U+0039 DIGIT NINE: try adding one of: latin, nushu, math, symbols, khmer
- * U+003A COLON: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, syriac, masaram-gondi, coptic, meroitic, khmer
- * U+003B SEMICOLON: try adding one of: cham, latin, adlam, thaana, math, masaram-gondi, coptic, khmer
- * U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+004A LATIN CAPITAL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+004B LATIN CAPITAL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+004C LATIN CAPITAL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+004D LATIN CAPITAL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+004E LATIN CAPITAL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+004F LATIN CAPITAL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+0061 LATIN SMALL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0062 LATIN SMALL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0063 LATIN SMALL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0064 LATIN SMALL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0065 LATIN SMALL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0066 LATIN SMALL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0067 LATIN SMALL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0068 LATIN SMALL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0069 LATIN SMALL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+006A LATIN SMALL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+006B LATIN SMALL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+006C LATIN SMALL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+006D LATIN SMALL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+006E LATIN SMALL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+006F LATIN SMALL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0070 LATIN SMALL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0071 LATIN SMALL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0072 LATIN SMALL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0073 LATIN SMALL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0074 LATIN SMALL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0075 LATIN SMALL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0076 LATIN SMALL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0077 LATIN SMALL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0078 LATIN SMALL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0079 LATIN SMALL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+007A LATIN SMALL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+00A0 NO-BREAK SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
+ * U+0020 SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, khmer, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
+ * U+002C COMMA: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+002E FULL STOP: try adding one of: syriac, thaana, cham, avestan, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+0030 DIGIT ZERO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0031 DIGIT ONE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0032 DIGIT TWO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0033 DIGIT THREE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0034 DIGIT FOUR: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0035 DIGIT FIVE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0036 DIGIT SIX: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0037 DIGIT SEVEN: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0038 DIGIT EIGHT: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0039 DIGIT NINE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+003A COLON: try adding one of: syriac, thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, math, meroitic, khmer
+ * U+003B SEMICOLON: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, math, khmer
+ * U+0041 LATIN CAPITAL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0042 LATIN CAPITAL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0043 LATIN CAPITAL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0044 LATIN CAPITAL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0045 LATIN CAPITAL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0046 LATIN CAPITAL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0047 LATIN CAPITAL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0048 LATIN CAPITAL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0049 LATIN CAPITAL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004A LATIN CAPITAL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004B LATIN CAPITAL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004C LATIN CAPITAL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004D LATIN CAPITAL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004E LATIN CAPITAL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004F LATIN CAPITAL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0050 LATIN CAPITAL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0051 LATIN CAPITAL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0052 LATIN CAPITAL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0053 LATIN CAPITAL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0054 LATIN CAPITAL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0055 LATIN CAPITAL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0056 LATIN CAPITAL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0057 LATIN CAPITAL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0058 LATIN CAPITAL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0059 LATIN CAPITAL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+005A LATIN CAPITAL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0061 LATIN SMALL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0062 LATIN SMALL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0063 LATIN SMALL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0064 LATIN SMALL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0065 LATIN SMALL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0066 LATIN SMALL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0067 LATIN SMALL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0068 LATIN SMALL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0069 LATIN SMALL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006A LATIN SMALL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006B LATIN SMALL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006C LATIN SMALL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006D LATIN SMALL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006E LATIN SMALL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006F LATIN SMALL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0070 LATIN SMALL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0071 LATIN SMALL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0072 LATIN SMALL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0073 LATIN SMALL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0074 LATIN SMALL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0075 LATIN SMALL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0076 LATIN SMALL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0077 LATIN SMALL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0078 LATIN SMALL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0079 LATIN SMALL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+007A LATIN SMALL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+00A0 NO-BREAK SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
  * U+00AA FEMININE ORDINAL INDICATOR: try adding latin
- * U+00B0 DEGREE SIGN: try adding one of: syriac, latin
+ * U+00B0 DEGREE SIGN: try adding one of: latin, syriac
  * U+00BA MASCULINE ORDINAL INDICATOR: try adding latin
- * U+2026 HORIZONTAL ELLIPSIS: try adding one of: gunjala-gondi, phags-pa, latin, adlam, syriac, masaram-gondi, meroitic
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: old-permic, brahmi, mahajani, khojki, music, manichaean, mende-kikakui, caucasian-albanian, yi, phags-pa, adlam, marchen, bengali, wancho, myanmar, tirhuta, sundanese, tai-le, cham, grantha, takri, symbols, tai-viet, hanunoo, tagbanwa, gurmukhi, elbasan, kaithi, thaana, khudawadi, duployan, osage, lepcha, masaram-gondi, modi, syloti-nagri, hanifi-rohingya, buhid, tagalog, meetei-mayek, zanabazar-square, tamil, tifinagh, malayalam, kharoshthi, javanese, miao, coptic, devanagari, pahawh-hmong, siddham, mongolian, hebrew, sharada, batak, limbu, buginese, rejang, bassa-vah, kayah-li, tibetan, khmer, newa, kannada, dogra, sogdian, soyombo, ahom, chakma, syriac, bhaiksuki, new-tai-lue, oriya, gujarati, sinhala, telugu, psalter-pahlavi, nko, mandaic, math, lao, thai, gunjala-gondi, balinese
+ * U+2026 HORIZONTAL ELLIPSIS: try adding one of: syriac, phags-pa, masaram-gondi, adlam, latin, gunjala-gondi, meroitic
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: tamil, adlam, math, khudawadi, symbols, gujarati, batak, meetei-mayek, sundanese, tai-le, new-tai-lue, mende-kikakui, modi, psalter-pahlavi, siddham, gurmukhi, caucasian-albanian, zanabazar-square, tifinagh, oriya, mahajani, cham, kaithi, lepcha, hebrew, masaram-gondi, lao, limbu, javanese, tai-viet, yi, phags-pa, bhaiksuki, music, thaana, myanmar, buhid, newa, sinhala, ahom, tirhuta, bassa-vah, bengali, kannada, syriac, tagalog, khojki, rejang, old-permic, malayalam, marchen, sharada, syloti-nagri, hanifi-rohingya, soyombo, wancho, mongolian, brahmi, coptic, sogdian, tibetan, gunjala-gondi, pahawh-hmong, grantha, buginese, khmer, takri, balinese, telugu, tagbanwa, mandaic, duployan, chakma, hanunoo, kayah-li, thai, nko, elbasan, manichaean, miao, devanagari, dogra, osage, kharoshthi
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -5486,9 +5466,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- K.ss08
+	- K.salt
 
 	- K.ss10.BRACKET.varAlt01
+
+	- R.salt
 
 	- k.001
  [code: unreachable-glyphs]
@@ -5526,10 +5508,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* P (U+0050): X=307.0,Y=699.0 (should be at cap-height 700?)
 
 	* R (U+0052): X=83.0,Y=701.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=305.0,Y=699.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=560.0,Y=-2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=366.0,Y=701.5 (should be at cap-height 700?)
 
@@ -5599,17 +5577,19 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* E (U+0045) contains a short segment B<<119.5,388.5>-<124.0,386.0>-<138.5,385.0>>
 
-	* E (U+0045) contains a short segment B<<137.5,349.5>-<123.0,348.0>-<119.0,345.5>>
+	* E (U+0045) contains a short segment B<<137.5,349.5>-<123.0,348.0>-<118.5,345.5>>
 
-	* E (U+0045) contains a short segment B<<119.0,345.5>-<115.0,343.0>-<112.0,339.0>>
+	* E (U+0045) contains a short segment B<<118.5,345.5>-<114.0,343.0>-<112.0,338.0>>
+
+	* E (U+0045) contains a short segment B<<112.0,338.0>-<110.0,335.0>-<109.5,319.0>>
 
 	* E (U+0045) contains a short segment B<<115.0,81.0>-<117.0,70.0>-<121.5,64.0>>
 
 	* E (U+0045) contains a short segment B<<121.5,64.0>-<126.0,58.0>-<140.5,55.5>>
 
-	* F (U+0046) contains a short segment B<<115.0,376.0>-<117.0,371.0>-<121.5,368.5>>
+	* F (U+0046) contains a short segment B<<114.0,375.0>-<116.0,371.0>-<120.5,368.0>>
 
-	* F (U+0046) contains a short segment B<<119.0,323.5>-<115.0,320.0>-<113.0,313.0>>
+	* F (U+0046) contains a short segment B<<119.0,322.5>-<115.0,319.0>-<113.0,312.0>>
 
 	* H (U+0048) contains a short segment B<<113.0,427.0>-<113.0,415.0>-<119.0,408.5>>
 
@@ -5633,6 +5613,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* J (U+004A) contains a short segment B<<314.0,645.0>-<310.0,642.0>-<307.0,634.5>>
 
+	* K (U+004B) contains a short segment B<<130.5,327.0>-<122.0,324.0>-<115.0,318.0>>
+
 	* M (U+004D) contains a short segment B<<361.0,204.0>-<367.0,190.0>-<372.5,187.0>>
 
 	* M (U+004D) contains a short segment B<<372.5,187.0>-<378.0,184.0>-<386.0,184.0>>
@@ -5644,14 +5626,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* M (U+004D) contains a short segment B<<653.0,617.0>-<650.0,632.0>-<638.5,637.0>>
 
 	* M (U+004D) contains a short segment B<<136.5,637.5>-<123.0,633.0>-<120.0,617.0>>
-
-	* P (U+0050) contains a short segment B<<88.0,332.0>-<88.0,337.0>-<88.0,339.5>>
-
-	* P (U+0050) contains a short segment B<<88.0,339.5>-<88.0,342.0>-<88.0,350.0>>
-
-	* R (U+0052) contains a short segment B<<127.5,284.0>-<122.0,281.0>-<118.0,276.0>>
-
-	* R (U+0052) contains a short segment B<<118.0,276.0>-<114.0,272.0>-<112.5,264.5>>
 
 	* W (U+0057) contains a short segment B<<139.0,84.0>-<144.0,65.0>-<158.5,60.0>>
 
@@ -5755,7 +5729,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* J (U+004A): L<<301.0,386.0>--<302.0,196.0>> [code: found-semi-vertical]
+	* J (U+004A): L<<301.0,386.0>--<302.0,196.0>>
+
+	* R (U+0052): L<<83.0,701.0>--<305.0,700.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[18] Ojuju-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6561,7 +6537,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
@@ -6575,80 +6551,80 @@ which does not match the expected format, similar to:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, khmer, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
- * U+002C COMMA: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, nushu, masaram-gondi, coptic, wancho, khmer
- * U+002E FULL STOP: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, avestan, math, nushu, syriac, masaram-gondi, coptic, wancho, khmer
- * U+0030 DIGIT ZERO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0031 DIGIT ONE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0032 DIGIT TWO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0033 DIGIT THREE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0034 DIGIT FOUR: try adding one of: latin, nushu, math, symbols, khmer
- * U+0035 DIGIT FIVE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0036 DIGIT SIX: try adding one of: latin, nushu, math, symbols, khmer
- * U+0037 DIGIT SEVEN: try adding one of: latin, nushu, math, symbols, khmer
- * U+0038 DIGIT EIGHT: try adding one of: latin, nushu, math, symbols, khmer
- * U+0039 DIGIT NINE: try adding one of: latin, nushu, math, symbols, khmer
- * U+003A COLON: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, syriac, masaram-gondi, coptic, meroitic, khmer
- * U+003B SEMICOLON: try adding one of: cham, latin, adlam, thaana, math, masaram-gondi, coptic, khmer
- * U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+004A LATIN CAPITAL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+004B LATIN CAPITAL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+004C LATIN CAPITAL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+004D LATIN CAPITAL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+004E LATIN CAPITAL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+004F LATIN CAPITAL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+0061 LATIN SMALL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0062 LATIN SMALL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0063 LATIN SMALL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0064 LATIN SMALL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0065 LATIN SMALL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0066 LATIN SMALL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0067 LATIN SMALL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0068 LATIN SMALL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0069 LATIN SMALL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+006A LATIN SMALL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+006B LATIN SMALL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+006C LATIN SMALL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+006D LATIN SMALL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+006E LATIN SMALL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+006F LATIN SMALL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0070 LATIN SMALL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0071 LATIN SMALL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0072 LATIN SMALL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0073 LATIN SMALL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0074 LATIN SMALL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0075 LATIN SMALL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0076 LATIN SMALL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0077 LATIN SMALL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0078 LATIN SMALL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0079 LATIN SMALL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+007A LATIN SMALL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+00A0 NO-BREAK SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
+ * U+0020 SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, khmer, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
+ * U+002C COMMA: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+002E FULL STOP: try adding one of: syriac, thaana, cham, avestan, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+0030 DIGIT ZERO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0031 DIGIT ONE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0032 DIGIT TWO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0033 DIGIT THREE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0034 DIGIT FOUR: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0035 DIGIT FIVE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0036 DIGIT SIX: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0037 DIGIT SEVEN: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0038 DIGIT EIGHT: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0039 DIGIT NINE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+003A COLON: try adding one of: syriac, thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, math, meroitic, khmer
+ * U+003B SEMICOLON: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, math, khmer
+ * U+0041 LATIN CAPITAL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0042 LATIN CAPITAL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0043 LATIN CAPITAL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0044 LATIN CAPITAL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0045 LATIN CAPITAL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0046 LATIN CAPITAL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0047 LATIN CAPITAL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0048 LATIN CAPITAL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0049 LATIN CAPITAL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004A LATIN CAPITAL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004B LATIN CAPITAL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004C LATIN CAPITAL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004D LATIN CAPITAL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004E LATIN CAPITAL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004F LATIN CAPITAL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0050 LATIN CAPITAL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0051 LATIN CAPITAL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0052 LATIN CAPITAL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0053 LATIN CAPITAL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0054 LATIN CAPITAL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0055 LATIN CAPITAL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0056 LATIN CAPITAL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0057 LATIN CAPITAL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0058 LATIN CAPITAL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0059 LATIN CAPITAL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+005A LATIN CAPITAL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0061 LATIN SMALL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0062 LATIN SMALL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0063 LATIN SMALL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0064 LATIN SMALL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0065 LATIN SMALL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0066 LATIN SMALL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0067 LATIN SMALL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0068 LATIN SMALL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0069 LATIN SMALL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006A LATIN SMALL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006B LATIN SMALL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006C LATIN SMALL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006D LATIN SMALL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006E LATIN SMALL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006F LATIN SMALL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0070 LATIN SMALL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0071 LATIN SMALL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0072 LATIN SMALL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0073 LATIN SMALL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0074 LATIN SMALL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0075 LATIN SMALL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0076 LATIN SMALL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0077 LATIN SMALL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0078 LATIN SMALL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0079 LATIN SMALL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+007A LATIN SMALL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+00A0 NO-BREAK SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
  * U+00AA FEMININE ORDINAL INDICATOR: try adding latin
- * U+00B0 DEGREE SIGN: try adding one of: syriac, latin
+ * U+00B0 DEGREE SIGN: try adding one of: latin, syriac
  * U+00BA MASCULINE ORDINAL INDICATOR: try adding latin
- * U+2026 HORIZONTAL ELLIPSIS: try adding one of: gunjala-gondi, phags-pa, latin, adlam, syriac, masaram-gondi, meroitic
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: old-permic, brahmi, mahajani, khojki, music, manichaean, mende-kikakui, caucasian-albanian, yi, phags-pa, adlam, marchen, bengali, wancho, myanmar, tirhuta, sundanese, tai-le, cham, grantha, takri, symbols, tai-viet, hanunoo, tagbanwa, gurmukhi, elbasan, kaithi, thaana, khudawadi, duployan, osage, lepcha, masaram-gondi, modi, syloti-nagri, hanifi-rohingya, buhid, tagalog, meetei-mayek, zanabazar-square, tamil, tifinagh, malayalam, kharoshthi, javanese, miao, coptic, devanagari, pahawh-hmong, siddham, mongolian, hebrew, sharada, batak, limbu, buginese, rejang, bassa-vah, kayah-li, tibetan, khmer, newa, kannada, dogra, sogdian, soyombo, ahom, chakma, syriac, bhaiksuki, new-tai-lue, oriya, gujarati, sinhala, telugu, psalter-pahlavi, nko, mandaic, math, lao, thai, gunjala-gondi, balinese
+ * U+2026 HORIZONTAL ELLIPSIS: try adding one of: syriac, phags-pa, masaram-gondi, adlam, latin, gunjala-gondi, meroitic
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: tamil, adlam, math, khudawadi, symbols, gujarati, batak, meetei-mayek, sundanese, tai-le, new-tai-lue, mende-kikakui, modi, psalter-pahlavi, siddham, gurmukhi, caucasian-albanian, zanabazar-square, tifinagh, oriya, mahajani, cham, kaithi, lepcha, hebrew, masaram-gondi, lao, limbu, javanese, tai-viet, yi, phags-pa, bhaiksuki, music, thaana, myanmar, buhid, newa, sinhala, ahom, tirhuta, bassa-vah, bengali, kannada, syriac, tagalog, khojki, rejang, old-permic, malayalam, marchen, sharada, syloti-nagri, hanifi-rohingya, soyombo, wancho, mongolian, brahmi, coptic, sogdian, tibetan, gunjala-gondi, pahawh-hmong, grantha, buginese, khmer, takri, balinese, telugu, tagbanwa, mandaic, duployan, chakma, hanunoo, kayah-li, thai, nko, elbasan, manichaean, miao, devanagari, dogra, osage, kharoshthi
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -6664,9 +6640,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- K.ss08
+	- K.salt
 
 	- K.ss10.BRACKET.varAlt01
+
+	- R.salt
 
 	- k.001
  [code: unreachable-glyphs]
@@ -6693,13 +6671,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* M (U+004D): X=137.0,Y=-1.0 (should be at baseline 0?)
 
-	* P (U+0050): X=80.0,Y=701.0 (should be at cap-height 700?)
+	* P (U+0050): X=79.0,Y=701.0 (should be at cap-height 700?)
 
-	* P (U+0050): X=353.0,Y=699.0 (should be at cap-height 700?)
+	* P (U+0050): X=352.0,Y=699.0 (should be at cap-height 700?)
 
-	* R (U+0052): X=79.0,Y=701.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=352.0,Y=699.0 (should be at cap-height 700?)
+	* R (U+0052): X=78.0,Y=701.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=14.0,Y=699.0 (should be at cap-height 700?)
 
@@ -6761,21 +6737,23 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* nine (U+0039) contains a short segment B<<516.0,377.0>-<510.0,377.0>-<503.5,366.5>>
 
-	* E (U+0045) contains a short segment B<<153.5,569.0>-<140.0,567.0>-<134.0,562.0>>
+	* E (U+0045) contains a short segment B<<153.0,569.0>-<140.0,567.0>-<133.0,562.0>>
 
-	* E (U+0045) contains a short segment B<<123.0,415.0>-<125.0,398.0>-<130.0,394.0>>
+	* E (U+0045) contains a short segment B<<122.5,418.0>-<125.0,401.0>-<129.0,397.0>>
 
-	* E (U+0045) contains a short segment B<<130.0,394.0>-<136.0,388.0>-<146.5,386.0>>
+	* E (U+0045) contains a short segment B<<129.0,397.0>-<135.0,392.0>-<146.0,390.0>>
 
-	* E (U+0045) contains a short segment B<<149.0,336.5>-<138.0,334.0>-<133.0,329.0>>
+	* E (U+0045) contains a short segment B<<147.5,335.5>-<137.0,333.0>-<131.0,328.0>>
 
-	* E (U+0045) contains a short segment B<<133.0,329.0>-<128.0,326.0>-<125.0,308.5>>
+	* E (U+0045) contains a short segment B<<131.0,328.0>-<126.0,325.0>-<123.5,307.5>>
 
-	* E (U+0045) contains a short segment B<<134.0,150.0>-<140.0,140.0>-<150.5,135.5>>
+	* E (U+0045) contains a short segment B<<133.0,150.0>-<138.0,141.0>-<149.0,136.5>>
 
 	* J (U+004A) contains a short segment B<<277.0,557.5>-<273.0,564.0>-<267.0,567.0>>
 
 	* J (U+004A) contains a short segment B<<356.0,567.0>-<350.0,564.0>-<345.5,558.0>>
+
+	* K (U+004B) contains a short segment B<<154.5,278.0>-<146.0,274.0>-<139.0,267.0>>
 
 	* M (U+004D) contains a short segment B<<386.5,256.5>-<394.0,251.0>-<404.0,251.0>>
 
@@ -6786,8 +6764,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* M (U+004D) contains a short segment B<<160.0,517.5>-<145.0,514.0>-<140.0,501.0>>
 
 	* N (U+004E) contains a short segment B<<131.0,483.0>-<130.0,471.0>-<129.5,459.5>>
-
-	* R (U+0052) contains a short segment B<<152.0,270.5>-<142.0,266.0>-<137.0,259.0>>
 
 	* W (U+0057) contains a short segment B<<243.5,174.0>-<258.0,179.0>-<266.0,193.0>>
 
@@ -6849,17 +6825,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* E (U+0045): L<<535.0,131.0>--<536.0,0.0>>
-
-	* E (U+0045): L<<536.0,700.0>--<535.0,571.0>>
+	* E (U+0045): L<<534.0,131.0>--<535.0,0.0>>
 
 	* F (U+0046): L<<533.0,700.0>--<532.0,572.0>>
 
 	* L (U+004C): L<<451.0,127.0>--<452.0,0.0>>
 
-	* P (U+0050): L<<80.0,701.0>--<353.0,699.0>>
+	* P (U+0050): L<<79.0,701.0>--<352.0,699.0>>
 
-	* R (U+0052): L<<79.0,701.0>--<352.0,699.0>>
+	* R (U+0052): L<<78.0,701.0>--<351.0,700.0>>
 
 	* three (U+0033): L<<55.0,0.0>--<56.0,132.0>>
 
@@ -7669,7 +7643,7 @@ which does not match the expected format, similar to:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
 
@@ -7683,80 +7657,80 @@ which does not match the expected format, similar to:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, khmer, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
- * U+002C COMMA: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, nushu, masaram-gondi, coptic, wancho, khmer
- * U+002E FULL STOP: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, avestan, math, nushu, syriac, masaram-gondi, coptic, wancho, khmer
- * U+0030 DIGIT ZERO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0031 DIGIT ONE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0032 DIGIT TWO: try adding one of: latin, nushu, math, symbols, khmer
- * U+0033 DIGIT THREE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0034 DIGIT FOUR: try adding one of: latin, nushu, math, symbols, khmer
- * U+0035 DIGIT FIVE: try adding one of: latin, nushu, math, symbols, khmer
- * U+0036 DIGIT SIX: try adding one of: latin, nushu, math, symbols, khmer
- * U+0037 DIGIT SEVEN: try adding one of: latin, nushu, math, symbols, khmer
- * U+0038 DIGIT EIGHT: try adding one of: latin, nushu, math, symbols, khmer
- * U+0039 DIGIT NINE: try adding one of: latin, nushu, math, symbols, khmer
- * U+003A COLON: try adding one of: gunjala-gondi, cham, latin, adlam, thaana, math, syriac, masaram-gondi, coptic, meroitic, khmer
- * U+003B SEMICOLON: try adding one of: cham, latin, adlam, thaana, math, masaram-gondi, coptic, khmer
- * U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+004A LATIN CAPITAL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+004B LATIN CAPITAL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+004C LATIN CAPITAL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+004D LATIN CAPITAL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+004E LATIN CAPITAL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+004F LATIN CAPITAL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+0061 LATIN SMALL LETTER A: try adding one of: latin, nushu, math, symbols, khmer
- * U+0062 LATIN SMALL LETTER B: try adding one of: latin, nushu, math, symbols, khmer
- * U+0063 LATIN SMALL LETTER C: try adding one of: latin, nushu, math, symbols, khmer
- * U+0064 LATIN SMALL LETTER D: try adding one of: latin, nushu, math, symbols, khmer
- * U+0065 LATIN SMALL LETTER E: try adding one of: latin, nushu, math, symbols, khmer
- * U+0066 LATIN SMALL LETTER F: try adding one of: latin, nushu, math, symbols, khmer
- * U+0067 LATIN SMALL LETTER G: try adding one of: latin, nushu, math, symbols, khmer
- * U+0068 LATIN SMALL LETTER H: try adding one of: latin, nushu, math, symbols, khmer
- * U+0069 LATIN SMALL LETTER I: try adding one of: latin, nushu, math, symbols, khmer
- * U+006A LATIN SMALL LETTER J: try adding one of: latin, nushu, math, symbols, khmer
- * U+006B LATIN SMALL LETTER K: try adding one of: latin, nushu, math, symbols, khmer
- * U+006C LATIN SMALL LETTER L: try adding one of: latin, nushu, math, symbols, khmer
- * U+006D LATIN SMALL LETTER M: try adding one of: latin, nushu, math, symbols, khmer
- * U+006E LATIN SMALL LETTER N: try adding one of: latin, nushu, math, symbols, khmer
- * U+006F LATIN SMALL LETTER O: try adding one of: latin, nushu, math, symbols, khmer
- * U+0070 LATIN SMALL LETTER P: try adding one of: latin, nushu, math, symbols, khmer
- * U+0071 LATIN SMALL LETTER Q: try adding one of: latin, nushu, math, symbols, khmer
- * U+0072 LATIN SMALL LETTER R: try adding one of: latin, nushu, math, symbols, khmer
- * U+0073 LATIN SMALL LETTER S: try adding one of: latin, nushu, math, symbols, khmer
- * U+0074 LATIN SMALL LETTER T: try adding one of: latin, nushu, math, symbols, khmer
- * U+0075 LATIN SMALL LETTER U: try adding one of: latin, nushu, math, symbols, khmer
- * U+0076 LATIN SMALL LETTER V: try adding one of: latin, nushu, math, symbols, khmer
- * U+0077 LATIN SMALL LETTER W: try adding one of: latin, nushu, math, symbols, khmer
- * U+0078 LATIN SMALL LETTER X: try adding one of: latin, nushu, math, symbols, khmer
- * U+0079 LATIN SMALL LETTER Y: try adding one of: latin, nushu, math, symbols, khmer
- * U+007A LATIN SMALL LETTER Z: try adding one of: latin, nushu, math, symbols, khmer
- * U+00A0 NO-BREAK SPACE: try adding one of: old-permic, osmanya, latin, multani, brahmi, canadian-aboriginal, mahajani, khojki, music, old-turkic, old-north-arabian, nandinagari, old-uyghur, manichaean, mende-kikakui, caucasian-albanian, braille, yi, phags-pa, adlam, inscriptional-parthian, khitan-small-script, cypriot, makasar, marchen, wancho, tirhuta, sundanese, cham, grantha, hatran, tai-le, takri, symbols, tai-viet, hanunoo, tagbanwa, samaritan, elbasan, warang-citi, kaithi, thaana, imperial-aramaic, old-hungarian, kawi, indic-siyaq-numbers, khudawadi, gothic, cherokee, vithkuqi, duployan, osage, lepcha, masaram-gondi, tangut, modi, syloti-nagri, elymaic, hanifi-rohingya, glagolitic, old-sogdian, buhid, saurashtra, avestan, nushu, tagalog, meetei-mayek, yezidi, nag-mundari, phoenician, signwriting, old-south-arabian, toto, zanabazar-square, cuneiform, tai-tham, tifinagh, palmyrene, kharoshthi, javanese, miao, anatolian-hieroglyphs, tangsa, lycian, ogham, mro, runic, coptic, nyiakeng-puachue-hmong, pahawh-hmong, lydian, nabataean, siddham, mongolian, lisu, cypro-minoan, old-persian, sharada, batak, deseret, limbu, bamum, buginese, rejang, bassa-vah, kayah-li, shavian, linear-b, newa, old-italic, pau-cin-hau, dogra, sogdian, soyombo, linear-a, ahom, chakma, syriac, medefaidrin, bhaiksuki, dives-akuru, ol-chiki, new-tai-lue, meroitic, chorasmian, ugaritic, psalter-pahlavi, nko, mandaic, math, inscriptional-pahlavi, vai, mayan-numerals, meroitic-cursive, gunjala-gondi, carian, balinese, sora-sompeng, meroitic-hieroglyphs
+ * U+0020 SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, khmer, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
+ * U+002C COMMA: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+002E FULL STOP: try adding one of: syriac, thaana, cham, avestan, masaram-gondi, coptic, adlam, latin, gunjala-gondi, nushu, math, khmer, wancho
+ * U+0030 DIGIT ZERO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0031 DIGIT ONE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0032 DIGIT TWO: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0033 DIGIT THREE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0034 DIGIT FOUR: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0035 DIGIT FIVE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0036 DIGIT SIX: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0037 DIGIT SEVEN: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0038 DIGIT EIGHT: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0039 DIGIT NINE: try adding one of: symbols, nushu, latin, math, khmer
+ * U+003A COLON: try adding one of: syriac, thaana, cham, masaram-gondi, coptic, adlam, latin, gunjala-gondi, math, meroitic, khmer
+ * U+003B SEMICOLON: try adding one of: thaana, cham, masaram-gondi, coptic, adlam, latin, math, khmer
+ * U+0041 LATIN CAPITAL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0042 LATIN CAPITAL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0043 LATIN CAPITAL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0044 LATIN CAPITAL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0045 LATIN CAPITAL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0046 LATIN CAPITAL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0047 LATIN CAPITAL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0048 LATIN CAPITAL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0049 LATIN CAPITAL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004A LATIN CAPITAL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004B LATIN CAPITAL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004C LATIN CAPITAL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004D LATIN CAPITAL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004E LATIN CAPITAL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+004F LATIN CAPITAL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0050 LATIN CAPITAL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0051 LATIN CAPITAL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0052 LATIN CAPITAL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0053 LATIN CAPITAL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0054 LATIN CAPITAL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0055 LATIN CAPITAL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0056 LATIN CAPITAL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0057 LATIN CAPITAL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0058 LATIN CAPITAL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0059 LATIN CAPITAL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+005A LATIN CAPITAL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0061 LATIN SMALL LETTER A: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0062 LATIN SMALL LETTER B: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0063 LATIN SMALL LETTER C: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0064 LATIN SMALL LETTER D: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0065 LATIN SMALL LETTER E: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0066 LATIN SMALL LETTER F: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0067 LATIN SMALL LETTER G: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0068 LATIN SMALL LETTER H: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0069 LATIN SMALL LETTER I: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006A LATIN SMALL LETTER J: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006B LATIN SMALL LETTER K: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006C LATIN SMALL LETTER L: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006D LATIN SMALL LETTER M: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006E LATIN SMALL LETTER N: try adding one of: symbols, nushu, latin, math, khmer
+ * U+006F LATIN SMALL LETTER O: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0070 LATIN SMALL LETTER P: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0071 LATIN SMALL LETTER Q: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0072 LATIN SMALL LETTER R: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0073 LATIN SMALL LETTER S: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0074 LATIN SMALL LETTER T: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0075 LATIN SMALL LETTER U: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0076 LATIN SMALL LETTER V: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0077 LATIN SMALL LETTER W: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0078 LATIN SMALL LETTER X: try adding one of: symbols, nushu, latin, math, khmer
+ * U+0079 LATIN SMALL LETTER Y: try adding one of: symbols, nushu, latin, math, khmer
+ * U+007A LATIN SMALL LETTER Z: try adding one of: symbols, nushu, latin, math, khmer
+ * U+00A0 NO-BREAK SPACE: try adding one of: mro, adlam, meroitic-cursive, math, warang-citi, old-hungarian, khudawadi, toto, cypriot, symbols, palmyrene, saurashtra, batak, meetei-mayek, sundanese, osmanya, tai-le, old-turkic, new-tai-lue, gothic, old-italic, nabataean, signwriting, mende-kikakui, old-north-arabian, old-south-arabian, lycian, kawi, modi, psalter-pahlavi, siddham, shavian, makasar, phoenician, bamum, caucasian-albanian, zanabazar-square, cherokee, dives-akuru, yezidi, tifinagh, runic, inscriptional-parthian, mahajani, pau-cin-hau, cham, kaithi, lydian, ol-chiki, lepcha, ugaritic, cypro-minoan, sora-sompeng, masaram-gondi, medefaidrin, latin, limbu, elymaic, nandinagari, javanese, meroitic, tai-viet, yi, phags-pa, bhaiksuki, old-uyghur, music, thaana, multani, buhid, newa, carian, cuneiform, imperial-aramaic, nyiakeng-puachue-hmong, meroitic-hieroglyphs, old-sogdian, ahom, tirhuta, bassa-vah, syriac, lisu, tagalog, khojki, nag-mundari, ogham, rejang, old-permic, marchen, avestan, sharada, syloti-nagri, hanifi-rohingya, inscriptional-pahlavi, soyombo, wancho, mongolian, brahmi, samaritan, coptic, linear-a, sogdian, gunjala-gondi, pahawh-hmong, old-persian, grantha, buginese, takri, balinese, linear-b, tagbanwa, mandaic, nushu, duployan, deseret, tangut, hatran, canadian-aboriginal, chakma, hanunoo, kayah-li, tangsa, nko, mayan-numerals, braille, anatolian-hieroglyphs, khitan-small-script, vithkuqi, elbasan, manichaean, tai-tham, miao, chorasmian, dogra, glagolitic, osage, indic-siyaq-numbers, kharoshthi, vai
  * U+00AA FEMININE ORDINAL INDICATOR: try adding latin
- * U+00B0 DEGREE SIGN: try adding one of: syriac, latin
+ * U+00B0 DEGREE SIGN: try adding one of: latin, syriac
  * U+00BA MASCULINE ORDINAL INDICATOR: try adding latin
- * U+2026 HORIZONTAL ELLIPSIS: try adding one of: gunjala-gondi, phags-pa, latin, adlam, syriac, masaram-gondi, meroitic
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: old-permic, brahmi, mahajani, khojki, music, manichaean, mende-kikakui, caucasian-albanian, yi, phags-pa, adlam, marchen, bengali, wancho, myanmar, tirhuta, sundanese, tai-le, cham, grantha, takri, symbols, tai-viet, hanunoo, tagbanwa, gurmukhi, elbasan, kaithi, thaana, khudawadi, duployan, osage, lepcha, masaram-gondi, modi, syloti-nagri, hanifi-rohingya, buhid, tagalog, meetei-mayek, zanabazar-square, tamil, tifinagh, malayalam, kharoshthi, javanese, miao, coptic, devanagari, pahawh-hmong, siddham, mongolian, hebrew, sharada, batak, limbu, buginese, rejang, bassa-vah, kayah-li, tibetan, khmer, newa, kannada, dogra, sogdian, soyombo, ahom, chakma, syriac, bhaiksuki, new-tai-lue, oriya, gujarati, sinhala, telugu, psalter-pahlavi, nko, mandaic, math, lao, thai, gunjala-gondi, balinese
+ * U+2026 HORIZONTAL ELLIPSIS: try adding one of: syriac, phags-pa, masaram-gondi, adlam, latin, gunjala-gondi, meroitic
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: tamil, adlam, math, khudawadi, symbols, gujarati, batak, meetei-mayek, sundanese, tai-le, new-tai-lue, mende-kikakui, modi, psalter-pahlavi, siddham, gurmukhi, caucasian-albanian, zanabazar-square, tifinagh, oriya, mahajani, cham, kaithi, lepcha, hebrew, masaram-gondi, lao, limbu, javanese, tai-viet, yi, phags-pa, bhaiksuki, music, thaana, myanmar, buhid, newa, sinhala, ahom, tirhuta, bassa-vah, bengali, kannada, syriac, tagalog, khojki, rejang, old-permic, malayalam, marchen, sharada, syloti-nagri, hanifi-rohingya, soyombo, wancho, mongolian, brahmi, coptic, sogdian, tibetan, gunjala-gondi, pahawh-hmong, grantha, buginese, khmer, takri, balinese, telugu, tagbanwa, mandaic, duployan, chakma, hanunoo, kayah-li, thai, nko, elbasan, manichaean, miao, devanagari, dogra, osage, kharoshthi
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -7772,9 +7746,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- K.ss08
+	- K.salt
 
 	- K.ss10.BRACKET.varAlt01
+
+	- R.salt
 
 	- k.001
  [code: unreachable-glyphs]
@@ -7793,10 +7769,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* two (U+0032): X=147.5,Y=701.0 (should be at cap-height 700?)
 
-	* B (U+0042): X=72.0,Y=701.0 (should be at cap-height 700?)
-
-	* B (U+0042): X=424.0,Y=699.0 (should be at cap-height 700?)
-
 	* C (U+0043): X=526.0,Y=698.5 (should be at cap-height 700?)
 
 	* F (U+0046): X=72.0,Y=701.0 (should be at cap-height 700?)
@@ -7809,15 +7781,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* L (U+004C): X=183.0,Y=701.0 (should be at cap-height 700?)
 
-	* P (U+0050): X=73.0,Y=701.0 (should be at cap-height 700?)
+	* P (U+0050): X=420.0,Y=699.0 (should be at cap-height 700?)
 
-	* P (U+0050): X=423.0,Y=699.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=73.0,Y=701.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=423.0,Y=699.0 (should be at cap-height 700?)
-
-	* R (U+0052): X=615.5,Y=1.0 (should be at baseline 0?)
+	* R (U+0052): X=420.0,Y=699.0 (should be at cap-height 700?)
 
 	* T (U+0054): X=24.0,Y=699.0 (should be at cap-height 700?)
 
@@ -7895,17 +7861,21 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* nine (U+0039) contains a short segment B<<536.0,330.0>-<536.0,341.0>-<528.0,341.0>>
 
-	* E (U+0045) contains a short segment B<<187.5,319.5>-<173.0,317.0>-<164.0,315.0>>
+	* E (U+0045) contains a short segment B<<132.0,423.0>-<132.0,416.0>-<137.5,409.0>>
 
-	* E (U+0045) contains a short segment B<<164.0,315.0>-<153.0,311.0>-<144.0,304.0>>
+	* E (U+0045) contains a short segment B<<137.5,409.0>-<143.0,402.0>-<155.0,399.0>>
 
-	* E (U+0045) contains a short segment B<<144.0,304.0>-<135.0,297.0>-<135.0,283.0>>
+	* E (U+0045) contains a short segment B<<183.5,318.0>-<169.0,316.0>-<160.0,313.0>>
 
-	* E (U+0045) contains a short segment B<<135.0,283.0>-<135.0,270.0>-<143.5,263.5>>
+	* E (U+0045) contains a short segment B<<160.0,313.0>-<148.0,309.0>-<140.0,302.5>>
 
-	* E (U+0045) contains a short segment B<<143.5,263.5>-<152.0,257.0>-<164.0,254.0>>
+	* E (U+0045) contains a short segment B<<140.0,302.5>-<132.0,296.0>-<132.0,285.0>>
 
-	* E (U+0045) contains a short segment B<<164.0,254.0>-<173.0,251.0>-<187.5,249.0>>
+	* E (U+0045) contains a short segment B<<132.0,285.0>-<132.0,274.0>-<140.0,267.0>>
+
+	* E (U+0045) contains a short segment B<<140.0,267.0>-<148.0,260.0>-<160.0,256.0>>
+
+	* E (U+0045) contains a short segment B<<160.0,256.0>-<169.0,254.0>-<183.5,251.5>>
 
 	* M (U+004D) contains a short segment B<<407.0,363.0>-<416.0,353.0>-<431.0,353.0>>
 
@@ -7975,13 +7945,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* B (U+0042): L<<72.0,701.0>--<424.0,699.0>>
-
 	* F (U+0046): L<<72.0,701.0>--<579.0,699.0>>
 
-	* P (U+0050): L<<73.0,701.0>--<423.0,699.0>>
+	* P (U+0050): L<<70.0,700.0>--<420.0,699.0>>
 
-	* R (U+0052): L<<73.0,701.0>--<423.0,699.0>> [code: found-semi-vertical]
+	* R (U+0052): L<<70.0,700.0>--<420.0,699.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 
 ### Summary

@@ -70,6 +70,9 @@ featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn CAT;
 ";
 name = Languagesystems;
 }
@@ -77,10 +80,22 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature ordn;
-feature ss10;
+code = "feature locl;
+feature ordn;
+feature case;
 ";
 tag = aalt;
+},
+{
+automatic = 1;
+code = "script latn;
+language CAT;
+lookup locl_latn_0 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_0;
+";
+tag = locl;
 },
 {
 automatic = 1;
@@ -91,15 +106,9 @@ tag = ordn;
 },
 {
 automatic = 1;
-code = "sub K by K.ss10;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 ";
-labels = (
-{
-language = dflt;
-value = "";
-}
-);
-tag = ss10;
+tag = case;
 }
 );
 fontMaster = (

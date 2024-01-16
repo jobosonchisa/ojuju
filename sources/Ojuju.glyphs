@@ -2,28 +2,7 @@
 .appVersion = "3234";
 .formatVersion = 3;
 DisplayStrings = (
-"/.notdef",
-"̉/brevecomb_hookabovecomb Ẳ",
-"᷊̣̤̥̩̭̯̰̱",
-"lḻ",
-"¸",
-n,
-"Ắ",
-"Ƒh",
-"Ȟ",
-"̦Ķ",
-d,
-S,
-"Ꭓ",
-"ʃ",
-"ʈ",
-"ƒ",
-"√",
-"/bar.part",
-"ṝ",
-"þ",
-"AÁĂẮẶẰẲẴǍÂẤẬẦẨẪȀÄǞȦẠǠÀẢȂⱭĀĄÅḀȺÃÆǢBḂḄꞴƁḆɃCĆČÇḈĈĊꞳƇȻDĎḐḒĐḊḌƊḎƉÐEÉĚȨḜÊẾḘỆỀỂỄȄËĖẸÈẺȆĒḖḔĘƐƎƩɆẼḚƏƷǮƸFḞƑGǴĞǦĜĢĠƓɁḠǤHĦḪȞḨĤḦḢḤꜦꞪꞍIĲÍǏÎȈÏḮİỊÌỈȊĪĮƖƗĨḬJ/Jacute ĴꞲɈKḰǨĶḲƘḴꝀLĹȽꞭĽḼĻḶḸⱠḺⱢŁMḾṀṂƜNŃŇṊŅṄṆǸƝȠṈÑŊOȢÓǑƟÔỐỘỒỔỖȌÖȪȮȰỌÒỎƠỚỢỜỞỠŐȎŌṒṐꞶǪǬƆØǾÕṌṎȬŒPṔṖƤÞⱣQɊRŔŘŖȐṘṚṜȒṞɌⱤSŚṤŠṦŞŜȘṠṢṨẞꞨTŦŤŢṰȚȾṪṬṬƬṮƮUÚɄŬǓÛṶȔÜṲ̈́ṲǙǛǕỤÙỦƯỨỰỪỬỮŰȖŪṺŲƱŮŨṸṴVƔṾƲṼɅWẂŴẄẆẈẀⱲXẌẊYÝŶŸẎỴỲƳỶȲɎỸZŹŽẐŻẒẔƵꞋ/G.001/K.001/Y.001 ɪaáăắặằẳẵǎâấậầẩẫȁäǟȧạǡàảȃɑāąåḁⱥãæǣbḃḅꞵɓʘḇƀcćčçḉĉċꭓƈȼdďḑḓđḋḍɗḏɖðeéěȩḝêếḙệềểễȅëėẹèẻȇēḗḕęɛʃɇẽḛǝəʒǯƹfḟgǵɣğǧĝģġɠʔʕɂḡǥhħḫȟḩĥḧḣḥꜧɦɥiı/idotless_ogonek íǐîȉïḯ/idotaccent ịìỉȋīįɩɨĩḭĳjȷ/jacute ǰĵʝɉkḱǩķḳĸƙḵꝁlĺƛƚɬľḽļḷḹⱡḻɫłmḿṁṃɯnńňṋņṅṇǹɲƞṉñŋoóɵǒôốộồổỗȍöȫȯȱọòỏơớợờởỡőȏōṓṑꞷǫǭɔøǿõṍṏȭȣœpṕṗƥþᵽqɋrŕřŗȑṙṛṝɾȓṟɍɽsśṥšṧşŝșṡṣṩßꞩtŧťţṱțⱦṫṭƭṯʈuúʉŭǔûṷȕüǘṳǚǜǖụùủưứựừửữűȗūṻųʊůũṹṵvṿʋṽʌwẃŵẅẇẉẁⱳxẍẋyýŷÿẏỵỳƴỷȳɏỹzźžẑżẓẕƶꞌ/a.001/f.001/g.001/i.001/k.001/k.002/l.002/t.001 ﬁﬂªºǂǀǁǃʰⁿʷʸΩλπχᶿᵘᵛᶻ0123456789/zero.zero/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr ⁄½⅓⅔¼¾₁₂₃₄₅₆₇₈₉¹²³⁴⁵⁶⁷⁸⁹ /nbspace/.notdef ⟨⟩.,:;…!¡?¿·•*‖#///backslash/periodcentered.loclCAT/slash.part/periodcentered.loclCAT.case -­–—_(){}[]‚„“”‘’«»‹›\"'ƒ฿꞉ˮ˗꞊@&¶§©®™°′″|¦ℓ†‡℮№/bar.part ₿₵¢₡¤$₫€₲₴₭₾₺₼₦₱₽₨₹₪£₸₮₩¥⅄+−×÷=≠><≥≤±≈¬~^∅∞∫Ω∆∏∑√µ∂%‰↑↗→↘↓↙←↖↔↕●○◌◦◆◇◊■□▪▫▲▶▼◀△▷▽◁▴▸▾◂▵▹▿◃᷊̈̇̀/gravecomb_macroncomb ́/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄/macroncomb_gravecomb/macroncomb_acutecomb ̴̵̧̨̛̣̤̥̦̩̭̯̰̱̲̉̍̏̐̑̒̓᷇̕͘/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ᷅᷄᷆¨˙`´˝ˆˊˇˋ˘˚˜¯¸˛ʼʻˀʹʿʾˈꞮꞸꞹ/lccaroncomb/longstrokecomb/shortbar/shorterstrokecomb/shortslashcomb/shortstrokecomb/lcslash.part/topHook.part/_hook.part",
-"᷊̈̇̀/gravecomb_macroncomb ́/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄/macroncomb_gravecomb/macroncomb_acutecomb ̴̵̧̨̛̣̤̥̦̩̭̯̰̱̲̉̍̏̐̑̒̓᷇̕͘/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ᷅᷄᷆"
+"AÁĂẮẶẰẲẴǍÂẤẬẦẨẪȀÄǞȦẠǠÀẢȂⱭĀĄÅḀȺÃÆǢBḂḄꞴƁḆɃCĆČÇḈĈĊꞳƇȻDĎḐḒĐḊḌƊḎƉÐEÉĚȨḜÊẾḘỆỀỂỄȄËĖẸÈẺȆĒḖḔĘƐƎƩɆẼḚƏƷǮƸFḞƑGǴĞǦĜĢĠƓɁḠǤHĦḪȞḨĤḦḢḤꜦꞪꞍIĲÍǏÎȈÏḮİỊÌỈȊĪĮƖƗĨḬJ/Jacute ĴꞲɈKḰǨĶḲƘḴꝀLĹȽꞭĽḼĻḶḸⱠḺⱢŁMḾṀṂƜNŃŇṊŅṄṆǸƝȠṈÑŊOȢÓǑƟÔỐỘỒỔỖȌÖȪȮȰỌÒỎƠỚỢỜỞỠŐȎŌṒṐꞶǪǬƆØǾÕṌṎȬŒPṔṖƤÞⱣQɊRŔŘŖȐṘṚṜȒṞɌⱤSŚṤŠṦŞŜȘṠṢṨẞꞨTŦŤŢṰȚȾṪṬṬƬṮƮUÚɄŬǓÛṶȔÜṲ̈́ṲǙǛǕỤÙỦƯỨỰỪỬỮŰȖŪṺŲƱŮŨṸṴVƔṾƲṼɅWẂŴẄẆẈẀⱲXẌẊYÝŶŸẎỴỲƳỶȲɎỸZŹŽẐŻẒẔƵꞋ/G.001/K.001/Y.001 ɪaáăắặằẳẵǎâấậầẩẫȁäǟȧạǡàảȃɑāąåḁⱥãæǣbḃḅꞵɓʘḇƀcćčçḉĉċꭓƈȼdďḑḓđḋḍɗḏɖðeéěȩḝêếḙệềểễȅëėẹèẻȇēḗḕęɛʃɇẽḛǝəʒǯƹfḟgǵɣğǧĝģġɠʔʕɂḡǥhħḫȟḩĥḧḣḥꜧɦɥiı/idotless_ogonek íǐîȉïḯ/idotaccent ịìỉȋīįɩɨĩḭĳjȷ/jacute ǰĵʝɉkḱǩķḳĸƙḵꝁlĺƛƚɬľḽļḷḹⱡḻɫłmḿṁṃɯnńňṋņṅṇǹɲƞṉñŋoóɵǒôốộồổỗȍöȫȯȱọòỏơớợờởỡőȏōṓṑꞷǫǭɔøǿõṍṏȭȣœpṕṗƥþᵽqɋrŕřŗȑṙṛṝɾȓṟɍɽsśṥšṧşŝșṡṣṩßꞩtŧťţṱțⱦṫṭƭṯʈuúʉŭǔûṷȕüǘṳǚǜǖụùủưứựừửữűȗūṻųʊůũṹṵvṿʋṽʌwẃŵẅẇẉẁⱳxẍẋyýŷÿẏỵỳƴỷȳɏỹzźžẑżẓẕƶꞌ/a.001/f.001/g.001/i.001/k.001/k.002/l.002/t.001 ﬁﬂªºǂǀǁǃʰⁿʷʸΩλπχᶿᵘᵛᶻ0123456789/zero.zero/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr ⁄½⅓⅔¼¾₁₂₃₄₅₆₇₈₉¹²³⁴⁵⁶⁷⁸⁹ /nbspace/.notdef ⟨⟩.,:;…!¡?¿·•*‖#///backslash/periodcentered.loclCAT/slash.part/periodcentered.loclCAT.case -­–—_(){}[]‚„“”‘’«»‹›\"'ƒ฿꞉ˮ˗꞊@&¶§©®™°′″|¦ℓ†‡℮№/bar.part ₿₵¢₡¤$₫€₲₴₭₾₺₼₦₱₽₨₹₪£₸₮₩¥⅄+−×÷=≠><≥≤±≈¬~^∅∞∫Ω∆∏∑√µ∂%‰↑↗→↘↓↙←↖↔↕●○◌◦◆◇◊■□▪▫▲▶▼◀△▷▽◁▴▸▾◂▵▹▿◃᷊̈̇̀/gravecomb_macroncomb ́/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄/macroncomb_gravecomb/macroncomb_acutecomb ̴̵̧̨̛̣̤̥̦̩̭̯̰̱̲̉̍̏̐̑̒̓᷇̕͘/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ᷅᷄᷆¨˙`´˝ˆˊˇˋ˘˚˜¯¸˛ʼʻˀʹʿʾˈꞮꞸꞹ/lccaroncomb/longstrokecomb/shortbar/shorterstrokecomb/shortslashcomb/shortstrokecomb/lcslash.part/topHook.part/_hook.part"
 );
 axes = (
 {
@@ -358,27 +337,27 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1100;
+value = 1130;
 },
 {
 name = typoDescender;
-value = -260;
+value = -270;
 },
 {
 name = winAscent;
-value = 1100;
+value = 1130;
 },
 {
 name = winDescent;
-value = 260;
+value = 270;
 },
 {
 name = hheaAscender;
-value = 1100;
+value = 1130;
 },
 {
 name = hheaDescender;
-value = -260;
+value = -270;
 },
 {
 name = hheaLineGap;
@@ -466,7 +445,7 @@ id = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 metricValues = (
 {
 over = 16;
-pos = 1100;
+pos = 1130;
 },
 {
 over = 16;
@@ -481,7 +460,7 @@ over = -16;
 },
 {
 over = -16;
-pos = -260;
+pos = -270;
 },
 {
 }
@@ -500,27 +479,27 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1100;
+value = 1130;
 },
 {
 name = typoDescender;
-value = -260;
+value = -270;
 },
 {
 name = winAscent;
-value = 1100;
+value = 1130;
 },
 {
 name = winDescent;
-value = 260;
+value = 270;
 },
 {
 name = hheaAscender;
-value = 1100;
+value = 1130;
 },
 {
 name = hheaDescender;
-value = -260;
+value = -270;
 },
 {
 name = hheaLineGap;
@@ -528,7 +507,7 @@ value = 0;
 },
 {
 name = strikeoutPosition;
-value = 250;
+value = 270;
 },
 {
 name = strikeoutSize;
@@ -586,7 +565,7 @@ id = m01;
 metricValues = (
 {
 over = 16;
-pos = 1100;
+pos = 1130;
 },
 {
 over = 16;
@@ -601,7 +580,7 @@ over = -16;
 },
 {
 over = -16;
-pos = -260;
+pos = -270;
 },
 {
 }
@@ -64796,7 +64775,7 @@ unicode = 795;
 {
 color = 1;
 glyphname = dotbelowcomb;
-lastChange = "2024-01-05 16:20:58 +0000";
+lastChange = "2024-01-16 18:15:49 +0000";
 layers = (
 {
 anchors = (
@@ -64839,7 +64818,7 @@ pos = (124,0);
 },
 {
 name = bottom;
-pos = (124,-212);
+pos = (124,-186);
 }
 );
 guides = (
@@ -64927,7 +64906,7 @@ unicode = 804;
 {
 color = 1;
 glyphname = ringbelowcomb;
-lastChange = "2024-01-05 09:56:29 +0000";
+lastChange = "2024-01-16 18:16:01 +0000";
 layers = (
 {
 anchors = (
@@ -64957,7 +64936,7 @@ pos = (142,0);
 },
 {
 name = bottom;
-pos = (194,-212);
+pos = (142,-245);
 }
 );
 layerId = m01;
@@ -65067,7 +65046,7 @@ unicode = 806;
 {
 color = 1;
 glyphname = cedillacomb;
-lastChange = "2024-01-09 16:28:58 +0000";
+lastChange = "2024-01-16 18:17:13 +0000";
 layers = (
 {
 anchors = (
@@ -65077,7 +65056,7 @@ pos = (110,0);
 },
 {
 name = bottom;
-pos = (174,-159);
+pos = (145,-183);
 }
 );
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
@@ -65085,26 +65064,41 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(85,-174,l),
-(205,-204,o),
-(234,-142,o),
+(195,-182,o),
+(234,-152,o),
 (234,-112,cs),
-(234,-68,o),
-(195,-42,o),
-(123,-47,cs),
-(103,-48,o),
-(105,-47,o),
+(234,-71,o),
+(199,-46,o),
+(140,-46,cs),
+(135,-46,o),
+(129,-47,o),
+(121,-47,cs),
+(114,-47,o),
+(109,-47,o),
+(109,-43,cs),
+(109,-37,o),
+(115,-25,o),
 (126,0,c),
 (94,0,l),
-(66,-64,o),
-(67,-70,o),
+(81,-29,o),
+(75,-46,o),
+(75,-56,cs),
+(75,-68,o),
+(85,-70,o),
 (107,-70,cs),
 (183,-70,o),
 (208,-82,o),
 (208,-108,cs),
-(208,-126,o),
-(188,-154,o),
-(85,-132,c)
+(208,-121,o),
+(197,-140,o),
+(150,-140,cs),
+(133,-140,o),
+(112,-138,o),
+(85,-132,c),
+(85,-174,l),
+(107,-180,o),
+(127,-182,o),
+(143,-182,cs)
 );
 }
 );
@@ -65126,26 +65120,41 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(61,-203,l),
-(204,-234,o),
-(242,-162,o),
+(196,-210,o),
+(242,-170,o),
 (242,-109,cs),
-(242,-38,o),
-(176,-28,o),
-(132,-28,cs),
-(109,-28,o),
-(107,-31,o),
+(242,-63,o),
+(212,-35,o),
+(157,-30,cs),
+(148,-29,o),
+(138,-28,o),
+(121,-28,cs),
+(116,-28,o),
+(115,-28,o),
+(115,-26,cs),
+(115,-23,o),
+(120,-18,o),
 (139,0,c),
 (55,0,l),
-(29,-32,o),
-(37,-66,o),
+(45,-12,o),
+(40,-24,o),
+(40,-34,cs),
+(40,-54,o),
+(58,-66,o),
 (86,-66,cs),
-(134,-66,o),
-(164,-66,o),
+(149,-66,o),
+(164,-70,o),
 (164,-88,cs),
-(164,-119,o),
-(92,-114,o),
-(61,-109,c)
+(164,-104,o),
+(143,-113,o),
+(107,-113,cs),
+(93,-113,o),
+(76,-112,o),
+(61,-109,c),
+(61,-203,l),
+(83,-208,o),
+(105,-210,o),
+(124,-210,cs)
 );
 }
 );
@@ -65159,7 +65168,7 @@ unicode = 807;
 {
 color = 1;
 glyphname = ogonekcomb;
-lastChange = "2024-01-04 19:22:23 +0000";
+lastChange = "2024-01-16 18:17:39 +0000";
 layers = (
 {
 anchors = (
@@ -65173,20 +65182,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(138,-130,o),
+(155,-126,o),
+(175,-117,c),
 (175,-84,l),
-(133,-100,o),
+(157,-91,o),
+(143,-94,o),
+(133,-94,cs),
 (115,-94,o),
-(110,-81,cs),
-(103,-64,o),
-(116,-42,o),
+(108,-85,o),
+(108,-73,cs),
+(108,-57,o),
+(127,-36,o),
 (191,0,c),
 (165,12,l),
 (89,-32,o),
 (75,-54,o),
 (75,-86,cs),
-(75,-116,o),
-(105,-148,o),
-(175,-117,c)
+(75,-107,o),
+(90,-130,o),
+(124,-130,cs)
 );
 }
 );
@@ -65204,20 +65219,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(135,-188,o),
+(162,-180,o),
+(192,-163,c),
 (192,-78,l),
-(153,-94,o),
-(132,-95,o),
-(124,-82,cs),
-(115,-67,o),
-(122,-36,o),
+(171,-87,o),
+(155,-91,o),
+(144,-91,cs),
+(131,-91,o),
+(121,-84,o),
+(121,-71,cs),
+(121,-54,o),
+(138,-29,o),
 (200,0,c),
 (158,29,l),
 (53,-33,o),
 (40,-78,o),
 (40,-120,cs),
-(40,-177,o),
-(102,-215,o),
-(192,-163,c)
+(40,-158,o),
+(68,-188,o),
+(113,-188,cs)
 );
 }
 );

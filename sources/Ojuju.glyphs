@@ -55,7 +55,7 @@ wght = {
 };
 }
 );
-date = "2023-12-08 19:59:47 +0000";
+date = "2024-01-16 17:21:16 +0000";
 familyName = Ojuju;
 featurePrefixes = (
 {
@@ -67672,6 +67672,15 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -67679,6 +67688,32 @@ language = dflt;
 value = "Chisaokwu Joboson, Mirko Velimirovic";
 }
 );
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Udi Foundry";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://udifoundry.com";
 }
 );
 settings = {

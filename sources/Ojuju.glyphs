@@ -334,6 +334,42 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = typoAscender;
+value = 840;
+},
+{
+name = typoDescender;
+value = -260;
+},
+{
+name = winAscent;
+value = 840;
+},
+{
+name = winDescent;
+value = 260;
+},
+{
+name = hheaAscender;
+value = 840;
+},
+{
+name = hheaDescender;
+value = -260;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = strikeoutPosition;
+value = 240;
+},
+{
+name = strikeoutSize;
+value = 39;
 }
 );
 guides = (
@@ -440,6 +476,42 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = typoAscender;
+value = 840;
+},
+{
+name = typoDescender;
+value = -260;
+},
+{
+name = winAscent;
+value = 840;
+},
+{
+name = winDescent;
+value = 260;
+},
+{
+name = hheaAscender;
+value = 840;
+},
+{
+name = hheaDescender;
+value = -260;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = strikeoutPosition;
+value = 250;
+},
+{
+name = strikeoutSize;
+value = 50;
 }
 );
 guides = (

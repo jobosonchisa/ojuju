@@ -1,7 +1,7 @@
 
 
 
-# My Font
+# Ojuju
 
 [![][Fontbakery]](https://jobosonchisa.github.io/googlefonts-ojuju/fontbakery/fontbakery-report.html)
 [![][Universal]](https://jobosonchisa.github.io/googlefonts-ojuju/fontbakery/fontbakery-report.html)

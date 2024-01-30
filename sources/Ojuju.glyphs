@@ -393,7 +393,7 @@ value = 1130;
 },
 {
 name = typoDescender;
-value = -270;
+value = -276;
 },
 {
 name = winAscent;
@@ -401,7 +401,7 @@ value = 1130;
 },
 {
 name = winDescent;
-value = 270;
+value = 276;
 },
 {
 name = hheaAscender;
@@ -409,7 +409,7 @@ value = 1130;
 },
 {
 name = hheaDescender;
-value = -270;
+value = -276;
 },
 {
 name = hheaLineGap;
@@ -499,7 +499,7 @@ over = -16;
 },
 {
 over = -16;
-pos = -270;
+pos = -276;
 },
 {
 }
@@ -539,7 +539,7 @@ value = 1130;
 },
 {
 name = typoDescender;
-value = -270;
+value = -276;
 },
 {
 name = winAscent;
@@ -547,7 +547,7 @@ value = 1130;
 },
 {
 name = winDescent;
-value = 270;
+value = 276;
 },
 {
 name = hheaAscender;
@@ -555,7 +555,7 @@ value = 1130;
 },
 {
 name = hheaDescender;
-value = -270;
+value = -276;
 },
 {
 name = hheaLineGap;
@@ -563,7 +563,7 @@ value = 0;
 },
 {
 name = strikeoutPosition;
-value = 270;
+value = 250;
 },
 {
 name = strikeoutSize;
@@ -649,7 +649,7 @@ over = -16;
 },
 {
 over = -16;
-pos = -270;
+pos = -276;
 },
 {
 }

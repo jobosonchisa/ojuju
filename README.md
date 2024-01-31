@@ -15,7 +15,9 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjobosonchisa%2Fgooglefonts-ojuju%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjobosonchisa%2Fgooglefonts-ojuju%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+Ojuju is a reverse contrast Weight axis variable font inspired by African Masquerades. Ojuju draws inspiration from a variety of African traditional dance costumes to inform the design decisions. The masks worn by the Dogon dancers from Mali inspired the aperture shaping, and counterform placement within many of the letterforms. Additionally African movie poster lettering from the 1970's was referenced to round out the design space. Ojuju covers all of the Google's SSA(sub-saharan-african) latin glyphs.
+![Sample Image](https://github.com/jobosonchisa/ojuju/blob/main/documentation/Dogon.JPG)
+
 ![Sample Image](https://github.com/jobosonchisa/ojuju/blob/main/documentation/image1.png)
 
 ![Sample Image](https://github.com/jobosonchisa/ojuju/blob/main/documentation/image2.png)

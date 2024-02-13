@@ -10,7 +10,7 @@ tag = wght;
 customParameters = (
 {
 name = "Variable Font Origin";
-value = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+value = m01;
 },
 {
 name = fsType;
@@ -41,13 +41,13 @@ value = 1;
 name = "Axis Mappings";
 value = {
 wght = {
-37 = 200;
-51 = 300;
-72 = 400;
-102 = 500;
-143 = 600;
-201 = 700;
-282 = 800;
+200 = 37;
+300 = 51;
+400 = 72;
+500 = 102;
+600 = 143;
+700 = 201;
+800 = 282;
 };
 };
 }

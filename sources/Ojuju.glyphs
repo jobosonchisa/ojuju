@@ -1,6 +1,11 @@
 {
 .appVersion = "3239";
 .formatVersion = 3;
+DisplayStrings = (
+"ƛλ/f_f",
+"/f_f/f_t ﬁﬂ",
+"ﬁ"
+);
 axes = (
 {
 name = Weight;
@@ -8,10 +13,6 @@ tag = wght;
 }
 );
 customParameters = (
-{
-name = "Variable Font Origin";
-value = m01;
-},
 {
 name = fsType;
 value = (
@@ -38,6 +39,10 @@ name = "Use Extension Kerning";
 value = 1;
 },
 {
+name = "Use Line Breaks";
+value = 1;
+},
+{
 name = "Axis Mappings";
 value = {
 wght = {
@@ -52,7 +57,7 @@ wght = {
 };
 }
 );
-date = "2024-01-16 17:21:16 +0000";
+date = "2024-02-13 17:21:58 +0000";
 familyName = Ojuju;
 featurePrefixes = (
 {
@@ -122,15 +127,8 @@ lookup ccmp_latn_1 {
 	sub itildebelow by i tildebelowcomb;
 } ccmp_latn_1;
 
-lookup ccmp_latn_2 {
-	lookupflag 0;
-	sub fi by f i;
-	sub fl by f l;
-} ccmp_latn_2;
-
 script latn;
 lookup ccmp_latn_1;
-lookup ccmp_latn_2;
 ";
 tag = ccmp;
 },
@@ -310,22 +308,6 @@ tag = case;
 },
 {
 automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub f t by f_t;
-";
-tag = dlig;
-},
-{
-automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub f f by f_f;
-sub f i by fi;
-sub f l by fl;
-";
-tag = liga;
-},
-{
-automatic = 1;
 code = "sub zero by zero.zero;
 ";
 tag = zero;
@@ -377,21 +359,8 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = strikeoutPosition;
-value = 240;
-},
-{
 name = strikeoutSize;
 value = 39;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-}
-);
 }
 );
 guides = (
@@ -520,21 +489,8 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = strikeoutPosition;
-value = 250;
-},
-{
 name = strikeoutSize;
 value = 50;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 800;
-}
-);
 }
 );
 guides = (
@@ -34920,17 +34876,30 @@ unicode = 314;
 },
 {
 glyphname = lambdastroke;
-lastChange = "2024-01-24 15:54:27 +0000";
+lastChange = "2024-02-13 18:13:33 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = top;
+pos = (288,740);
+}
+);
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
-ref = lambda;
-},
-{
 closed = 1;
 nodes = (
+(197,522,o),
+(197,522,o),
+(242,537,cs),
+(286,552,o),
+(286,552,o),
+(373,581,c),
 (373,615,l),
 (281,582,o),
 (281,582,o),
@@ -34938,27 +34907,37 @@ nodes = (
 (195,551,o),
 (195,551,o),
 (104,522,c),
-(104,490,l),
-(197,522,o),
-(197,522,o),
-(242,537,cs),
-(286,552,o),
-(286,552,o),
-(373,581,c)
+(104,490,l)
 );
+},
+{
+ref = lambda;
 }
 );
 width = 575;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (324,0);
+},
+{
+name = top;
+pos = (324,746);
+}
+);
 layerId = m01;
 shapes = (
 {
-ref = lambda;
-},
-{
 closed = 1;
 nodes = (
+(277,519,o),
+(277,519,o),
+(322,527,cs),
+(369,535,o),
+(369,535,o),
+(470,548,c),
 (470,603,l),
 (369,586,o),
 (369,586,o),
@@ -34966,14 +34945,11 @@ nodes = (
 (277,570,o),
 (277,570,o),
 (178,556,c),
-(178,501,l),
-(277,519,o),
-(277,519,o),
-(322,527,cs),
-(369,535,o),
-(369,535,o),
-(470,548,c)
+(178,501,l)
 );
+},
+{
+ref = lambda;
 }
 );
 width = 648;
@@ -46559,10 +46535,11 @@ width = 313;
 unicode = 42892;
 },
 {
+export = 0;
 glyphname = f_f;
 kernLeft = KO_f;
 kernRight = KO_f_f;
-lastChange = "2024-02-13 16:36:55 +0000";
+lastChange = "2024-02-13 18:13:44 +0000";
 layers = (
 {
 anchors = (
@@ -46692,10 +46669,11 @@ KernOnName = f_f;
 };
 },
 {
+export = 0;
 glyphname = f_t;
 kernLeft = KO_f;
 kernRight = KO_t;
-lastChange = "2024-02-13 16:36:58 +0000";
+lastChange = "2024-02-13 18:13:44 +0000";
 layers = (
 {
 anchors = (
@@ -46872,10 +46850,11 @@ metricLeft = f;
 metricRight = t;
 },
 {
+export = 0;
 glyphname = fi;
 kernLeft = KO_f;
 kernRight = KO_i;
-lastChange = "2024-02-13 16:37:07 +0000";
+lastChange = "2024-02-13 18:13:44 +0000";
 layers = (
 {
 anchors = (
@@ -47064,10 +47043,11 @@ KernOnName = fi;
 };
 },
 {
+export = 0;
 glyphname = fl;
 kernLeft = KO_f;
 kernRight = KO_l;
-lastChange = "2024-02-13 16:37:16 +0000";
+lastChange = "2024-02-13 18:13:44 +0000";
 layers = (
 {
 anchors = (
@@ -48192,7 +48172,7 @@ unicode = 937;
 glyphname = lambda;
 kernLeft = KO_lambda;
 kernRight = KO_lambda;
-lastChange = "2024-01-31 17:40:49 +0000";
+lastChange = "2024-02-13 18:13:33 +0000";
 layers = (
 {
 anchors = (
@@ -72481,16 +72461,6 @@ userData = {
 fpID = "2343D23F-205B-4C58-97D3-68D5A4726B86";
 };
 weightClass = 800;
-},
-{
-customParameters = (
-{
-name = "Variable Font Origin";
-value = m01;
-}
-);
-name = Regular;
-type = variable;
 }
 );
 kerningLTR = {

@@ -1,65 +1,6 @@
 {
-.appVersion = "3239";
+.appVersion = "3236";
 .formatVersion = 3;
-DisplayStrings = (
-"
-.1.2.3.4.5.6.7.8.9.0.
-,1,2,3,4,5,6,7,8,9,0,
-'1'2'3'4'5'6'7'8'9'0'
--1-2-3-4-5-6-7-8-9-0-
-–1–2–3–4–5–6–7–8–9–0][–
-
--a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z-
-–a–b–c–d–e–f–g–h–i–j–k–l–m–n–o–p–q–r–s–t–u–v–w–x–y–z–
-—a—b—c—d—e—f—g—h—i—j—k—l—m—n—o—p—q—r—s—t—u—v—w—x—y—z—
--A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z-
-–A–B–C–D–E–F–G–H–I–J–K–L–M–N–O–P–Q–R–S–T–U–V–W–X–Y–Z–
-—A—B—C—D—E—F—G—H—I—J—K—L—M—N—O—P—Q—R—S—T—U—V—W—X—Y—Z—
-
-.a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z.
-,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,
-.A.B.C.D.E.F.G.H.I.J.K.L.M.N.O.P.Q.R.S.T.U.V.W.X.Y.Z.
-,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,
-a; b; c; d; e; f; g; h; i; j; k; l; m; n; o; p; q; r; s; t; u; v; w; x; y; z;
-a: b: c: d: e: f: g: h: i: j: k: l: m: n: o: p: q: r: s: t: u: v: w: x: y: z:
-A; B; C; D; E; F; G; H; I; J; K; L; M; N; O; P; Q; R; S; T; U; V; W; X; Y; Z;
-A: B: C: D: E: F: G: H: I: J: K: L: M: N: O: P: Q: R: S: T: U: V: W: X: Y: Z:
-
-//a//b//c//d//e//f//g//h//i//j//k//l//m//n//o//p//q//r//s//t//u//v//w//y//z//
-//A//B//C//D//E//F//G//H//I//J//K//L//M//N//O//P//Q//R//S//T//U//V//W//X//Y//Z//
-
-¿A? ¿B? ¿C? ¿D? ¿E? ¿F? ¿G? ¿H? ¿I? ¿J? ¿K? ¿L? ¿M? ¿N? ¿O? ¿P? ¿Q? ¿R? ¿S? ¿T? ¿U? ¿V? ¿W? ¿X? ¿Y? ¿Z?
-¿a? ¿b? ¿c? ¿d? ¿e? ¿f? ¿g? ¿h? ¿i? ¿j? ¿k? ¿l? ¿m? ¿n? ¿o? ¿p? ¿q? ¿r? ¿s? ¿t? ¿u? ¿v? ¿w? ¿x? ¿y? ¿z?
-¡a! ¡b! ¡c! ¡d! ¡e! ¡f! ¡g! ¡h! ¡i! ¡j! ¡k! ¡l! ¡m! ¡n! ¡o! ¡p! ¡q! ¡r! ¡s! ¡t! ¡u! ¡v! ¡w! ¡x! ¡y! ¡z!
-¡A! ¡B! ¡C! ¡D! ¡E! ¡F! ¡G! ¡H! ¡I! ¡J! ¡K! ¡L! ¡M! ¡N! ¡O! ¡P! ¡Q! ¡R! ¡S! ¡T! ¡U! ¡V! ¡W! ¡X! ¡Y! ¡Z!
-
-“A” “B” “C” “D” “E” “F” “G” “H” “I” “J” “K” “L” “M” “N” “O” “P” “Q” “R” “S” “T” “U” “V” “W” “X” “Y” “Z”
-“a” “b” “c” “d” “e” “f” “g” “h” “i” “j” “k” “l” “m” “n” “o” “p” “q” “r” “s” “t” “u” “v” “w” “x” “y” “z”
-
-‘A’ ‘B’ ‘C’ ‘D’ ‘E’ ‘F’ ‘G’ ‘H’ ‘I’ ‘J’ ‘K’ ‘L’ ‘M’ ‘N’ ‘O’ ‘P’ ‘Q’ ‘R’ ‘S’ ‘T’ ‘U’ ‘V’ ‘W’ ‘X’ ‘Y’ ‘Z’
-‘a’ ‘b’ ‘c’ ‘d’ ‘e’ ‘f’ ‘g’ ‘h’ ‘i’ ‘j’ ‘k’ ‘l’ ‘m’ ‘n’ ‘o’ ‘p’ ‘q’ ‘r’ ‘s’ ‘t’ ‘u’ ‘v’ ‘w’ ‘x’ ‘y’ ‘z’
-
-’A’B’C’D’E’F’G’H’I’J’K’L’M’N’O’P’Q’R’S’T’U’V’W’X’Y’Z’
-’a’b’c’d’e’f’g’h’i’j’k’l’m’n’o’p’q’r’s’t’u’v’w’x’y’z’
-
-'A'B'C'D'E'F'G'H'I'J'K'L'M'N'O'P'Q'R'S'T'U'V'W'X'Y'Z'
-'a'b'c'd'e'f'g'h'i'j'k'l'm'n'o'p'q'r's't'u'v'w'x'y'z'
-
-$12 $23 $34 $45 $56 $67 $78 $89 $90 $01
-€12 €23 €34 €45 €56 €67 €78 €89 €90 €01
-£12 £23 £34 £45 £56 £67 £78 £89 £90 £01
-¥12 ¥23 ¥34 ¥45 ¥56 ¥67 ¥78 ¥89 ¥90 ¥01
-12¢ 23¢ 34¢ 45¢ 56¢ 67¢ 78¢ 89¢ 90¢ 01¢
-
-(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m) (n) (o) (p) (q) (r) (s) (t) (u) (v) (w) (x) (y) (z) (A) (B) (C) (D) (E) (F) (G) (H) (I) (J) (K) (L) (M) (N) (O) (P) (Q) (R) (S) (T) (U) (V) (W) (X) (Y) (Z) {a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {A} {B} {C} {D} {E} {F} {G} {H} {I} {J} {K} {L} {M} {N} {O} {P} {Q} {R} {S} {T} {U} {V} {W} {X} {Y} {Z} [a] [b] [c] [d] [e] [f] [g] [h] [i] [j] [k] [l] [m] [n] [o] [p] [q] [r] [s] [t] [u] [v] [w] [x] [y] [z] [A] [B] [C] [D] [E] [F] [G] [H] [I] [J] [K] [L] [M] [N] [O] [P] [Q] [R] [S] [T] [U] [V] [W] [X] [Y] [Z]
-
-WOW.” ,’ ,” .’ ?” ?’ !” !’
-
-ď! ď, ď. ď; ď? ďa ďh ďk ďl ďm ďo ďt ďu ďá ďž
-Ľ. Ľa Ľu Ľú
-ľ, ľ. ľ: ľ; ľa ľb ľg ľh ľk ľm ľn ľo ľs ľt ľu ľv ľú ľč ľň ľš
-ť! ť\" ť) ť, ť- ť. ť: ť; ť? ť` ťa ťc ťd ťj ťk ťm ťn ťo ťr ťs ťt ťu ťá ťž ť“"
-);
 axes = (
 {
 name = Weight;
@@ -66137,10 +66078,22 @@ unicode = 9675;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2024-01-23 18:44:06 +0000";
+lastChange = "2024-02-14 11:04:00 +0000";
 layers = (
 {
 anchors = (
+{
+name = _center;
+pos = (367,371);
+},
+{
+name = _ogonek;
+pos = (506,87);
+},
+{
+name = _topright;
+pos = (506,653);
+},
 {
 name = bottom;
 pos = (369,51);
@@ -66361,6 +66314,18 @@ width = 738;
 },
 {
 anchors = (
+{
+name = _center;
+pos = (367,371);
+},
+{
+name = _ogonek;
+pos = (506,87);
+},
+{
+name = _topright;
+pos = (506,653);
+},
 {
 name = bottom;
 pos = (369,51);
@@ -94554,13 +94519,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;

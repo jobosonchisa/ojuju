@@ -1,12 +1,14 @@
 {
-.appVersion = "3245";
+.appVersion = "3306";
 .formatVersion = 3;
 DisplayStrings = (
 "ǝ",
 "Ŋ",
 "ŋ",
 "ɛ",
-"Ɛ"
+"Ɛ",
+"̈ë",
+"̈eë"
 );
 axes = (
 {
@@ -28991,7 +28993,7 @@ unicode = 281;
 },
 {
 glyphname = eopen;
-lastChange = "2024-03-12 15:08:49 +0000";
+lastChange = "2024-05-20 14:33:09 +0000";
 layers = (
 {
 anchors = (
@@ -29001,7 +29003,7 @@ pos = (186,0);
 },
 {
 name = top;
-pos = (186,480);
+pos = (213,480);
 }
 );
 background = {
@@ -29133,7 +29135,7 @@ pos = (217,0);
 },
 {
 name = top;
-pos = (217,500);
+pos = (243,520);
 }
 );
 background = {

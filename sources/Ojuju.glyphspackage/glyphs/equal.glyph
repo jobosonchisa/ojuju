@@ -1,0 +1,37 @@
+{
+glyphname = equal;
+kernRight = KO_equal;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (53,-56);
+ref = minus;
+},
+{
+pos = (53,59);
+ref = minus;
+}
+);
+width = 509;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (5,-107);
+ref = minus;
+},
+{
+pos = (5,104);
+ref = minus;
+}
+);
+width = 474;
+}
+);
+metricLeft = comma;
+metricRight = comma;
+unicode = 61;
+}

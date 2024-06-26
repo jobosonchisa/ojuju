@@ -1,0 +1,34 @@
+{
+glyphname = Uhorntilde;
+kernLeft = KO_U;
+kernRight = KO_Uhorn;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (137,220);
+ref = tildecomb;
+}
+);
+width = 624;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (132,200);
+ref = tildecomb;
+}
+);
+width = 739;
+}
+);
+unicode = 7918;
+}

@@ -1,0 +1,26 @@
+{
+glyphname = grave;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = gravecomb;
+}
+);
+width = 236;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = gravecomb;
+}
+);
+width = 269;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 96;
+}

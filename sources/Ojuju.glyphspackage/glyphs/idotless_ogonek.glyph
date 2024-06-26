@@ -1,0 +1,31 @@
+{
+glyphname = idotless_ogonek;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (84,0);
+ref = ogonek;
+}
+);
+width = 286;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (183,0);
+ref = ogonek;
+}
+);
+width = 404;
+}
+);
+}

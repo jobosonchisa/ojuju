@@ -1,0 +1,37 @@
+{
+glyphname = ydotbelow;
+kernLeft = KO_y;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (290,0);
+ref = dotbelowcomb;
+}
+);
+width = 495;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (345,-78);
+ref = dotbelowcomb;
+}
+);
+width = 565;
+}
+);
+metricLeft = y;
+metricRight = T;
+unicode = 7925;
+}

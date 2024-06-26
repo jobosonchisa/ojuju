@@ -1,0 +1,66 @@
+{
+glyphname = asciicircum;
+kernLeft = KO_asciicircum;
+kernRight = KO_asciicircum;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (211,597);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(98,454,l),
+(182,623,o),
+(183,624,o),
+(216,624,cs),
+(245,624,o),
+(246,623,o),
+(333,454,c),
+(356,454,l),
+(248,700,l),
+(183,700,l),
+(75,454,l)
+);
+}
+);
+width = 431;
+},
+{
+anchors = (
+{
+name = top;
+pos = (172,688);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(135,381,l),
+(224,515,o),
+(224,515,o),
+(249,515,cs),
+(273,515,o),
+(273,515,o),
+(354,381,c),
+(449,381,l),
+(345,700,l),
+(143,700,l),
+(40,381,l)
+);
+}
+);
+width = 489;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 94;
+}

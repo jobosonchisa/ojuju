@@ -1,0 +1,29 @@
+{
+glyphname = fivesuperior;
+kernLeft = KO_fivesuperior;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,100);
+ref = five.numr;
+}
+);
+width = 314;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,100);
+ref = five.numr;
+}
+);
+width = 338;
+}
+);
+metricLeft = five;
+metricRight = five;
+unicode = 8309;
+}

@@ -1,0 +1,40 @@
+{
+glyphname = underscore;
+kernLeft = "0";
+kernRight = "0";
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(48,-46,l),
+(548,-46,l),
+(548,-16,l),
+(48,-16,l)
+);
+}
+);
+width = 596;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(24,-108,l),
+(544,-108,l),
+(544,-16,l),
+(24,-16,l)
+);
+}
+);
+width = 568;
+}
+);
+metricLeft = hyphen;
+metricRight = hyphen;
+unicode = 95;
+}

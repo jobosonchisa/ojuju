@@ -1,0 +1,29 @@
+{
+glyphname = chi;
+kernLeft = KO_chi;
+kernRight = KO_chi;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = "chi-latin";
+}
+);
+width = 585;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = "chi-latin";
+}
+);
+width = 595;
+}
+);
+unicode = 967;
+userData = {
+KernOnName = chi;
+};
+}

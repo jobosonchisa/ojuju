@@ -1,0 +1,52 @@
+{
+export = 0;
+glyphname = fl;
+kernLeft = KO_f;
+kernRight = KO_l;
+layers = (
+{
+anchors = (
+{
+name = caret_1;
+pos = (292,0);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = f;
+},
+{
+pos = (293,0);
+ref = l;
+}
+);
+width = 584;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (393.5,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = f;
+},
+{
+pos = (383,0);
+ref = l;
+}
+);
+width = 787;
+}
+);
+metricLeft = f;
+metricRight = l;
+unicode = 64258;
+userData = {
+KernOnName = fl;
+};
+}

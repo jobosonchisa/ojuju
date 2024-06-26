@@ -1,0 +1,38 @@
+{
+glyphname = brevecomb_gravecomb;
+layers = (
+{
+guides = (
+{
+pos = (-29,804);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+alignment = 1;
+ref = brevecomb;
+},
+{
+pos = (12,150);
+ref = gravecomb;
+}
+);
+width = 320;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = brevecomb;
+},
+{
+pos = (-9,187);
+ref = gravecomb;
+}
+);
+width = 358;
+}
+);
+}

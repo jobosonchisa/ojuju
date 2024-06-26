@@ -1,0 +1,48 @@
+{
+glyphname = tildebelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (160,0);
+},
+{
+name = bottom;
+pos = (160,-171);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,-734);
+ref = tildecomb;
+}
+);
+width = 320;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (179,0);
+},
+{
+name = bottom;
+pos = (179,-170);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-745);
+ref = tildecomb;
+}
+);
+width = 358;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 816;
+}

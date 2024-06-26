@@ -1,0 +1,38 @@
+{
+glyphname = blackDiamond;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(239,-4,l),
+(447,205,l),
+(239,413,l),
+(30,205,l),
+(239,-4,l)
+);
+}
+);
+width = 477;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(239,-4,l),
+(447,205,l),
+(239,413,l),
+(30,205,l),
+(239,-4,l)
+);
+}
+);
+width = 477;
+}
+);
+unicode = 9670;
+}

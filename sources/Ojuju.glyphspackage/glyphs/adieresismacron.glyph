@@ -1,0 +1,41 @@
+{
+glyphname = adieresismacron;
+kernLeft = KO_odieresis;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (84,40);
+ref = dieresiscomb;
+},
+{
+pos = (88,186);
+ref = macroncomb;
+}
+);
+width = 554;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (28,30);
+ref = dieresiscomb;
+},
+{
+pos = (81,200);
+ref = macroncomb;
+}
+);
+width = 543;
+}
+);
+unicode = 479;
+}

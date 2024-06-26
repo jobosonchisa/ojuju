@@ -1,0 +1,30 @@
+{
+glyphname = verticallinemod;
+kernLeft = KO_verticallinemod;
+kernRight = KO_verticallinemod;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,28);
+ref = verticallineabovecomb;
+}
+);
+width = 185;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,28);
+ref = verticallineabovecomb;
+}
+);
+width = 156;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 712;
+}

@@ -1,0 +1,28 @@
+{
+glyphname = sixinferior;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,-129);
+ref = six.dnom;
+}
+);
+width = 318;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-130);
+ref = six.dnom;
+}
+);
+width = 329;
+}
+);
+metricLeft = six;
+metricRight = six;
+unicode = 8326;
+}

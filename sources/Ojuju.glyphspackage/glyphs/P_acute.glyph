@@ -1,0 +1,34 @@
+{
+glyphname = Pacute;
+kernLeft = KO_H;
+kernRight = KO_P;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = P;
+},
+{
+pos = (198,220);
+ref = acutecomb;
+}
+);
+width = 588;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = P;
+},
+{
+pos = (239,200);
+ref = acutecomb;
+}
+);
+width = 672;
+}
+);
+unicode = 7764;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = Rinvertedbreve;
+kernLeft = KO_H;
+kernRight = KO_R;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (144,220);
+ref = breveinvertedcomb;
+}
+);
+width = 596;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (118,200);
+ref = breveinvertedcomb;
+}
+);
+width = 671;
+}
+);
+unicode = 530;
+}

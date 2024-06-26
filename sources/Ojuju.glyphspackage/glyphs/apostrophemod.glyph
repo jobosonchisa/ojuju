@@ -1,0 +1,28 @@
+{
+glyphname = apostrophemod;
+kernLeft = KO_apostrophemod;
+kernRight = KO_apostrophemod;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (42,0);
+ref = quoteright;
+}
+);
+width = 224;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (29,0);
+ref = quoteright;
+}
+);
+width = 316;
+}
+);
+unicode = 700;
+}

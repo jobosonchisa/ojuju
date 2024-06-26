@@ -1,0 +1,28 @@
+{
+glyphname = eightinferior;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,-130);
+ref = eight.dnom;
+}
+);
+width = 311;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-130);
+ref = eight.dnom;
+}
+);
+width = 333;
+}
+);
+metricLeft = eight;
+metricRight = eight;
+unicode = 8328;
+}

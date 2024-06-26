@@ -1,0 +1,38 @@
+{
+glyphname = blackSquare;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(32,65,l),
+(584,65,l),
+(582,619,l),
+(30,619,l),
+(32,65,l)
+);
+}
+);
+width = 614;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(32,65,l),
+(584,65,l),
+(582,619,l),
+(30,619,l),
+(32,65,l)
+);
+}
+);
+width = 614;
+}
+);
+unicode = 9632;
+}

@@ -1,0 +1,42 @@
+{
+glyphname = eturned;
+kernLeft = KO_schwa;
+kernRight = KO_schwa;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (240,480);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+angle = 180;
+pos = (498,480);
+ref = e;
+}
+);
+width = 498;
+},
+{
+anchors = (
+{
+name = top;
+pos = (240,500);
+}
+);
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (519,500);
+ref = e;
+}
+);
+width = 519;
+}
+);
+unicode = 477;
+}

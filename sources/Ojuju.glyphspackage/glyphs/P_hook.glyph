@@ -1,0 +1,38 @@
+{
+glyphname = Phook;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+alignment = -1;
+pos = (32,0);
+ref = P;
+},
+{
+pos = (-63,0);
+ref = _hook.part;
+}
+);
+width = 620;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (152,0);
+ref = P;
+},
+{
+pos = (-28,0);
+ref = _hook.part;
+}
+);
+width = 824;
+}
+);
+metricLeft = T;
+metricRight = P;
+unicode = 420;
+}

@@ -1,0 +1,49 @@
+{
+glyphname = lccaroncomb;
+layers = (
+{
+anchors = (
+{
+name = _topright;
+pos = (79,701);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,701,l),
+(79,701,l),
+(75,587,l),
+(97,587,l)
+);
+}
+);
+width = 200;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (12,701);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,701,l),
+(42,701,l),
+(40,523,l),
+(97,523,l)
+);
+}
+);
+width = 162;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

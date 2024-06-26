@@ -1,0 +1,41 @@
+{
+glyphname = hyphen;
+kernLeft = "0";
+kernRight = "0";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(24,230,l),
+(426,230,l),
+(426,344,l),
+(24,344,l)
+);
+}
+);
+width = 450;
+},
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(48,262,l),
+(358,262,l),
+(358,298,l),
+(48,298,l)
+);
+}
+);
+width = 406;
+}
+);
+unicode = 45;
+userData = {
+KernOnName = hyphen;
+};
+}

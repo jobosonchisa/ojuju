@@ -1,0 +1,54 @@
+{
+glyphname = Ohorn;
+kernLeft = KO_O;
+kernRight = KO_O;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (340,0);
+},
+{
+name = top;
+pos = (340,700);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (318,194);
+ref = horncomb;
+}
+);
+width = 650;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (347,0);
+},
+{
+name = top;
+pos = (347,700);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (383,141);
+ref = horncomb;
+}
+);
+width = 694;
+}
+);
+unicode = 416;
+}

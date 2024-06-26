@@ -1,0 +1,37 @@
+{
+glyphname = Hhook;
+kernRight = KO_H;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = H;
+},
+{
+pos = (-96,0);
+ref = _hook.part;
+}
+);
+width = 668;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (163,0);
+ref = H;
+},
+{
+pos = (-28,0);
+ref = _hook.part;
+}
+);
+width = 857;
+}
+);
+metricLeft = T;
+metricRight = H;
+unicode = 42922;
+}

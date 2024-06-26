@@ -1,0 +1,33 @@
+{
+glyphname = circumflexcomb_tildecomb;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+},
+{
+pos = (-11,150);
+ref = tildecomb;
+}
+);
+width = 298;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+},
+{
+pos = (1,187);
+ref = tildecomb;
+}
+);
+width = 360;
+}
+);
+}

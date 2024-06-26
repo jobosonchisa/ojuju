@@ -1,0 +1,35 @@
+{
+glyphname = imacron;
+kernLeft = KO_igrave;
+kernRight = KO_i;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-42,40);
+ref = macroncomb;
+}
+);
+width = 286;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+alignment = -1;
+pos = (1,30);
+ref = macroncomb;
+}
+);
+width = 404;
+}
+);
+unicode = 299;
+}

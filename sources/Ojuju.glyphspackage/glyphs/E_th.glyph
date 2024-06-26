@@ -1,0 +1,35 @@
+{
+glyphname = Eth;
+kernRight = KO_D;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-29,13);
+ref = centerstrokecomb;
+}
+);
+width = 624;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-51,13);
+ref = centerstrokecomb;
+}
+);
+width = 668;
+}
+);
+metricLeft = T;
+metricRight = D;
+unicode = 208;
+}

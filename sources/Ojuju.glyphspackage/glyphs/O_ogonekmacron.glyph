@@ -1,0 +1,33 @@
+{
+glyphname = Oogonekmacron;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = Oogonek;
+},
+{
+pos = (148,220);
+ref = macroncomb;
+}
+);
+width = 650;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = Oogonek;
+},
+{
+alignment = 1;
+pos = (154,200);
+ref = macroncomb;
+}
+);
+width = 694;
+}
+);
+unicode = 492;
+}

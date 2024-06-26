@@ -1,0 +1,34 @@
+{
+glyphname = jstroke;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = j;
+},
+{
+pos = (-6,-97);
+ref = centerstrokecomb;
+}
+);
+width = 269;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = j;
+},
+{
+alignment = -1;
+pos = (-35,-112);
+ref = centerstrokecomb;
+}
+);
+width = 241;
+}
+);
+unicode = 585;
+}

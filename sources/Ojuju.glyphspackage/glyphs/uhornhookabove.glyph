@@ -1,0 +1,36 @@
+{
+glyphname = uhornhookabove;
+kernLeft = KO_u;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (152,0);
+ref = hookabovecomb;
+}
+);
+width = 556;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (144,20);
+ref = hookabovecomb;
+}
+);
+width = 593;
+}
+);
+unicode = 7917;
+userData = {
+KernOnName = uhornhookabove;
+};
+}

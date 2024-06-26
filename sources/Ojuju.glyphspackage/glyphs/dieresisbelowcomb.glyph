@@ -1,0 +1,48 @@
+{
+glyphname = dieresisbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (181,0);
+},
+{
+name = bottom;
+pos = (181,-170);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,-730);
+ref = dieresiscomb;
+}
+);
+width = 366;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (246,0);
+},
+{
+name = bottom;
+pos = (246,-171);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-741);
+ref = dieresiscomb;
+}
+);
+width = 492;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 804;
+}

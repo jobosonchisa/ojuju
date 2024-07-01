@@ -71,6 +71,7 @@ nodes = (
 layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
 shapes = (
 {
+alignment = -1;
 ref = w;
 },
 {
@@ -78,7 +79,7 @@ pos = (580,-220);
 ref = _fronthook.part;
 }
 );
-width = 732;
+width = 817;
 },
 {
 anchors = (
@@ -150,6 +151,7 @@ nodes = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = w;
 },
 {
@@ -157,10 +159,10 @@ pos = (540,-200);
 ref = _fronthook.part;
 }
 );
-width = 662;
+width = 875;
 }
 );
 metricLeft = w;
-metricRight = w;
+metricRight = t;
 unicode = 11379;
 }

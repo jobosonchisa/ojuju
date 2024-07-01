@@ -93,7 +93,13 @@ feature dtls;
 tag = aalt;
 },
 {
-code = "sub florin by florin.alt;";
+code = "sub Eng by Eng.alt;
+sub Nhookleft by Nhookleft.alt;
+sub Esh by Esh.alt;
+sub florin by florin.alt;
+sub Vhook by Vhook.alt;
+sub vhook by vhook.alt;
+";
 tag = aalt;
 },
 {

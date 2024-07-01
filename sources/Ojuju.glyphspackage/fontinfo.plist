@@ -93,7 +93,7 @@ feature dtls;
 tag = aalt;
 },
 {
-code = "";
+code = "sub florin by florin.alt;";
 tag = aalt;
 },
 {

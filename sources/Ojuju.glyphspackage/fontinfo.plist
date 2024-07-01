@@ -93,6 +93,10 @@ feature dtls;
 tag = aalt;
 },
 {
+code = "";
+tag = aalt;
+},
+{
 automatic = 1;
 code = "lookup ccmp_DFLT_1 {
 	lookupflag 0;

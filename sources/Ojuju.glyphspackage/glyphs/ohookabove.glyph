@@ -1,0 +1,34 @@
+{
+glyphname = ohookabove;
+kernLeft = KO_oe;
+kernRight = KO_o;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = o;
+},
+{
+pos = (139,40);
+ref = hookabovecomb;
+}
+);
+width = 528;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (154,20);
+ref = hookabovecomb;
+}
+);
+width = 544;
+}
+);
+unicode = 7887;
+}

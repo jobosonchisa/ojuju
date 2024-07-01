@@ -1,0 +1,32 @@
+{
+glyphname = udblgrave;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (86,40);
+ref = dblgravecomb;
+}
+);
+width = 556;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (-15,20);
+ref = dblgravecomb;
+}
+);
+width = 499;
+}
+);
+unicode = 533;
+}

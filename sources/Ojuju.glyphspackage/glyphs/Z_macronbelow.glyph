@@ -1,0 +1,33 @@
+{
+glyphname = Zmacronbelow;
+kernRight = KO_Z;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (100,0);
+ref = macronbelowcomb;
+}
+);
+width = 562;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (107,0);
+ref = macronbelowcomb;
+}
+);
+width = 599;
+}
+);
+unicode = 7828;
+}

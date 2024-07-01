@@ -1,0 +1,48 @@
+{
+glyphname = breveinvertedbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (160,0);
+},
+{
+name = bottom;
+pos = (160,-170);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,-733);
+ref = breveinvertedcomb;
+}
+);
+width = 320;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (179,0);
+},
+{
+name = bottom;
+pos = (179,-170);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-744);
+ref = breveinvertedcomb;
+}
+);
+width = 358;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 815;
+}

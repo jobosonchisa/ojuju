@@ -1,0 +1,34 @@
+{
+glyphname = uniA7B9;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (-9,-13);
+ref = lcslash.part;
+}
+);
+width = 556;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (-55,-10);
+ref = lcslash.part;
+}
+);
+width = 499;
+}
+);
+metricLeft = u;
+metricRight = u;
+unicode = 42937;
+}

@@ -1,0 +1,40 @@
+{
+glyphname = Omacrongrave;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (148,220);
+ref = macroncomb;
+},
+{
+pos = (177,356);
+ref = gravecomb;
+}
+);
+width = 650;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (154,200);
+ref = macroncomb;
+},
+{
+pos = (159,366);
+ref = gravecomb;
+}
+);
+width = 694;
+}
+);
+unicode = 7760;
+}

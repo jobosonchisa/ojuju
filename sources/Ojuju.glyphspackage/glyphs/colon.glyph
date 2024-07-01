@@ -1,0 +1,39 @@
+{
+glyphname = colon;
+kernLeft = "0";
+kernRight = "0";
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = period;
+},
+{
+pos = (0,376);
+ref = period;
+}
+);
+width = 236;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = period;
+},
+{
+pos = (0,340);
+ref = period;
+}
+);
+width = 294;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 58;
+userData = {
+KernOnName = colon;
+};
+}

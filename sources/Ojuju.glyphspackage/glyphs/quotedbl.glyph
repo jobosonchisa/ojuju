@@ -1,0 +1,41 @@
+{
+glyphname = quotedbl;
+kernLeft = "0";
+kernRight = "0";
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (41,0);
+ref = quotesingle;
+},
+{
+pos = (143,0);
+ref = quotesingle;
+}
+);
+width = 289;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (11,0);
+ref = quotesingle;
+},
+{
+pos = (147,0);
+ref = quotesingle;
+}
+);
+width = 316;
+}
+);
+metricLeft = comma;
+metricRight = comma;
+unicode = 34;
+userData = {
+KernOnName = quotedbl;
+};
+}

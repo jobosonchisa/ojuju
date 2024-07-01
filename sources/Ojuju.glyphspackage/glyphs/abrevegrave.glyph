@@ -1,0 +1,34 @@
+{
+glyphname = abrevegrave;
+kernLeft = KO_a;
+kernRight = KO_a;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (105,40);
+ref = brevecomb_gravecomb;
+}
+);
+width = 554;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (95,30);
+ref = brevecomb_gravecomb;
+}
+);
+width = 543;
+}
+);
+unicode = 7857;
+}

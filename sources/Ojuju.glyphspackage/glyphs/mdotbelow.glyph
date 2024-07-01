@@ -1,0 +1,34 @@
+{
+glyphname = mdotbelow;
+kernLeft = KO_n;
+kernRight = KO_n;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = m;
+},
+{
+pos = (363,0);
+ref = dotbelowcomb;
+}
+);
+width = 871;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = m;
+},
+{
+pos = (317,0);
+ref = dotbelowcomb;
+}
+);
+width = 857;
+}
+);
+unicode = 7747;
+}

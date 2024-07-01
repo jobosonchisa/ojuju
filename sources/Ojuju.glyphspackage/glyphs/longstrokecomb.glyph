@@ -1,0 +1,57 @@
+{
+glyphname = longstrokecomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (375,276);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(279,266,o),
+(480,266,o),
+(674,260,c),
+(674,291,l),
+(473,288,o),
+(273,288,o),
+(75,291,c),
+(75,260,l)
+);
+}
+);
+width = 749;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (368,232);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,218,o),
+(481,216,o),
+(695,206,c),
+(695,258,l),
+(474,254,o),
+(256,254,o),
+(40,258,c),
+(40,206,l)
+);
+}
+);
+width = 735;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

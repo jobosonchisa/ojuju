@@ -1,0 +1,36 @@
+{
+glyphname = rupee;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+alignment = -1;
+ref = R;
+},
+{
+pos = (551,0);
+ref = s;
+}
+);
+width = 956;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = R;
+},
+{
+alignment = -1;
+pos = (616,0);
+ref = s;
+}
+);
+width = 1057;
+}
+);
+metricLeft = R;
+metricRight = s;
+unicode = 8360;
+}

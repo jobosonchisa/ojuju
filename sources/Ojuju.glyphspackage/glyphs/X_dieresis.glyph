@@ -1,0 +1,34 @@
+{
+glyphname = Xdieresis;
+kernLeft = KO_X;
+kernRight = KO_X;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = X;
+},
+{
+pos = (136,220);
+ref = dieresiscomb;
+}
+);
+width = 634;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = X;
+},
+{
+pos = (100,200);
+ref = dieresiscomb;
+}
+);
+width = 692;
+}
+);
+unicode = 7820;
+}

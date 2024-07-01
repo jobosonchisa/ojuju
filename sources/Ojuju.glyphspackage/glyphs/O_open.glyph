@@ -1,0 +1,28 @@
+{
+glyphname = Oopen;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (558,0);
+ref = C;
+scale = (-1,1);
+}
+);
+width = 558;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (614,0);
+ref = C;
+scale = (-1,1);
+}
+);
+width = 614;
+}
+);
+unicode = 390;
+}

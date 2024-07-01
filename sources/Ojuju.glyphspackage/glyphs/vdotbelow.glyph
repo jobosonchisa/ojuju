@@ -1,0 +1,34 @@
+{
+glyphname = vdotbelow;
+kernLeft = KO_v;
+kernRight = KO_v;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = v;
+},
+{
+pos = (166,0);
+ref = dotbelowcomb;
+}
+);
+width = 502;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = v;
+},
+{
+pos = (100,0);
+ref = dotbelowcomb;
+}
+);
+width = 466;
+}
+);
+unicode = 7807;
+}

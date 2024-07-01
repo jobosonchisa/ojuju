@@ -1,0 +1,30 @@
+{
+glyphname = hturned;
+kernLeft = KO_u;
+kernRight = KO_q;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+angle = 180;
+pos = (576,480);
+ref = h;
+}
+);
+width = 576;
+},
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (542,500);
+ref = h;
+}
+);
+width = 542;
+}
+);
+unicode = 613;
+}

@@ -1,0 +1,41 @@
+{
+glyphname = quotesingle;
+kernLeft = "0";
+kernRight = "0";
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,491,l),
+(71,740,l),
+(34,740,l),
+(41,491,l)
+);
+}
+);
+width = 102;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,483,l),
+(129,744,l),
+(29,744,l),
+(46,483,l)
+);
+}
+);
+width = 158;
+}
+);
+unicode = 39;
+userData = {
+KernOnName = quotesingle;
+};
+}

@@ -1,0 +1,38 @@
+{
+glyphname = primemod;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(83,450,l),
+(102,450,l),
+(117,740,l),
+(75,740,l)
+);
+}
+);
+width = 192;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(66,439,l),
+(114,439,l),
+(140,716,l),
+(40,716,l)
+);
+}
+);
+width = 180;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 697;
+}

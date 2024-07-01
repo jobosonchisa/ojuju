@@ -1,0 +1,25 @@
+{
+glyphname = colonmod;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = colon;
+}
+);
+width = 236;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = colon;
+}
+);
+width = 294;
+}
+);
+unicode = 42889;
+}

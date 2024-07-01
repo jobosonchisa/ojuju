@@ -1,0 +1,33 @@
+{
+glyphname = tdotaccent;
+kernRight = KO_t;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (4,174);
+ref = dotaccentcomb;
+}
+);
+width = 290;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (28,152);
+ref = dotaccentcomb;
+}
+);
+width = 356;
+}
+);
+unicode = 7787;
+}

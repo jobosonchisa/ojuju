@@ -1,0 +1,32 @@
+{
+glyphname = Adblgrave;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (98,220);
+ref = dblgravecomb;
+}
+);
+width = 576;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (68,200);
+ref = dblgravecomb;
+}
+);
+width = 658;
+}
+);
+unicode = 512;
+}

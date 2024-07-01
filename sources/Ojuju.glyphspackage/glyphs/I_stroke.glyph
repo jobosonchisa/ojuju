@@ -1,0 +1,32 @@
+{
+glyphname = Istroke;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-11,13);
+ref = centerstrokecomb;
+}
+);
+width = 326;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (61,13);
+ref = centerstrokecomb;
+}
+);
+width = 503;
+}
+);
+unicode = 407;
+}

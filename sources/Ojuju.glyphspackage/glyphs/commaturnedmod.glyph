@@ -1,0 +1,32 @@
+{
+glyphname = commaturnedmod;
+kernLeft = KO_quotedblleft;
+kernRight = KO_quotedblleft;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+angle = 180;
+pos = (230,1340);
+ref = quoteright;
+}
+);
+width = 230;
+},
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (288,1224);
+ref = quoteright;
+}
+);
+width = 288;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 699;
+}

@@ -1,0 +1,42 @@
+{
+glyphname = Rdotbelowmacron;
+kernLeft = KO_H;
+kernRight = KO_R;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = R;
+},
+{
+pos = (218,0);
+ref = dotbelowcomb;
+},
+{
+pos = (127,220);
+ref = macroncomb;
+}
+);
+width = 596;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (209,0);
+ref = dotbelowcomb;
+},
+{
+pos = (104,200);
+ref = macroncomb;
+}
+);
+width = 671;
+}
+);
+unicode = 7772;
+}

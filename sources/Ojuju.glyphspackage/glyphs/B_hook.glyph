@@ -1,0 +1,39 @@
+{
+glyphname = Bhook;
+kernRight = KO_B;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+alignment = -1;
+pos = (33,0);
+ref = B;
+},
+{
+pos = (-63,0);
+ref = _hook.part;
+}
+);
+width = 637;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (161,0);
+ref = B;
+},
+{
+pos = (-28,0);
+ref = _hook.part;
+}
+);
+width = 821;
+}
+);
+metricLeft = T;
+metricRight = B;
+unicode = 385;
+}

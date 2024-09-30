@@ -1,0 +1,35 @@
+{
+glyphname = dcaron;
+kernLeft = KO_a;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = d;
+},
+{
+alignment = -1;
+pos = (448,39);
+ref = lccaroncomb;
+}
+);
+width = 585;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (531,39);
+ref = lccaroncomb;
+}
+);
+width = 557;
+}
+);
+metricRight = T;
+unicode = 271;
+}

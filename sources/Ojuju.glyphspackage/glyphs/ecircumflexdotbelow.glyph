@@ -1,0 +1,42 @@
+{
+glyphname = ecircumflexdotbelow;
+kernLeft = KO_e;
+kernRight = KO_e;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (164,0);
+ref = dotbelowcomb;
+},
+{
+pos = (125,40);
+ref = circumflexcomb;
+}
+);
+width = 498;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (149,0);
+ref = dotbelowcomb;
+},
+{
+pos = (93,20);
+ref = circumflexcomb;
+}
+);
+width = 519;
+}
+);
+unicode = 7879;
+}

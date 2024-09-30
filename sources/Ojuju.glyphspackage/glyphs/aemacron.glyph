@@ -1,0 +1,35 @@
+{
+glyphname = aemacron;
+kernLeft = KO_ae;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = ae;
+},
+{
+pos = (248,40);
+ref = macroncomb;
+}
+);
+width = 842;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = ae;
+},
+{
+alignment = -1;
+pos = (186,0);
+ref = macroncomb;
+}
+);
+width = 847;
+}
+);
+unicode = 483;
+}

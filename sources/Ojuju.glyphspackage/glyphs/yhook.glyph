@@ -1,0 +1,37 @@
+{
+glyphname = yhook;
+kernLeft = KO_y;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (371,-220);
+ref = _fronthook.part;
+}
+);
+width = 608;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+pos = (355,-199);
+ref = _fronthook.part;
+}
+);
+width = 690;
+}
+);
+metricLeft = y;
+metricRight = t;
+unicode = 436;
+}

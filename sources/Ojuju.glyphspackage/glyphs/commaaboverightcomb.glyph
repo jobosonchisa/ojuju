@@ -1,0 +1,50 @@
+{
+glyphname = commaaboverightcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (115,480);
+},
+{
+name = top;
+pos = (115,699);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+angle = 180;
+pos = (225,1249);
+ref = commaturnedabovecomb;
+}
+);
+width = 225;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (105,500);
+},
+{
+name = top;
+pos = (105,700);
+}
+);
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (203,1238);
+ref = commaturnedabovecomb;
+}
+);
+width = 203;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 789;
+}

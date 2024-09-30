@@ -1,0 +1,167 @@
+{
+glyphname = e;
+kernLeft = KO_e;
+kernRight = KO_e;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (273,0);
+},
+{
+name = center;
+pos = (254,248);
+},
+{
+name = ogonek;
+pos = (474,9);
+},
+{
+name = top;
+pos = (273,520);
+}
+);
+background = {
+shapes = (
+{
+pos = (-21,0);
+ref = o;
+}
+);
+};
+backgroundImage = {
+imagePath = "../Downloads/Images/e-ExtraBold.tif";
+locked = 1;
+pos = (-977,-3564);
+scale = (1.4452,1.4452);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(396,-8,o),
+(433,-1,o),
+(474,11,c),
+(474,203,l),
+(393,185,o),
+(340,178,o),
+(277,178,cs),
+(174,178,o),
+(114,191,o),
+(97,230,c),
+(487,230,l),
+(487,438,o),
+(426,508,o),
+(258,508,cs),
+(115,508,o),
+(30,406,o),
+(30,250,cs),
+(30,77,o),
+(122,-8,o),
+(325,-8,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(102,285,l),
+(102,317,o),
+(168,343,o),
+(258,343,cs),
+(353,343,o),
+(419,317,o),
+(419,285,c)
+);
+}
+);
+width = 519;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (274,0);
+},
+{
+name = center;
+pos = (249,248);
+},
+{
+name = ogonek;
+pos = (430,5);
+},
+{
+name = top;
+pos = (274,520);
+}
+);
+background = {
+shapes = (
+{
+pos = (-31,0);
+ref = o;
+},
+{
+pos = (-39,0);
+ref = c;
+}
+);
+};
+guides = (
+{
+angle = 90;
+pos = (282,259);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,-16,o),
+(373,-12,o),
+(430,5,c),
+(430,45,l),
+(379,29,o),
+(336,20,o),
+(283,20,cs),
+(111,20,o),
+(74,131,o),
+(74,252,c),
+(462,252,l),
+(462,387,o),
+(419,496,o),
+(258,496,cs),
+(158,496,o),
+(54,425,o),
+(54,252,cs),
+(54,113,o),
+(104,-16,o),
+(287,-16,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,279,l),
+(83,391,o),
+(161,459,o),
+(258,459,cs),
+(377,459,o),
+(439,391,o),
+(439,279,c)
+);
+}
+);
+width = 498;
+}
+);
+metricLeft = o;
+metricRight = c;
+unicode = 101;
+userData = {
+KernOnName = e;
+};
+}

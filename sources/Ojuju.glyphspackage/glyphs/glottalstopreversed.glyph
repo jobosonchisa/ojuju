@@ -1,0 +1,30 @@
+{
+glyphname = glottalstopreversed;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (459,0);
+ref = glottalstop;
+scale = (-1,1);
+}
+);
+width = 459;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (474,0);
+ref = glottalstop;
+scale = (-1,1);
+}
+);
+width = 474;
+}
+);
+metricLeft = S;
+metricRight = S;
+unicode = 661;
+}

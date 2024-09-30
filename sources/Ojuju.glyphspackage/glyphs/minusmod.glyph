@@ -1,0 +1,30 @@
+{
+glyphname = minusmod;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+alignment = -1;
+pos = (0,-85);
+ref = minus;
+}
+);
+width = 403;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-22);
+ref = minus;
+}
+);
+width = 464;
+}
+);
+metricLeft = minus;
+metricRight = minus;
+unicode = 727;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = ringbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (141,0);
+},
+{
+name = bottom;
+pos = (141,-178);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,-749);
+ref = ringcomb;
+}
+);
+width = 280;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (152,0);
+},
+{
+name = bottom;
+pos = (152,-198);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-804);
+ref = ringcomb;
+}
+);
+width = 304;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 805;
+}

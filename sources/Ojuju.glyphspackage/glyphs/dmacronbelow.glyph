@@ -1,0 +1,36 @@
+{
+glyphname = dmacronbelow;
+kernLeft = KO_a;
+kernRight = KO_d;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = d;
+},
+{
+pos = (124,0);
+ref = macronbelowcomb;
+}
+);
+width = 566;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+alignment = -1;
+pos = (137,0);
+ref = macronbelowcomb;
+}
+);
+width = 557;
+}
+);
+unicode = 7695;
+}

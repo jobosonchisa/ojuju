@@ -1,0 +1,62 @@
+{
+glyphname = hungarumlautcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (147,480);
+},
+{
+name = top;
+pos = (172,630);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (236,-1);
+ref = gravecomb;
+scale = (-1,1);
+},
+{
+alignment = -1;
+pos = (341,-1);
+ref = gravecomb;
+scale = (-1,1);
+}
+);
+width = 341;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (179,500);
+},
+{
+name = top;
+pos = (220,687);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (269,0);
+ref = gravecomb;
+scale = (-1,1);
+},
+{
+alignment = -1;
+pos = (442,0);
+ref = gravecomb;
+scale = (-1,1);
+}
+);
+width = 442;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 779;
+}

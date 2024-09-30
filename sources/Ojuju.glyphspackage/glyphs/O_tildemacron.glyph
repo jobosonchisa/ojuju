@@ -1,0 +1,40 @@
+{
+glyphname = Otildemacron;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (165,220);
+ref = tildecomb;
+},
+{
+pos = (148,374);
+ref = macroncomb;
+}
+);
+width = 650;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (168,200);
+ref = tildecomb;
+},
+{
+pos = (154,374);
+ref = macroncomb;
+}
+);
+width = 694;
+}
+);
+unicode = 556;
+}

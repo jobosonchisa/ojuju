@@ -1,0 +1,51 @@
+{
+glyphname = Khook;
+kernLeft = KO_H;
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (7661,0);
+ref = Chook;
+}
+);
+};
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = K;
+},
+{
+pos = (450,0);
+ref = _fronthook.part;
+}
+);
+width = 625;
+},
+{
+background = {
+shapes = (
+{
+pos = (39,-119);
+ref = Ghook;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = K;
+},
+{
+pos = (492,0);
+ref = _fronthook.part;
+}
+);
+width = 815;
+}
+);
+metricRight = T;
+unicode = 408;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = Estroke;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (24,-19);
+ref = slash.part;
+}
+);
+width = 544;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (0,-11);
+ref = slash.part;
+}
+);
+width = 610;
+}
+);
+unicode = 582;
+}

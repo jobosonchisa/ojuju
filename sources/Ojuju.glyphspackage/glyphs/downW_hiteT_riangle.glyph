@@ -1,0 +1,28 @@
+{
+glyphname = downWhiteTriangle;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,684);
+ref = upWhiteTriangle;
+scale = (1,-1);
+}
+);
+width = 612;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,684);
+ref = upWhiteTriangle;
+scale = (1,-1);
+}
+);
+width = 612;
+}
+);
+unicode = 9661;
+}

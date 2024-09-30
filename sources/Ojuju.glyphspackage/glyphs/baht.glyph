@@ -1,0 +1,32 @@
+{
+glyphname = baht;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = B;
+},
+{
+pos = (189,0);
+ref = bar.part;
+}
+);
+width = 604;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = B;
+},
+{
+pos = (218,0);
+ref = bar.part;
+}
+);
+width = 660;
+}
+);
+unicode = 3647;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = nacute;
+kernLeft = KO_n;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = n;
+},
+{
+pos = (207,40);
+ref = acutecomb;
+}
+);
+width = 576;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = n;
+},
+{
+pos = (192,20);
+ref = acutecomb;
+}
+);
+width = 564;
+}
+);
+unicode = 324;
+}

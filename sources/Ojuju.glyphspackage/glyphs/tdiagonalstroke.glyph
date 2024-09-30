@@ -1,0 +1,56 @@
+{
+glyphname = tdiagonalstroke;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+alignment = -1;
+pos = (23,0);
+ref = t;
+},
+{
+closed = 1;
+nodes = (
+(58,-66,l),
+(138,177,o),
+(219,418,o),
+(308,661,c),
+(276,661,l),
+(196,418,o),
+(114,177,o),
+(27,-66,c)
+);
+}
+);
+width = 330;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (14,0);
+ref = t;
+},
+{
+closed = 1;
+nodes = (
+(75,-74,l),
+(155,165,o),
+(250,431,o),
+(341,670,c),
+(278,670,l),
+(198,431,o),
+(102,165,o),
+(12,-74,c)
+);
+}
+);
+width = 370;
+}
+);
+metricLeft = t;
+metricRight = t;
+unicode = 11366;
+}

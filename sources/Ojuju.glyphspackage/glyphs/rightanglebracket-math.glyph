@@ -1,0 +1,32 @@
+{
+glyphname = "rightanglebracket-math";
+kernLeft = "0";
+kernRight = "0";
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (299,0);
+ref = "leftanglebracket-math";
+scale = (-1,1);
+}
+);
+width = 299;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (280,0);
+ref = "leftanglebracket-math";
+scale = (-1,1);
+}
+);
+width = 280;
+}
+);
+metricLeft = H;
+metricRight = H;
+unicode = 10217;
+}

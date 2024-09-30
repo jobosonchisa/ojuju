@@ -1,0 +1,28 @@
+{
+glyphname = Ezhreversed;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (509,0);
+ref = Ezh;
+scale = (-1,1);
+}
+);
+width = 509;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (600,0);
+ref = Ezh;
+scale = (-1,1);
+}
+);
+width = 600;
+}
+);
+unicode = 440;
+}

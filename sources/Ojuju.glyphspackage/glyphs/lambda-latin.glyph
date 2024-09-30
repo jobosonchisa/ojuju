@@ -1,0 +1,43 @@
+{
+category = Letter;
+glyphname = "lambda-latin";
+kernLeft = KO_lambda;
+kernRight = KO_lambda;
+layers = (
+{
+anchors = (
+{
+name = center;
+pos = (236,551);
+}
+);
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = lambda;
+}
+);
+width = 575;
+},
+{
+anchors = (
+{
+name = center;
+pos = (316,555);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = lambda;
+}
+);
+width = 648;
+}
+);
+script = latin;
+unicode = 42971;
+userData = {
+KernOnName = lambda;
+};
+}

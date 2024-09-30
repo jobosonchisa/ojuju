@@ -1,0 +1,54 @@
+{
+glyphname = notequal;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (-53,0);
+ref = equal;
+},
+{
+closed = 1;
+nodes = (
+(112,-8,l),
+(173,155,o),
+(235,317,o),
+(308,480,c),
+(274,480,l),
+(213,317,o),
+(151,155,o),
+(79,-8,c)
+);
+}
+);
+width = 403;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-5,0);
+ref = equal;
+},
+{
+closed = 1;
+nodes = (
+(151,0,l),
+(214,184,o),
+(290,385,o),
+(360,569,c),
+(305,569,l),
+(240,385,o),
+(165,184,o),
+(95,0,c)
+);
+}
+);
+width = 464;
+}
+);
+metricLeft = minus;
+metricRight = minus;
+unicode = 8800;
+}

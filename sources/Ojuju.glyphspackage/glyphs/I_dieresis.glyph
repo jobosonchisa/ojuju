@@ -1,0 +1,34 @@
+{
+glyphname = Idieresis;
+kernLeft = KO_I;
+kernRight = KO_I;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-18,220);
+ref = dieresiscomb;
+}
+);
+width = 326;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (7,200);
+ref = dieresiscomb;
+}
+);
+width = 503;
+}
+);
+unicode = 207;
+}

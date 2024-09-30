@@ -1,0 +1,29 @@
+{
+glyphname = twosuperior;
+kernLeft = KO_twosuperior;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (0,90);
+ref = two.numr;
+}
+);
+width = 291;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,97);
+ref = two.numr;
+}
+);
+width = 340;
+}
+);
+metricLeft = two;
+metricRight = two;
+unicode = 178;
+}

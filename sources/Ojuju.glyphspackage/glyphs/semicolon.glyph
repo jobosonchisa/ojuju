@@ -1,0 +1,52 @@
+{
+glyphname = semicolon;
+kernLeft = "0";
+kernRight = "0";
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (293,34);
+ref = period;
+}
+);
+};
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+pos = (9,376);
+ref = period;
+},
+{
+ref = comma;
+}
+);
+width = 245;
+},
+{
+background = {
+shapes = (
+{
+pos = (300,34);
+ref = period;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+pos = (5,340);
+ref = period;
+},
+{
+ref = comma;
+}
+);
+width = 307;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 59;
+}

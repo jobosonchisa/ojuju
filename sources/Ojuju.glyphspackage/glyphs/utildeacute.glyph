@@ -1,0 +1,40 @@
+{
+glyphname = utildeacute;
+layers = (
+{
+layerId = "60D037D9-62E9-4843-B070-F1594CB0B0D1";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (116,40);
+ref = tildecomb;
+},
+{
+pos = (188,194);
+ref = acutecomb;
+}
+);
+width = 556;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (67,20);
+ref = tildecomb;
+},
+{
+pos = (166,194);
+ref = acutecomb;
+}
+);
+width = 499;
+}
+);
+unicode = 7801;
+}

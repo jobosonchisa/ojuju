@@ -17,6 +17,12 @@ jobs:
         sudo apt-get update
         sudo apt-get install ttfautohint libcairo2-dev pkg-config python3-dev ninja-build git
         sudo snap install yq
+#Install Python dependencies with explicit version control
+    - name: Install Python tools
+      run: |
+        pip install yq  # Install yq via pip instead of snap
+        pip install -r requirements.txt
+        pip install --upgrade gftools glyphsLib fontmake 
     - uses: actions/cache@v4
       with:
         path: ./venv/

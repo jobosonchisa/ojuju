@@ -134,4 +134,5 @@ vttLib==0.12.0
 wrapt==1.16.0
 wsproto==1.2.0
 youseedee==0.3.0
+zipp==3.21.0
 zopfli==0.2.3

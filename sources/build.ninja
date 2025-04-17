@@ -58,8 +58,8 @@ rule copy
       gftools.builder.jobrunner cp $in $out $stamp
   description = copy
 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp03o8et9z
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp03o8et9z: $
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpfft1gsyl
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpfft1gsyl: $
     buildVariable Ojuju.glyphs
   operation = buildVariable
   args = --filter ...  --filter FlattenComponentsFilter --filter $
@@ -124,10 +124,10 @@ build instance_ufos/Ojuju-Black.ufo.json: instantiateUfo Ojuju.glyphs
   args =  --ufo-structure=json --instance-dir instance_ufos
 # Postprocessing  with BuildSTAT
 build $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpbvh0ic3n.buildStatstamp: $
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpc4c26qrt.buildStatstamp: $
     buildSTAT-postprocess ../fonts/variable/Ojuju[wght].ttf
   stamp =  && touch $
-      /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpbvh0ic3n.buildStatstamp
+      /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpc4c26qrt.buildStatstamp
   postprocess = buildStat
 # Generating ../fonts/webfonts/Ojuju[wght].woff2
 build ../fonts/webfonts/Ojuju[wght].woff2: compress $
@@ -166,155 +166,155 @@ build ../fonts/webfonts/Ojuju-Black.woff2: compress $
   operation = compress
 # Generating ../fonts/variable/Ojuju[wght].ttf
 build ../fonts/variable/Ojuju[wght].ttf: fix $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp03o8et9z
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpfft1gsyl
   operation = fix
   args = 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpic6xk13y
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpic6xk13y: $
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpem23obqy
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpem23obqy: $
     buildTTF instance_ufos/Ojuju-ExtraLight.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpqz0j0l64
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpqz0j0l64: $
-    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpic6xk13y
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpwdzzssmi
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpwdzzssmi: $
+    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpem23obqy
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Ojuju-ExtraLight.ttf
 build ../fonts/ttf/Ojuju-ExtraLight.ttf: fix $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpqz0j0l64
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpwdzzssmi
   operation = fix
   args = 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmppw69psvt
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmppw69psvt: $
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmprob384fb
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmprob384fb: $
     buildTTF instance_ufos/Ojuju-Light.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmphtypsckk
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmphtypsckk: $
-    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmppw69psvt
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp6j3iyat_
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp6j3iyat_: $
+    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmprob384fb
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Ojuju-Light.ttf
 build ../fonts/ttf/Ojuju-Light.ttf: fix $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmphtypsckk
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp6j3iyat_
   operation = fix
   args = 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpadqm5_sk
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpadqm5_sk: $
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmptens4926
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmptens4926: $
     buildTTF instance_ufos/Ojuju-Regular.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpvj5wijpu
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpvj5wijpu: $
-    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpadqm5_sk
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpk2s6x4nv
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpk2s6x4nv: $
+    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmptens4926
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Ojuju-Regular.ttf
 build ../fonts/ttf/Ojuju-Regular.ttf: fix $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpvj5wijpu
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpk2s6x4nv
   operation = fix
   args = 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpe8kly80i
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpe8kly80i: $
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpt8ovu0m1
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpt8ovu0m1: $
     buildTTF instance_ufos/Ojuju-Medium.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmplt_1fahc
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmplt_1fahc: $
-    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpe8kly80i
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp7ne8bmgd
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp7ne8bmgd: $
+    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpt8ovu0m1
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Ojuju-Medium.ttf
 build ../fonts/ttf/Ojuju-Medium.ttf: fix $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmplt_1fahc
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp7ne8bmgd
   operation = fix
   args = 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpntjkkk00
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpntjkkk00: $
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpi07lm1u1
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpi07lm1u1: $
     buildTTF instance_ufos/Ojuju-SemiBold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp2ujwv5rw
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp2ujwv5rw: $
-    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpntjkkk00
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp7v7bue83
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp7v7bue83: $
+    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpi07lm1u1
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Ojuju-SemiBold.ttf
 build ../fonts/ttf/Ojuju-SemiBold.ttf: fix $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp2ujwv5rw
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp7v7bue83
   operation = fix
   args = 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpmqqr7rre
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpmqqr7rre: $
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp1cmywxwf
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp1cmywxwf: $
     buildTTF instance_ufos/Ojuju-Bold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpxeek5dkx
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpxeek5dkx: $
-    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpmqqr7rre
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmphl7vmu1r
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmphl7vmu1r: $
+    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp1cmywxwf
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Ojuju-Bold.ttf
 build ../fonts/ttf/Ojuju-Bold.ttf: fix $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpxeek5dkx
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmphl7vmu1r
   operation = fix
   args = 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpq_2di9c0
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpq_2di9c0: $
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp4cr_eto3
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp4cr_eto3: $
     buildTTF instance_ufos/Ojuju-ExtraBold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp8o_sxqv4
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp8o_sxqv4: $
-    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpq_2di9c0
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpnf6uhz0d
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpnf6uhz0d: $
+    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp4cr_eto3
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Ojuju-ExtraBold.ttf
 build ../fonts/ttf/Ojuju-ExtraBold.ttf: fix $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmp8o_sxqv4
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpnf6uhz0d
   operation = fix
   args = 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpdgx8_7h6
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpdgx8_7h6: $
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpkjclw7vw
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpkjclw7vw: $
     buildTTF instance_ufos/Ojuju-Black.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpqmb0vbb7
-build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpqmb0vbb7: $
-    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpdgx8_7h6
+# Generating /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmps5pv8_1p
+build /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmps5pv8_1p: $
+    autohint /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpkjclw7vw
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Ojuju-Black.ttf
 build ../fonts/ttf/Ojuju-Black.ttf: fix $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpqmb0vbb7
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmps5pv8_1p
   operation = fix
   args = 
 default $
-    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpbvh0ic3n.buildStatstamp $
+    /var/folders/01/ltr8_czn58gb7171tv1vw1s00000gn/T/tmpc4c26qrt.buildStatstamp $
     ../fonts/webfonts/Ojuju[wght].woff2 $
     ../fonts/webfonts/Ojuju-ExtraLight.woff2 $
     ../fonts/webfonts/Ojuju-Light.woff2 $

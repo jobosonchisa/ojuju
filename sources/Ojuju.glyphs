@@ -774,6 +774,7 @@ languagesystem latn TAT;
 languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
+languagesystem latn MAH;
 languagesystem latn CAT;
 languagesystem latn NLD;
 ";
@@ -795,6 +796,8 @@ feature pnum;
 feature tnum;
 feature case;
 feature salt;
+feature lnum;
+feature onum;
 ";
 tag = aalt;
 },
@@ -868,24 +871,35 @@ language MOL;
 lookup locl_latn_1;
 
 script latn;
-language CAT;
+language MAH;
 lookup locl_latn_2 {
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
+	sub Lcommaaccent by Lcommaaccent.loclMAH;
+	sub Ncommaaccent by Ncommaaccent.loclMAH;
+	sub lcommaaccent by lcommaaccent.loclMAH;
+	sub ncommaaccent by ncommaaccent.loclMAH;
+	sub commaaccentcomb by commaaccentcomb.loclMAH;
 } locl_latn_2;
 
 script latn;
-language NLD;
+language CAT;
 lookup locl_latn_3 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_3;
+
+script latn;
+language NLD;
+lookup locl_latn_4 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
-} locl_latn_3;
+} locl_latn_4;
 ";
 tag = locl;
 },
 {
 automatic = 1;
-code = "sub one by oneinferior;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
 sub two by twoinferior;
 sub three by threeinferior;
 sub four by fourinferior;
@@ -899,7 +913,8 @@ tag = subs;
 },
 {
 automatic = 1;
-code = "sub one by oneinferior;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
 sub two by twoinferior;
 sub three by threeinferior;
 sub four by fourinferior;
@@ -913,7 +928,8 @@ tag = sinf;
 },
 {
 automatic = 1;
-code = "sub one by onesuperior;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
 sub four by foursuperior;
@@ -980,6 +996,21 @@ tag = ordn;
 },
 {
 automatic = 1;
+code = "sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
+";
+tag = lnum;
+},
+{
+automatic = 1;
 code = "sub zero.tf by zero;
 sub one.tf by one;
 sub two.tf by two;
@@ -990,6 +1021,16 @@ sub six.tf by six;
 sub seven.tf by seven;
 sub eight.tf by eight;
 sub nine.tf by nine;
+sub zero.tosf by zero.osf;
+sub one.tosf by one.osf;
+sub two.tosf by two.osf;
+sub three.tosf by three.osf;
+sub four.tosf by four.osf;
+sub five.tosf by five.osf;
+sub six.tosf by six.osf;
+sub seven.tosf by seven.osf;
+sub eight.tosf by eight.osf;
+sub nine.tosf by nine.osf;
 ";
 tag = pnum;
 },
@@ -1005,12 +1046,67 @@ sub six by six.tf;
 sub seven by seven.tf;
 sub eight by eight.tf;
 sub nine by nine.tf;
+sub zero.osf by zero.tosf;
+sub one.osf by one.tosf;
+sub two.osf by two.tosf;
+sub three.osf by three.tosf;
+sub four.osf by four.tosf;
+sub five.osf by five.tosf;
+sub six.osf by six.tosf;
+sub seven.osf by seven.tosf;
+sub eight.osf by eight.tosf;
+sub nine.osf by nine.tosf;
 ";
 tag = tnum;
 },
 {
 automatic = 1;
+code = "sub zero.tf by zero.tosf;
+sub one.tf by one.tosf;
+sub two.tf by two.tosf;
+sub three.tf by three.tosf;
+sub four.tf by four.tosf;
+sub five.tf by five.tosf;
+sub six.tf by six.tosf;
+sub seven.tf by seven.tosf;
+sub eight.tf by eight.tosf;
+sub nine.tf by nine.tosf;
+sub zero by zero.osf;
+sub one by one.osf;
+sub two by two.osf;
+sub three by three.osf;
+sub four by four.osf;
+sub five by five.osf;
+sub six by six.osf;
+sub seven by seven.osf;
+sub eight by eight.osf;
+sub nine by nine.osf;
+";
+tag = onum;
+},
+{
+automatic = 1;
 code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
+sub zero.tosf by zero.lf;
+sub one.tosf by one.lf;
+sub two.tosf by two.lf;
+sub three.tosf by three.lf;
+sub four.tosf by four.lf;
+sub five.tosf by five.lf;
+sub six.tosf by six.lf;
+sub seven.tosf by seven.lf;
+sub eight.tosf by eight.lf;
+sub nine.tosf by nine.lf;
 ";
 tag = case;
 },
@@ -1108,6 +1204,19 @@ sub lmacronbelow by lmacronbelow.salt;
 sub lmiddletilde by lmiddletilde.salt;
 sub lslash by lslash.salt;
 sub fl by fl.salt;
+sub one by one.salt;
+sub one.blackcircled by one.blackcircled.salt;
+sub one.lf by one.lf.salt;
+sub one.osf by one.osf.salt;
+sub one.circled by one.circled.salt;
+sub one.tf by one.tf.salt;
+sub one.tosf by one.tosf.salt;
+sub one.dnom by one.dnom.salt;
+sub one.numr by one.numr.salt;
+sub onehalf by onehalf.salt;
+sub onethird by onethird.salt;
+sub onequarter by onequarter.salt;
+sub oneeighth by oneeighth.salt;
 ";
 tag = salt;
 }
@@ -110310,6 +110419,12 @@ instanceInterpolations = {
 "60D037D9-62E9-4843-B070-F1594CB0B0D1" = 1;
 };
 name = ExtraLight;
+properties = (
+{
+key = postscriptFontName;
+value = "Ojuju-ExtraLight";
+}
+);
 userData = {
 fpID = "DE531E06-0B82-4344-9997-57C58EC30D3D";
 };
@@ -110324,6 +110439,12 @@ instanceInterpolations = {
 m01 = 0.05882;
 };
 name = Light;
+properties = (
+{
+key = postscriptFontName;
+value = "Ojuju-Light";
+}
+);
 userData = {
 fpID = "811DD46B-FFFE-4E6E-B5CC-1C7B50267F49";
 };
@@ -110338,6 +110459,12 @@ instanceInterpolations = {
 m01 = 0.16013;
 };
 name = Regular;
+properties = (
+{
+key = postscriptFontName;
+value = "Ojuju-Regular";
+}
+);
 userData = {
 fpID = "BD1A6484-D701-41BA-8BE1-F7AD70CB8E2D";
 };
@@ -110351,6 +110478,12 @@ instanceInterpolations = {
 m01 = 0.29412;
 };
 name = Medium;
+properties = (
+{
+key = postscriptFontName;
+value = "Ojuju-Medium";
+}
+);
 userData = {
 fpID = "14A49DEC-4708-40B0-91A7-4D20CC08F03B";
 };
@@ -110365,6 +110498,12 @@ instanceInterpolations = {
 m01 = 0.46078;
 };
 name = SemiBold;
+properties = (
+{
+key = postscriptFontName;
+value = "Ojuju-SemiBold";
+}
+);
 userData = {
 fpID = "A984A58D-12B8-4DAB-A9A9-F52D94740D16";
 };
@@ -110379,6 +110518,12 @@ instanceInterpolations = {
 m01 = 0.64706;
 };
 name = Bold;
+properties = (
+{
+key = postscriptFontName;
+value = "Ojuju-Bold";
+}
+);
 userData = {
 fpID = "E4B9FD96-6422-4D05-9768-9949443C5B8F";
 };
@@ -110393,6 +110538,12 @@ instanceInterpolations = {
 m01 = 0.83333;
 };
 name = ExtraBold;
+properties = (
+{
+key = postscriptFontName;
+value = "Ojuju-ExtraBold";
+}
+);
 userData = {
 fpID = "2343D23F-205B-4C58-97D3-68D5A4726B86";
 };
@@ -110406,6 +110557,12 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = Black;
+properties = (
+{
+key = postscriptFontName;
+value = "Ojuju-Black";
+}
+);
 weightClass = 900;
 }
 );

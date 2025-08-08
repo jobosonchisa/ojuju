@@ -1,10 +1,10 @@
 # Ojuju
 
 [![][Fontspector]](https://jobosonchisa.github.io/ojuju/fontspector/fontspector-report.html)
-[![][OpenType]](https://jobosonchisa.github.io/ojuju/fontspector/opentype-report.html)
-[![][Universal]](https://jobosonchisa.github.io/ojuju/fontspector/universal-report.html)
-[![][Google Fonts]](https://jobosonchisa.github.io/ojuju/fontspector/fontfile-report.html)
-[![][Glyphset]](https://jobosonchisa.github.io/googlefonts-ojuju/fontspector/glyphset-report.html)
+[![][OpenType]](https://jobosonchisa.github.io/ojuju/fontspector/fontspector-report.html)
+[![][Universal]](https://jobosonchisa.github.io/ojuju/fontspector/fontspector-report.html)
+[![][Google Fonts]](https://jobosonchisa.github.io/ojuju/fontspector/fontspector-report.html)
+[![][Glyphset]](https://jobosonchisa.github.io/ojuju/fontspector/fontspector-report.html)
 
 [Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fojuju%2Fbadges%2FFontspectorQA.json
 [OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fojuju%2Fbadges%2FOpentypeSpecificationChecks.json

@@ -1,17 +1,17 @@
 # Ojuju
 
-[![][Fontspector]](https://jobosonchisa.github.io/googlefonts-ojuju/fontspector/fontspector-report.html)
-[![][OpenType]](https://jobosonchisa.github.io/googlefonts-ojuju/fontspector-report.html)
-[![][Universal]](https://jobosonchisa.github.io/googlefonts-ojuju/fontspector/fontspector-report.html)
-[![][Google Fonts]](https://jobosonchisa.github.io/googlefonts-ojuju/fontspector/fontspector-report.html)
-[![][Glyphset]](https://jobosonchisa.github.io/googlefonts-ojuju/fontspector/fontspector-report.html)
+[![][Fontspector]](https://jobosonchisa.github.io/ojuju/fontspector/fontspector-report.html)
+[![][OpenType]](https://jobosonchisa.github.io/ojuju/fontspector/opentype-report.html)
+[![][Universal]](https://jobosonchisa.github.io/ojuju/fontspector/universal-report.html)
+[![][Google Fonts]](https://jobosonchisa.github.io/ojuju/fontspector/fontfile-report.html)
+[![][Glyphset]](https://jobosonchisa.github.io/googlefonts-ojuju/fontspector/glyphset-report.html)
 
-[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fgooglefonts-ojuju%2Fbadges%2FFontspectorQA.json
-[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fgooglefonts-ojuju%2Fbadges%2FOpentypeSpecificationChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fgooglefonts-ojuju%2Fbadges%2FUniversalProfileChecks.json
-[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fgooglefonts-ojuju%2Fbadges%2FFontFileChecks.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fgooglefonts-ojuju%2Fbadges%2FOutlineCorrectnessChecks.json
-[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fgooglefonts-ojuju%2Fbadges%2FGlyphsetChecks.json
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fojuju%2Fbadges%2FFontspectorQA.json
+[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fojuju%2Fbadges%2FOpentypeSpecificationChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fojuju%2Fbadges%2FUniversalProfileChecks.json
+[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fojuju%2Fbadges%2FFontFileChecks.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fojuju%2Fbadges%2FOutlineCorrectnessChecks.json
+[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fjobosonchisa.github.io%2Fojuju%2Fbadges%2FGlyphsetChecks.json
 
 Ojuju is a reverse contrast Weight axis variable font inspired by African Masquerades. Ojuju draws inspiration from a variety of African traditional dance costumes to inform the design decisions. The masks worn by the Dogon dancers from Mali inspired the aperture shaping, and counterform placement within many of the letterforms. Additionally African movie poster lettering from the 1970's was referenced to round out the design space. Ojuju covers all of the Google's SSA(sub-saharan-african) latin glyphs.
 ![Sample Image](https://github.com/jobosonchisa/ojuju/blob/main/documentation/Dogon.JPG)
